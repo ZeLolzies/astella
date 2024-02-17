@@ -1,0 +1,66 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LIT",
+				"abbreviation": "LIT",
+				"full": "Lolzies Magic Items",
+				"url": "https://imgur.com/a/GKXVfzK",
+				"authors": [
+					"Lolzies"
+				],
+				"convertedBy": [
+					"Lolzies"
+				],
+				"color": "#5a1ca0"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Reclusive Repulse",
+			"source": "LIT",
+			"type": "RG",
+			"rarity": "uncommon",
+			"entries": [
+				"A nonsuspecting silver ring that harbors a deep dwelling in vendettas. This ring is invisible when worn and cannot be detected by any magical-sensing means.",
+				"{@b {@i Enact Vengeances.}} As a bonus action, the wearer can cause the ring to show its true form: a shadow curved knife resembling a claw that fits perfectly in the palms of its wearer. This magic dagger lasts until dispelled or if hidden again as a bonus action. It deals 2d8 psychic damage on a hit and has the finesse, and light properties."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/3dDuqzf.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "La Paume du Porcelain",
+			"source": "LIT",
+			"woundrous": true,
+			"type": "OTH",
+			"reqAttune": true,
+			"rarity": "uncommon",
+			"entries": [
+				"An item of pure regality. This gauntlet is composed of chains made from a gold composite alloy, cut sapphires with little cloudiness to them, and an ornate white porcelain dyed into blue flowers as it was formed.",
+				"{@b {@i Exalted Touch.}} This item can be used as a spellcasting focus. Any spells that have a range of Touch has a +1 bonus to their spellcasting modifier.",
+				"{@b {@i Esoteric Regality.}} Once per long rest, you can cast the spell bigby's hand through this magic item."
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/IFFtZNI.jpg"
+						}
+					}
+				]
+			}
+		}
+	]
+}
