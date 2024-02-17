@@ -10576,6 +10576,7 @@
 			"type": "T",
 			"value": 2000,
 			"weight": 5,
+			"rarity": "none",
 			"entries": [
 				"A kit containing an arrangement of tools such as carving instruments, hardglass ampules, and et cetera which Rathosean hunters use for monster carving and track identification. Proficiency with this kit lets you add your proficiency bonus to any ability checks for carving and tracking monsters.",
 				"{@b {@i Components.}} A hunting kit includes pouches to store samples and habitat references, knives, shears, and other specialized tools such as hardshell clippers and elementalblight tongs for carving monster stock from carcasses.",
