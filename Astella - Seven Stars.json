@@ -4016,7 +4016,7 @@
 			"level": 1,
 			"entries": [
 				"A fate changed is a future bleak. To fear is fair, as to be mortal is to be weak.",
-				"When you finish a long rest, roll a number of d6s equal to your proficiency bonus and record the numbers rolled. You can expend any of the results onto any d20 or lower rolls that you make to give a bonus equal to such. The creature can wait until after it rolls before deciding to add any Purloined Luck, but must decide before the DM says whether the roll succeeds or fails."
+				"When you finish a long rest, roll a number of d6s equal to your proficiency bonus and record the numbers rolled. You can expend any of the results onto any d20 or lower rolls that you make to give a bonus equal to such. The creature can wait until after it rolls before deciding to add any Purloined Luck, but must decide before the DM says whether the roll succeeds or fails. You can only apply one instance of Purloined Luck per roll."
 			]
 		},
 		{
@@ -8427,7 +8427,43 @@
 				}
 			],
 			"entries": [
-				"Whenever you cast a spell that requires a saving throw to mitigate its effects, you gain a +2 bonus to your spell attack rolls on the next turn. Whenever you cast a spell that requires a spell attack roll, you gain a +2 bonus to your spell save DC on the next turn."
+				"Whenever you cast a spell that requires a saving throw to mitigate its effects, you gain a +2 bonus to your spell attack rolls on the next turn. Whenever you cast a spell that requires a spell attack roll, you gain a +2 bonus to your spell save DC on the next turn. You can only gain these benefits once per turn."
+			]
+		},
+		{
+			"name": "Assiting Catalyst (ASS-X)",
+			"source": "ASS",
+			"featureType": [
+				"Combat Archetype; Caster"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Tier 2 caster",
+						"entrySummary": "Enhanced Casting"
+					}
+				}
+			],
+			"entries": [
+				"After ending your turn while concentrating on a spell, you can cast one of your cantrips at its base level."
+			]
+		},
+		{
+			"name": "Dryspell Catalyst (DRY-X)",
+			"source": "ASS",
+			"featureType": [
+				"Combat Archetype; Caster"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Tier 2 caster",
+						"entrySummary": "Enhanced Casting"
+					}
+				}
+			],
+			"entries": [
+				"You gain a new way to cast spells. When casting a spell that has a casting time of an action and has an instantaneous duration, you can instead concentrate on it for a greater effect. The target (location or creature) must first be specified before concentrating on the spell. If at the end of your turn, the spell has not yet been ended, the spell slot level of the spell increases by 1 (up to your proficiency bonus). When the spell ends, either because your concentration is broken or because you decide to end it, the effects of the spell take place. This feature can only be used when casting a spell using a spell slot up to half of your proficiency bonus."
 			]
 		},
 		{
@@ -8718,6 +8754,24 @@
 			],
 			"entries": [
 				"As a full-time action, you can make a Conclusive Strike. When making a Conclusive Strike, you are limited to only that one attack until the start of your next turn. The Conclusive Strike is treated as if it were a normal weapon attack but you instead use the highest number possible for each of the damage rolls."
+			]
+		},
+		{
+			"name": "Striker (ST-X)",
+			"source": "ASS",
+			"featureType": [
+				"Combat Archetype; Guard"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Tier 2 guard",
+						"entrySummary": "Guard Training"
+					}
+				}
+			],
+			"entries": [
+				"After every two attack rolls, the next attack roll made gains a bonus to the attack and damage rolls equal to your proficiency bonus."
 			]
 		},
 		{
@@ -9046,7 +9100,25 @@
 				}
 			],
 			"entries": [
-				"You gain the Thrown Weapon Fighting fighting style. Additionally, anything that you throw now counts as an attack using a ranged weapon and as a melee weapon attack."
+				"You gain the Thrown Weapon Fighting fighting style. Additionally, anything that you throw now counts as an attack using a ranged weapon that you have proficiency with and additionally as a melee weapon attack."
+			]
+		},
+		{
+			"name": "Cover Shooter (CS-X)",
+			"source": "ASS",
+			"featureType": [
+				"Combat Archetype; Sniper"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Tier 2 sniper",
+						"entrySummary": "Sniper Training"
+					}
+				}
+			],
+			"entries": [
+				"Your ranged weapon attacks ignore half cover and three-quarters cover. If your target is covered by a friendly creature, your attack and damage rolls are increased by 1. If you are behind ¾ cover, your attack and damage rolls are increased by 1."
 			]
 		},
 		{
@@ -9243,7 +9315,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you make an attack roll, you can choose to give yourself disadvantage for the attack. If the attack hits, you gain 2 Adrenaline."
+				"Whenever you make an attack roll, you can choose to give yourself disadvantage for the attack. If the attack hits, you gain Adrenaline equal to your proficiency bonus."
 			]
 		},
 		{
