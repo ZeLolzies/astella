@@ -5395,7 +5395,7 @@
 			"level": 6,
 			"entries": [
 				"{@i 6th-level Pact of the Exception feature}",
-				"The field of everdark envelops your core. On a hit with a melee attack, the target must make a Constitution saving throw. On a failed save, they are stunned until the start of your next turn if the highest-level available spell slot that they have is lower than your warlock spell slot level. Additionally, the target automatically fails the saving throw made for the Deny the Kindling class feature.",
+				"The field of everdark envelops your core. When using the Deny the Kindling class feature, if the target's highest-level available spell slot is lower than your warlock spell slot level, they automatically fail the saving throw. Additionally, once per turn if the aforementioned condition is met, the creature must make a Constitution saving throw or be stunned until the start of your next turn.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Deny the Imperceptible|Warlock (Sidera Dominiae)|ASS|Exception|ASS|6"
@@ -5424,7 +5424,7 @@
 			"level": 10,
 			"entries": [
 				"{@i 10th-level Pact of the Exception feature}",
-				"The field of everdark enraptures your core. You can 'cast' the {@spell counterspell} and {@spell dispel magic} spells at will within a range of 30 feet. The spell level for these actions are equal to your warlock spell slot level increased by 1."
+				"The field of everdark enraptures your core. You can 'cast' the {@spell interrupt incantation|ASS}, {@spell counterspell}, {@spell dispel magic} spells at will within a range of 30 feet. The spell level for these actions are equal to your warlock spell slot level increased by 1."
 			]
 		},
 		{
@@ -10763,6 +10763,67 @@
 				"The banner itself is not a weapon but rather a flag attached to one. Whenever you conjure your pact weapon, it is vested with the Banner of Beginnings.",
 				"The first time on each of your turns that you hit with this weapon, the next attack made on the target by creatures other than you is rolled with advantage and has a bonus to their attack roll equal to half of your Charisma modifier (rounded up). This benefit only lasts until the start of your next turn.",
 				"{@b {@i Deliverance.}} For each time you fail an attack roll, skill check, or saving throw, you gain a point of Deliverance. You also gain points of Deliverance equal to your Charisma modifier when you first make death saving throws during the day. As a reaction, you can expend your points of Deliverance when a creature other than you makes one of the listed rolls. You give them a bonus equal to all of your points of Deliverance and expend them. You lose all points of Deliverance after a long rest."
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Interrupt Incantation",
+			"source": "ASS",
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to interrupt an ongoing spell that is being concentrated on by its caster. The creature must make a successful Constitution saving throw against your spell save DC or lose concentration."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, the spell save DC increases by 1 for every two slot levels above 2nd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"savingThrow": [
+				"constitution"
 			]
 		}
 	]
