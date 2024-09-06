@@ -8291,6 +8291,42 @@
 			"entries": [
 				"When you deal damage to a creature that has no resistances to slashing damage, they take bleed damage equal to your proficiency bonus. A creature can only take this damage once per turn."
 			]
+		},
+		{
+			"name": "Battlemage Myrmidon",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"In the battlefield you weave together both swords and spells into destructive harmonies, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You become eligible for learning all smite spells and blade cantrips, regardless of class restriction.",
+						"You learn the {@spell battlemage hand|ASS} spell which you can cast without expending a spell slot once per short rest. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability increased by this feat.",
+						"While the {@spell battlemage hand|ASS} spell is active, attacks you make using the hand deals rupture damage equal to half your proficiency bonus."
+					]
+				},
+				"Only full casting classes and Warlocks are eligible for this feat."
+			]
 		}
 	],
 	"optionalfeature": [
@@ -10824,6 +10860,704 @@
 			},
 			"savingThrow": [
 				"constitution"
+			]
+		},
+		{
+			"name": "Battlemage Hand",
+			"source": "ASS",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A spectral, floating hand that you can control manifests centered on your location. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if you cast this spell again and any items held by it are returned to you sheathed.",
+				"While the spell is in effect, the hand has the following properties: ",
+				{
+					"type": "list",
+					"items": [
+						"When making weapon attacks, the hand uses your spellcasting modifier for its attack and damage rolls. ",
+				"The hand can be used for touch spells or spells that use a weapon (i.e {@spell green-flame blade|TCE} or {@spell steel wind strike|XGE}).",
+						"The hand shares your proficiencies but also has proficiency in simple and martial weapons."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, the duration of the spell increases by 1 minute for each slot level above 1st. Additionally, if cast using a spell slot of 3rd level or higher, the spell can be used to wield two-handed weapons."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chromatic Smite",
+			"source": "ASS",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a diamond worth at least 50 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with a chromatic sheen as you strike. You choose acid, cold, fire, lightning, poison, or thunder for the damage type of the strike. The attack deals an extra 2d8 damage of the chosen damage type to the target. "
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st. "
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Otherworldly Smite",
+			"source": "ASS",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with an otherworldly sheen as you strike. You choose necrotic, radiant, psychic, or force for the damage type of the strike. The attack deals an extra 2d10 damage of the chosen damage type to the target."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and arcane glyphs fragment the creature. The target takes 1d6 rupture damage.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d6 force damage to the target on a hit, and the rupture damage the target takes increases to 2d6. Both damage rolls increase by 1d6 at 11th level (2d6 and 3d6) and again at 17th level (3d6 and 4d6)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Death Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and a dreadful aura fills the air around the creature until the start of your next turn. When the spell ends, the target takes 1d12 necrotic damage. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d12 necrotic damage to the target on a hit, and the necrotic damage the target when the spell ends increases to 2d12. Both damage rolls increase by 1d12 at 11th level (2d12 and 3d12) and again at 17th level (3d12 and 4d12). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Eroding Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and a seeping acid erodes the creature's defenses until the start of your next turn. If the target takes damage from an attack roll before then, the target takes 1d8 acid damage and the spell ends.",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 acid damage to the target on a hit, and the acid damage the target takes from taking damage increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"acid"
+			]
+		},
+		{
+			"name": "Frigid Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and a numbing frost forms on the creature until the start of your next turn. If the target makes a weapon attack roll before then, the target takes 1d8 cold damage and the spell ends. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 cold damage to the target on a hit, and the cold damage the target takes for making an attack increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"cold"
+			]
+		},
+		{
+			"name": "Holy Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and a divine wrath descends on the creature until the start of your next turn. You cannot roll with disadvantage with this attack and the target takes 1d6 radiant damage when the spell ends. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d6 radiant damage to the target on a hit, and the radiant damage the target takes when the spell ends increases to 2d6. Both damage rolls increase by 1d6 at 11th level (2d6 and 3d6) and again at 17th level (3d6 and 4d6). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"radiant"
+			]
+		},
+		{
+			"name": "Mind Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and surge of mind energy disorients the creature until the start of your next turn. If the target makes an attack roll or saving throw before then, they must roll a 1d4 and subtract from the resulting roll and the target takes 1d6 psychic damage and the spell ends. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d6 damage to the target on a hit, and the damage the target takes after making an attack roll or saving throw increases to 2d6. Both damage rolls increase by 1d6 at 11th level (2d6 and 3d6) and again at 17th level (3d6 and 4d6). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Shocking Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and a lingering shock persists surrounding the creature until the start of your next turn. If the target takes a reaction before then, the target takes 1d8 lightning damage and the spell ends. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 lightning damage to the target on a hit, and the lightning damage the target takes for taking a reaction increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"lightning"
+			]
+		},
+		{
+			"name": "Toxic Blade",
+			"source": "ASS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon worth at least 1 sp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects, and toxic saps away at the creature's vitality. The creature must succeed on a Constitution saving throw or take 1d10 poison damage. ",
+				"This spell's damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d10 damage to the target on a hit, and the damage the target takes for takes for failing the saving throw increases to 2d10. Both damage rolls increase by 1d10 at 11th level (2d10 and 3d10) and again at 17th level (3d10 and 4d10). "
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"damageInflict": [
+				"poison"
 			]
 		}
 	]
