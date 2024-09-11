@@ -1494,7 +1494,7 @@
 			"entries": [
 				"You learn how to create a mechanical apparatus. Using carpenter's tools or tinker's tools, you can take an action to magically create a Medium mechanism in an unoccupied space on a horizontal surface within 5 feet of you.",
 				"Once you create a mechanism, you can't do so again until you finish a long rest or until you expend a spell slot of 1st level or higher. You can have only one mechanism at a time and can't create one while your mechanism is present.",
-				"The mechanism is a magical object and is considered as a structure. It weights 60 lbs and has an AC of 19 and a number of hit points equal to 3 + your Intelligence modifier + 5 times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If forced to make an ability check or a saving throw, it automatically fails. If the mending spell is cast on it, it regains 3d8 hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action as long as you are within 5 feet of it.",
+				"The mechanism is a magical object and is considered as a structure. It weighs 60 lbs and has an AC of 19 and a number of hit points equal to 3 + your Intelligence modifier + 5 times your artificer level. It is immune to poison damage and psychic damage, and all conditions. If forced to make an ability check or a saving throw, it automatically fails. If the mending spell is cast on it, it regains 3d8 hit points. It disappears if it is reduced to 0 hit points or after 1 hour. You can dismiss it early as an action as long as you are within 5 feet of it.",
 				"When you create the mechanism, you determine its appearance and the direction it is facing, which can be shifted an increment clockwise or counterclockwise as an action while within 5 feet of it. You also decide which type it is, choosing from the options on the Mechanical Apparatus table. You also determine its initiative order when you create the mechanism or as a bonus action while within 5 feet of it, the mechanism's initiative can only be set up to your own initiative + your Intelligence modifier or lower.",
 				{
 					"type": "table",
@@ -1519,7 +1519,7 @@
 					"rows": [
 						[
 							"Arcane Conductor",
-							"The apparatus gains a number of charges equal to your Intelligence modifier. While within 5 feet of where the apparatus is facing, a creature of your choice can expend a charge when casting a spell, increasing the spell slot level by 1 when cast. The apparatus is reduced to 0 hit points if it no longer has any charges left."
+							"The apparatus gains a number of charges equal to your Intelligence modifier. While within 5 feet of where the apparatus is facing, a creature of your choice can expend a charge when casting a spell using a spell slot that does not exceed your highest level spell slot, increasing the spell slot level by 1 when cast. The apparatus is reduced to 0 hit points if it no longer has any charges left. "
 						],
 						[
 							"Observatory Station",
@@ -1527,7 +1527,7 @@
 						],
 						[
 							"Stronghold Fortification",
-							"The apparatus serves as ¾ cover while within 5 feet of where the apparatus is facing and has a damage threshold equal to your Intelligence modifier + half of your artificer level."
+							"The apparatus serves as ¾ cover while within 5 feet of where the apparatus is facing and it has a damage threshold equal to Intelligence modifier + half of your artificer level. "
 						]
 					]
 				}
@@ -1644,7 +1644,16 @@
 			"subclassSource": "ASS",
 			"level": 3,
 			"entries": [
-				"You learn how to create rifts in space using just your weapon and brawn. While you're raging and not wearing heavy armor, you lose any resistance you gain from raging but at the start of each of your turns, you can teleport to any unoccupied space that you can see up to 10 feet of you."
+				"You create rifts in space using in your trance-like rampage. The benefits you gain from your rage change to the following:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Dexterity checks and Dexterity saving throws.", 
+						"When you make a melee weapon attack using Dexterity, you gain a +2 bonus to the damage roll. This bonus increases as you level. ",
+						"You lose the resistances you would gain from raging. ",
+						"At the start of your turn, you can teleport to any unoccupied space that you can see up to 10 feet of you. This teleport increases in range by 5 feet at 6th, 10th, and 14th level."
+					]
+				}
 			]
 		},
 		{
@@ -1656,7 +1665,7 @@
 			"subclassSource": "ASS",
 			"level": 3,
 			"entries": [
-				"The astral energies inside the multidimensional rifts that you create coat your blade. After you teleport, the first time you land an attack that deals slashing damage additionally inflicts rupture damage to the target equal to your rage damage."
+				"The astral energies inside the multidimensional rifts that you create coat your blade. Whenever you would teleport, through your means or others', the next time you land a melee weapon attack during that turn additionally inflicts rupture damage to the target equal to your Dexterity modifier. Additionally, your 2nd-level class feature Reckless Attack now benefits melee weapon attack rolls using Dexterity. "
 			]
 		},
 		{
@@ -1669,10 +1678,11 @@
 			"level": 6,
 			"entries": [
 				"{@i 6th-level Path of the Dimension Shredder feature}",
-				"While deep inside the multidimensional rifts that you create, you learn a new way to cut up your prey while cloaking yourself in portals. As an action, you can leap to the space in front of you and separate your body into multiple portals up to 30 feet of you. When in this state, you are blinded and deafened and you cannot use any of your actions other than your reaction at any time to exit the portals and make a melee weapon attack. Escaping from a portal removes all portals made by this feature.",
-				"You create a number of portals equal to your proficiency bonus. Each of these portals have an AC of 10 and their hit points are equal to your current equally divided between all of these portals. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space.",
-				"When all portals are removed, you lose hit points equal to half of the missing hit points on all of the portals but if a portal has none left, you take full damage for that portal.",
-				"You can use this feature a number of times equal to your Constitution modifier and you regain all uses on a long rest."
+				"While deep inside the multidimensional rifts that you create, you learn a new way to cut up your prey while cloaking yourself in portals. As an action, you can leap to the space in front of you and separate your body into multiple portals up to 30 feet of you. When in this state, you are blinded and deafened and you cannot use any of your actions other than your reaction at any time to exit the portals and make a melee weapon attack. Escaping from a portal removes all portals made by this feature. ",
+				"You create a number of portals equal to your proficiency bonus. Each of these portals have an AC of 10 and their hit points are equal to your current equally divided between all of these portals. If it has to make a saving throw, it uses your saving throw bonus for the roll. It is the same size as you, and it occupies its space.  ",
+				"When all portals are removed, you lose hit points equal to half of the missing hit points on all of the portals but if a portal has none left, you take full damage for that portal.  ",
+				"If at the start of your next turn and you have at least 3 portals remaining, the attack you make using this feature does not miss and is a critical hit. ",
+				"You can't use this feature again until you finish a long rest. "
 			]
 		},
 		{
@@ -1685,7 +1695,8 @@
 			"level": 10,
 			"entries": [
 				"{@i 10th-level Path of the Dimension Shredder feature}",
-				"You learn how to create portals on the fly so that you can close the gap while cutting up a vulnerable target. Before a creature makes an attack of opportunity to another creature that you can see within 60 feet of you, you can teleport to an adjacent tile to the target and make an attack of opportunity as well. On a hit, this attack inflicts rupture damage to the target equal to your Strength modifier."
+				"You learn how to create portals on the fly so that you can close the gap while cutting up a vulnerable target. Before a creature makes an attack towards another creature that you can see within 60 feet of you, you can teleport to an adjacent tile to the attacker and make an attack of opportunity. On a hit, you and the creature targeted by the attacker gain temp hit points equal to your character level. ",
+				"You can use this feature a number of times equal to your Constitution modifier and you regain all uses on a long rest. "
 			]
 		},
 		{
@@ -1698,8 +1709,8 @@
 			"level": 14,
 			"entries": [
 				"{@i 14th-level Path of the Dimension Shredder feature}",
-				"The only thing that your targets see of you is the light pouring out of the rifts in space you create as you rip and zip through their flesh. While you're raging and not wearing heavy armor, you can use your full-time action to make 5 melee weapon attacks on a single target. Each successful hit inflicts rupture damage to the target equal to your Proficiency bonus. You can also use this feature after exiting the portals created by the hacked traverse class feature as long as the reaction to exit the portals was done on your turn.",
-				"You can only use this feature once per long rest."
+				"The only thing that your targets see of you is the light pouring out of the rifts in space you create as you rip and zip through their flesh. At the start of your turn while raging, you can choose to make a full-blitz set of attacks when you teleport as per the start of turn rage benefit or you exit a portal made using the Hacked Traverse subclass feature. Doing so, all of the attacks you make during this turn gain the benefits of the Energy Cycle subclass feature and you can use your bonus action to make a single melee weapon attack. ",
+				"You can only use this feature once per rage. On the second time and onwards you use this feature before a long rest, you suffer one level of exhaustion. "
 			]
 		},
 		{
@@ -1817,44 +1828,44 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@i Wildfire}}. Your aura becomes alight with roaring flames. At the start of your turn, each creature in your aura takes fire damage equal to half your barbarian level (rounded up). This damage increases by your Constitution modifier at 10th level.",
+						"{@b {@i Wildfire}}. Your aura becomes alight with roaring flames. At the start of your turn, each creature in your aura takes fire damage equal to half your barbarian level (rounded up). This damage increases to half you barbarian level (rounded up) + your Constitution modifier at 10th level. ",
 							{
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"At 10th level, your flames nourish you, cauterizing your wounds. At the beginning of your turn, you regain hit points equal to 2d6 + your Constitution modifier. Additionally, the first time you would take damage in your rage, this damage is halved. "
+								"At 10th level, your flames nourish you, cauterizing your wounds. At the beginning of your turn, you regain hit points equal to 2d6 + your Constitution modifier. "
 							]
 							},
-						"{@b {@i Tornado}}. A raging whirlwind encircles you. As a reaction, you can impose disadvantage on a ranged weapon attack made targeting a creature in your aura. Additionally, the air currents guide your blade. You may make a melee weapon attack against a target as long as they are in your storm aura. Attacks made this way deal extra damage equal to your Constitution modifier. This increases by 1d6 at 10th level.",
+						"{@b {@i Tornado}}. A raging whirlwind encircles you. As a reaction, you can impose disadvantage on a ranged weapon attack made targeting a creature in your aura. Additionally, the air currents guide your blade. You may make a melee weapon attack against a target as long as they are in your storm aura. Attacks made this way deal extra damage equal to your Constitution modifier. This increases to 1d6 + your Constitution modifier at 10th level. ",
 							{
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"At 10th level, your control over the wind becomes greater. You may use a bonus action to force a creature in your aura to make a Strength saving throw. On a failed save, they are thrown 20 feet up into the air until the end of their next turn and are considered restrained. When this effect ends, they plummet and take appropriate damage from the fall."
+								"At 10th level, your control over the wind becomes greater. You may use a bonus action to force a creature in your aura to make a Strength saving throw. On a failed save, they are thrown 20 feet up into the air until the end of their next turn and are considered grappled. You can only affect creatures that are up to one size category larger than you. "
 							]
 							},
-						"{@b {@i Tsunami}}. The radius around you floods as you rage. At the beginning of your rage, each creature in your aura must make a Strength saving throw. On a failed save they are pulled within 5 feet of you and take 1d6 + your Constitution modifier bludgeoning damage. This damage increases by 2d6 at 10th level. As a bonus action while you are raging, you may force a creature within your aura to make a Strength saving throw. On a failed save, you may push them 10 feet away from you or pull them up to 10 feet closer to you. They take bludgeoning damage equal to your Constitution modifier. This damage increases by 1d6 at 10th level.",
+						"{@b {@i Tsunami}}. The radius around you floods as you rage. At the beginning of your rage, each creature in your aura must make a Strength saving throw. On a failed save they are pulled within 5 feet of you and take 1d6 + your Constitution modifier bludgeoning damage. This damage increases to 2d6 at 10th level. As a bonus action while you are raging, you may force a creature within your aura to make a Strength saving throw. On a failed save, you may push them 10 feet away from you or pull them up to 10 feet closer to you. They take bludgeoning damage equal to your Constitution modifier. This damage increases to 1d6 + your Constitution modifier at 10th level. All displacement effects of this feature can only affect creatures that are up to one size category larger than you. ",
 							{
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"At 10th level, the whirlpool surrounding you grows in force. A creature must succeed a Strength saving throw when attempting to leave your aura. Additionally, creatures now have disadvantage on their saving throws against the effects of your aura."
+								"At 10th level, the whirlpool surrounding you grows in force. A creature must succeed a Strength saving throw when attempting to leave your aura. Additionally, creatures now have disadvantage on their saving throws against the effects of your aura. "
 							]
 							},
-						"{@b {@i Thunderstorm}}. The air around you crackles with electricity. As a bonus action, you can choose a number of creatures equal to your Constitution modifier, you cannot choose the same creature more than once. These targets must make a Dexterity saving throw. On a failed save, they take 1d6 lightning damage. This damage increased by 1d6 + your Constitution modifier at 10th level. Additionally, your reflexes are amplified. You may make opportunity attacks against anyone that moves 5 feet within your aura.",
+						"{@b {@i Thunderstorm}}. The air around you crackles with electricity. As a bonus action, you can choose a number of creatures that you can see equal to your Constitution modifier, you cannot choose the same creature more than once. These targets must make a Dexterity saving throw. On a failed save, they take 1d6 lightning damage. This damage increases to 1d6 + your Constitution modifier at 10th level. Additionally, your reflexes are amplified. You may make opportunity attacks against anyone that moves 5 feet within your aura. ",
 							{
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"At 10th level, the storm hastens you even further. When you use your reaction to make an opportunity attack, you may make additional opportunity attacks up to a number of times equal to your Constitution modifier. You may not target the same creature when doing so. You deal additional lightning damage equal to your Constitution modifier when making attacks of opportunity."
+								"At 10th level, the storm hastens you even further. You deal additional lightning damage equal to your Constitution modifier when making attacks of opportunity. Additionally, when you use your reaction to make an opportunity attack, you may make additional opportunity attacks up to a number of times equal to your Constitution modifier until the start of your turn. You may not target the same creature when doing so."
 							]
 							},
-						"{@b {@i Blizzard}}. The radius around you becomes coated in frost and ice. Your aura is considered difficult terrain. When you hit with a weapon attack, you deal additional cold damage equal to your Constitution modifier. At 10th level, the damage is increased by 1d10. Additionally, you can force the target to make a Constitution saving throw on a successful hit. On a failed save, their movement is halved until the end of their next turn.",
+						"{@b {@i Blizzard}}. The radius around you becomes coated in frost and ice. Your aura is considered difficult terrain. When you hit with a weapon attack, you deal additional cold damage equal to your Constitution modifier. A creature can only take this damage once per turn and at 10th level, the damage increases to 1d10 + your Constitution modifier. Additionally, once per target per turn, you can force the target to make a Constitution saving throw on a successful hit. On a failed save, their movement is halved until the end of their next turn.",
 							{
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"At 10th level, a layer of ice and frost covers you as armor. You gain temporary hit points equal to 1d10 + your Constitution modifier at the start of your turn. If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to your Constitution modifier. You lose these hit points when your rage ends."
+								"At 10th level, a layer of ice and frost covers you as armor. You gain temporary hit points equal to 1d6 + your Constitution modifier at the start of your turn. If a creature hits you with a melee attack while you have these hit points, the creature takes cold damage equal to your Constitution modifier. You lose these hit points when your rage ends. "
 							]
 							}
 					]
@@ -1924,7 +1935,7 @@
 			"level": 14,
 			"entries": [
 				"{@i 14th-level Path of the Storm Herald feature}",
-				"Your storm aura's radius is increased to 20 feet. You can become an even greater vessel for the storm when you rage. When you do so, you gain a special ability determined by your natural disaster in addition to your storm aura traits:",
+				"Your storm aura's radius is increased to 20 feet. You can become an even greater vessel for the storm when you rage. When you do so, the duration of your rage is halved but you gain a special ability determined by your natural disaster in addition to your storm aura traits: ",
 				{
 					"type": "list",
 					"items": [
@@ -1944,7 +1955,7 @@
 							"type": "list",
 							"style": "list-no-bullets",
 							"items": [
-								"The purest of frost begin to manifest within you in the beginning of your rage. You focus on generating this energy as if you were concentrating on a spell (but is not considered as such for the purposes of Rage). Your protective frost grows like a never-ending blizzard. When rolling for temporary hit points at the beginning of your turn, you can choose whether to keep the temporary hit points you just rolled or add half of it to what you already have. When a creature takes cold damage from making a melee weapon attack against you, they instead take cold damage equal to the temporary hit points you have before taking damage. "
+								"The purest of frost begin to manifest within you in the beginning of your rage. You focus on generating this energy as if you were concentrating on a spell (but is not considered as such for the purposes of Rage). Your protective frost grows like a never-ending blizzard. When rolling for temporary hit points at the beginning of your turn, you can choose whether to keep the temporary hit points you just rolled or add half of it to what you already have. When a creature takes cold damage from making a melee weapon attack against you, they instead take cold damage equal to the temporary hit points you had before taking damage. "
 							]
 							}
 					]
@@ -2014,7 +2025,7 @@
 			"level": 6,
 			"entries": [
 				"{@i 6th-level College of Condescension feature}",
-				"The jeers you hurl are screeching for the soul. You learn the {@spell bane} spell which does not count towards your spells known. Whenever a creature rolls a die that you force them to roll such as a rerolling effect or the effects of the bane spell, they take psychic damage equal to the resulting roll + your Charisma modifier.",
+				"The jeers you hurl are screeching for the soul. You learn the bane spell which does not count towards your spells known. Whenever a creature rolls a die that reduces their resulting rolls such as a rerolling effect or the effects of the bane spell, they take psychic damage equal to the difference between the old and the new results + your Charisma modifier. ",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Popcorn For The Crowd, Tea For The Self|Bard||Condescension|ASS|6"
@@ -2203,7 +2214,7 @@
 			"level": 10,
 			"entries": [
 				"{@i 10th-level Circle of Ichor feature}",
-				"The blood coursing through your veins become more akin to the Primordial Beings that can freely set the laws of nature at aw whim. Your spellcasting modifier for this class increases by 1 for every 6 ability score increases from your Redwood Sap class feature.",
+				"The blood coursing through your veins become more akin to the Primordial Beings that can freely set the laws of nature at a whim. Your spellcasting modifier for this class increases by 1 for every 6 ability score increases from your Redwood Sap class feature.",
 				"Whenever your current hit points are below your hit points maximum, you can use your body as a druidic focus. In addition, when casting a druid spell that requires a costly material component, you treat this feature's spellcasting modifier increases as an equivalent of 300 gp."
 			]
 		},
@@ -2222,8 +2233,8 @@
 					"type": "list",
 					"items": [
 					"When a creature fails the saving throw, you can reduce their Physical ability score of your choice by 1 up to 3 times.",
-					"Your own ability scores can now exceed 20 using the feature.",
-					"You no longer require to finish a long rest to use the feature again after suffering a level of exhaustion caused by losing all ability score increases."
+					"Your own ability scores can now exceed 20, up to 22, using the feature.",
+					"You no longer require to finish a long rest to use the feature again. "
 					]
 				}
 			]
@@ -2725,8 +2736,8 @@
 			"level": 6,
 			"entries": [
 				"{@i 6th-level Way of the Scrollbound Tenets feature}",
-				"You learn how to weave the most stable of your spells into your martial arts. When you use an action to cast a spell using a spell slot, you can make one unarmed strike as a bonus action.",
-				"Additionally, you gain a new way to cast your cantrips. When you cast a cantrip that deals damage on your turn, you can expend a spell slot. The spell's effect follows the spell slot level that you used to cast it instead of your character level. For 1 minute, you retain the lingering magics of the spell that you casted into your veins, causing them to evoke the spell's effects on a successful hit using your unarmed strikes. While under these effects, the unarmed strikes you make can use your Intelligence modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and they gain the Reach property. This effect ends early if you are knocked unconscious, or if this spell effect is forcibly removed from you."
+				"You learn how to weave the most stable of your spells into your martial arts. When you use an action to cast a spell using a spell slot, you can make one unarmed strike as a bonus action. ",
+				"Additionally, you gain a new way to cast your cantrips. When you cast a cantrip that deals damage on your turn, you can expend a spell slot. The spell's effect follows the spell slot level that you used to cast it instead of your character level. For 1 minute, you concentrate and retain the lingering magics of the spell that you casted into your veins, causing them to evoke the spell's effects on the target after a successful hit using your unarmed strikes once per turn. While under these effects, the unarmed strikes you make can use your Intelligence modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and they gain the Reach property. This effect ends early if you are knocked unconscious, or if this spell effect is forcibly removed from you, or until you lose your concentration. "
 			]
 		},
 		{
@@ -2786,7 +2797,7 @@
 					"items": [
 						"You gain proficiency in martial weapons, light, medium, and heavy armors, and shields.",
 						"While wearing armor or donning a shield, you only gain half of the bonuses of your Unarmored Movement class feature and none while doing both.",
-						"When your Strength ability score reaches certain points, you allow yourself more options when it comes to monk weapons. At 11 Strength, you can have ranged and martial weapons as monk weapons. At 13 Strength, you can have weapons that have the Two-Handed property as monk weapons. At 15 Strength, you can have weapons that have the Heavy or Special properties as monk weapons."
+						"When your Strength ability score reaches certain points, you allow yourself more options when it comes to monk weapons. At 13 Strength, you can have ranged and martial weapons as monk weapons. At 15 Strength, you can have weapons that have the Two-Handed property as monk weapons. At 17 Strength, you can have weapons that have the Heavy or Special properties as monk weapons. "
 					]
 				}
 			]
@@ -2910,8 +2921,8 @@
 			"subclassSource": "ASS",
 			"level": 1,
 			"entries": [
-				"The power of the cosmos flow through your body, reinforcing it. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.",
-				"Additionally, your body is reinforced by starlight. When you aren't wearing armor, your AC equals 10 + your Constitution modifier + your Charisma modifier."
+				"The power of the cosmos flow through your body, reinforcing it. Your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class. ",
+				"Additionally, your body is reinforced by starlight. When you aren't wearing armor, your AC equals 8 + your Constitution modifier + your Charisma modifier. "
 			]
 		},
 		{
@@ -2950,7 +2961,7 @@
 					"type": "list",
 					"style": "list-no-bullets",
 					"items": [
-						"{@b {@i Gravity Pull (Void).}} A rift in space appears at the landing point of your spell and emits a strong pulling effect. Choose a number of creatures equal to your proficiency bonus affected by your spell, they must make a Strength saving throw. On a failure, they take force damage equal to half of your sorcerer level (rounded up) and are restrained until the start of your next turn.",
+						"{@b {@i Gravity Pull (Void).}} A rift in space appears at the landing point of your spell and emits a strong pulling effect. Choose a creature affected by your spell, they must make a Strength saving throw. On a failure, they take force damage equal to half of your sorcerer level (rounded up) and are restrained until the start of your next turn. ",
 						"{@b {@i Spatial Pull (Spectrum).}} Two rifts in space form and are linked with one another. You can choose either one creature affected by your spell or yourself and then an empty space within 30 feet of your spell's location, the creature must make a Dexterity saving throw. On a failure, they are teleported to the point of your choosing. A creature can willingly fail this save."
 					]
 				}
@@ -2966,7 +2977,7 @@
 			"level": 6,
 			"entries": [
 				"{@i 6th-level Cosmic Soul feature}",
-				"Whenever you make a Strength check or Strength saving throw, you gain a bonus to the roll equal to your Charisma modifier (minimum of +1).",
+				"You can instead use your Charisma modifier when making a roll that makes use of your Strength modifier. ",
 				"In addition, you are considered Large sized for the purposes of grappling, shoving, and similar effects. You are considered Huge at level 14 and Gargantuan at level 18."
 			]
 		},
@@ -2993,8 +3004,8 @@
 			"level": 14,
 			"entries": [
 				"{@i 14th-level Cosmic Soul feature}",
-				"Your gravitational pull is strengthened even further. You no longer need any free hands for grappling and your reach for both grappling and shoving is increased to 30 feet. Additionally, whenever you take the Attack action to shove or grapple, you can now initiate them to any number of creatures within your range.",
-				"As a bonus action, all creatures within your grappling range and are considered grappled by you take 2d6 force damage and are pulled 15 feet towards you."
+				"Your gravitational pull is strengthened even further. You no longer need any free hands for grappling and your reach for both grappling and shoving is increased to 10 feet. You can have up to 3 creatures grappled at a time. Additionally, whenever you can an action to initiate a shove or grapple to any number of creatures within your range. ",
+				"As a bonus action, you can cause all creatures grappled by you to take 2d6 force damage and pulled 15 feet towards you. "
 			]
 		},
 		{
@@ -6829,6 +6840,70 @@
 	],
 	"race": [
 		{
+			"name": "Human (Schmariant)",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 3,
+						"amount": 1
+					}
+				}
+			],
+			"speed": 30,
+			"size": [
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Prodigy",
+					"entries": [
+						"You start out with the {@feat prodigy|XGE} racial feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+					]
+				}
+			]
+		},
+		{
 			"name": "Liberi",
 			"source": "ASS",
 			"ability": [
@@ -7302,6 +7377,40 @@
 		{
 			"name": "Tsukumogami",
 			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"weighted": {
+							"from": [
+								"str",
+								"dex",
+								"con",
+								"int",
+								"wis",
+								"cha"
+							],
+							"weights": [
+								2,
+								1
+							]
+						}
+					}
+				},
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 3,
+						"amount": 1
+					}
+				}
+			],
 			"speed": 30,
 			"size": [
 				"M"
@@ -7355,28 +7464,6 @@
 		}
 	],
 	"subrace": [
-		{
-			"raceName": "Human",
-			"raceSource": "PHB",
-			"name": "Schmariant",
-			"source": "ASS",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ability Score Increase",
-					"entries": [
-						"Two different ability scores of your choice increase by 1. Instead of increasing two different ability scores, you can instead choose to increase one ability score by 2. "
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Prodigy",
-					"entries": [
-						"You start out with the {@feat prodigy|xge} racial feat."
-					]
-				}
-			]
-		},
 		{
 			"raceName": "Liberi",
 			"raceSource": "ASS",
@@ -7970,23 +8057,12 @@
 		{
 			"name": "Bodyguard",
 			"source": "ASS",
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"con"
-						],
-						"amount": 1
-					}
-				}
-			],
 			"entries": [
 				"You strived to develop various techniques and you honed your reflexes in order to safeguard your allies. You gain the following benefits: ",
 				{
 					"type": "list",
 					"items": [
-						"As a reaction to an allied creature that you can see within half of your movement range being targeted by an attack, you may rush towards them and take their place, moving them to an adjacent unoccupied space of their choice. You have resistance to all damage dealt by the prerequisite attack. Until the start of your ally's turn, any attacks targeting them is focused on you instead. You cannot make this reaction if there are no unoccupied spaces around your ally except if you are already occupying a space adjacent to them."
+						"You strived to develop various techniques and you honed your reflexes in order to safeguard your allies. You can take a reaction when a creature within a third of your movement range that you can see is targeted by an attack. You rush towards them and take their place, moving them to an adjacent unoccupied space of their choice. Until the start of your next turn, any attacks targeting that ally is made with disadvantage. You cannot make this reaction if there are no unoccupied spaces around your ally except if you are already occupying a space adjacent to them. "
 					]
 				}
 			]
@@ -8142,7 +8218,7 @@
 						"You have advantage on attack rolls against a creature you are grappling and you have advantage on Athletics checks made to grapple a prone creature.",
 						"You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.",
 						"You are considered one size larger for the purposes of grappling, and shoving.",
-						"You no longer move at half speed when grappling a target of the same size or smaller as you.",
+						"You no longer move at half speed when grappling a target of the same size or smaller than you.",
 						"Whenever you attempt to grapple as part of your Attack action, you may use your bonus action to shove. Whenever you attempt to shove as part of your Attack action, you may use your bonus action to grapple."
 					]
 				}
@@ -8223,6 +8299,22 @@
 			]
 		},
 		{
+			"name": "Scrutineer",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with Martial skill or 1 level on the Savant class.",
+						"entrySummary": "Special"
+					}
+				}
+			],
+			"entries": [
+				"Years of applied combat practice and analysis has allowed you greater insight on enemies that you have little knowledge of. You can use an action to begin analyzing a creature's combat pattern. They must be a creature that you can see and this effect lasts until you lose your concentration (as if you were concentrating on a spell). While concentrating, at the start of your turn, you gain information about the target as if you succeeded a DC 15 Martial check. ",
+				"This feature can be used alongside the Adroit Analysis savant class feature. "
+			]
+		},
+		{
 			"name": "Stormcaller's Wrath",
 			"source": "ASS",
 			"prerequisite": [
@@ -8250,14 +8342,6 @@
 		{
 			"name": "Crushing Violence",
 			"source": "ASS",
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Strength or Dexterity 15 or higher",
-						"entrySummary": "Str/Dex 15+"
-					}
-				}
-			],
 			"entries": [
 				"When you deal damage to a creature that has no resistances to bludgeoning damage, they take rupture damage equal to your proficiency bonus. A creature can only take this damage once per turn."
 			]
@@ -8265,14 +8349,6 @@
 		{
 			"name": "Taunting Violence",
 			"source": "ASS",
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Strength or Dexterity 15 or higher",
-						"entrySummary": "Str/Dex 15+"
-					}
-				}
-			],
 			"entries": [
 				"When you deal damage to a creature that has no resistances to piercing damage, they reduce all of their damage rolls on their next turn by a number equal to your proficiency bonus."
 			]
@@ -8280,14 +8356,6 @@
 		{
 			"name": "Lingering Violence",
 			"source": "ASS",
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Strength or Dexterity 15 or higher",
-						"entrySummary": "Str/Dex 15+"
-					}
-				}
-			],
 			"entries": [
 				"When you deal damage to a creature that has no resistances to slashing damage, they take bleed damage equal to your proficiency bonus. A creature can only take this damage once per turn."
 			]
@@ -8355,7 +8423,7 @@
 				}
 			],
 			"entries": [
-				"You increase your critical hit threshold for your spell attacks by 1. When you roll a 20 on a spell attack, you can roll two additional damage dice when determining the extra damage the target takes."
+				"You increase your critical hit range for your spell attacks by 1. When you roll a 20 on a spell attack, you can roll two additional damage dice when determining the extra damage the target takes."
 			]
 		},
 		{
@@ -8391,7 +8459,7 @@
 				}
 			],
 			"entries": [
-				"When you cast a spell that only gives a creature a condition or debilitates them in some way, you increase the DC to circumvent the effect by a number equal to half of your proficiency bonus. If the spell would also deal damage, you can opt to remove the damage to gain the effect of this feature."
+				"When you cast a spell that only gives a creature a condition or debilitates them in some way, you increase the DC to circumvent the effect by 1. If the spell would also deal damage, you can opt to remove the damage to gain the effect of this feature."
 			]
 		},
 		{
@@ -8409,7 +8477,7 @@
 				}
 			],
 			"entries": [
-				"Once per long rest, you can cast a spell using your highest level spell slot without expending a spell slot."
+				"Once per long rest, you can cast a spell using half your highest level spell slot without expending a spell slot."
 			]
 		},
 		{
@@ -8427,7 +8495,7 @@
 				}
 			],
 			"entries": [
-				"As an action, you can expend one of your spell slots to enhance your spellcasting for 1 minute. You gain a +1 bonus to your spellcasting modifier which increases by 1 for every three slots above 1st. Using this action while the effects are still ongoing only refreshes the duration or replaces the effect if the new bonus is higher than the ongoing one."
+				"As an action, you can expend one of your spell slots to enhance your spellcasting for 5 rounds. You gain a +1 bonus to your spellcasting modifier which increases by 1 for every three slots above 1st. Using this action while the effects are still ongoing only refreshes the duration or replaces the effect if the new bonus is higher than the ongoing one. "
 			]
 		},
 		{
@@ -8445,7 +8513,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you cast a spell, you have the benefits of the Shield spell for 1 round."
+				"Whenever you cast a spell, you have the benefits of the Shield spell for 1 round or until you are hit by an attack. "
 			]
 		},
 		{
@@ -8463,7 +8531,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you cast a spell that requires a saving throw to mitigate its effects, you gain a +2 bonus to your spell attack rolls on the next turn. Whenever you cast a spell that requires a spell attack roll, you gain a +2 bonus to your spell save DC on the next turn. You can only gain these benefits once per turn."
+				"Whenever you cast a spell that requires a saving throw to mitigate its effects, you gain a +1 bonus to your spell attack rolls on the next turn. Whenever you cast a spell that requires a spell attack roll, you gain a +1 bonus to your spell save DC on the next turn. You can only gain these benefits once per turn. "
 			]
 		},
 		{
@@ -8527,7 +8595,7 @@
 				}
 			],
 			"entries": [
-				"You reduce any damage you take by an amount equal to your proficiency bonus. As an action, you can take on a defensive stance. Instead of taking the Dodge action, you instead double all of your sources of damage reduction."
+				"You reduce any damage you take by an amount equal to your proficiency bonus. As an action, you can take on a defensive stance and you double all of your sources of damage reduction."
 			]
 		},
 		{
@@ -8599,7 +8667,7 @@
 				}
 			],
 			"entries": [
-				"You add half of your proficiency bonus in saving throws that you are not proficient in. As a reaction to an ally within 15 feet of you being forced to roll a saving throw, you can add your proficiency bonus to the resulting roll, you can perform this reaction before or after the saving throw has been made, but before any of the effects have been applied."
+				"You gain a +1 bonus to saving throws that you are not proficient in. As a reaction to an ally within 15 feet of you being forced to roll a saving throw, you can add your proficiency bonus to the resulting roll, you can perform this reaction before or after the saving throw has been made, but before any of the effects have been applied. "
 			]
 		},
 		{
@@ -8617,7 +8685,7 @@
 				}
 			],
 			"entries": [
-				"When you are subjected to an effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. As a reaction to succeeding a saving throw, you may expend a hit die. Any creatures of your choice that is subjected to the same regains hit points equal to the rolled die + your Constitution modifier and they can reroll their saving throw and choose which outcome to take."
+				"When you and other creatures make a saving throw for the same effect, you can use your reaction to give creatures of your choice advantage to the saving throw. Additionally, in the same circumstance, you can instead use your reaction to give creatures of your choice the same resulting roll that you have. "
 			]
 		},
 		{
@@ -8635,7 +8703,7 @@
 				}
 			],
 			"entries": [
-				"At the start of your turn, choose a number of creatures equal to your proficiency bonus within 30 feet of you, you force the targets to make a Wisdom saving throw. On a failed save, any attacks or similar actions that they make will be targeted on you. This effect lasts until the start of your next turn."
+				"When a creature adjacent to you makes an attack roll that is targeting another creature other than you, their resulting roll is reduced by 1. Additionally, any creature adjacent to you must spend 3 feet of movement for every 1 foot it moves when moving away from you. "
 			]
 		},
 		{
@@ -8653,7 +8721,7 @@
 				}
 			],
 			"entries": [
-				"You gain the Interception fighting style. You no longer need to use your reaction and you do not require any equipment to intercept attacks. Additionally, the results of Interception is doubled but you take half of the original damage dealt."
+				"When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can opt to reduce the damage the target takes by 2d10 + your proficiency bonus. You take damage equal to the damage reduced. "
 			]
 		},
 		{
@@ -8681,7 +8749,7 @@
 				}
 			],
 			"entries": [
-				"When you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon as part of the Attack action."
+				"When you make a weapon attack, you can cause damage to a different creature that is within 5 feet of the original target and within range of your weapon as long as the attack roll would hit the second target. They take damage equal to the ability score modifier used to make the attack + your proficiency bonus, which is doubled on a critical hit. "
 			]
 		},
 		{
@@ -8699,7 +8767,7 @@
 				}
 			],
 			"entries": [
-				"As a bonus action, you can mark a creature within 15 feet of you. This mark lasts until the end of your next turn. Whenever you make a weapon attack against a marked target, they take an additional 1d6 damage and your critical hit range is increased by 3. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
+				"At the start of your turn, you can mark a creature within 15 feet of you. This mark lasts until the start of your next turn. Whenever you make a weapon attack against a marked target, they take an additional 1d6 damage and your critical hit range is increased by 1. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest. "
 			]
 		},
 		{
@@ -8735,7 +8803,7 @@
 				}
 			],
 			"entries": [
-				"As an action, you may enter a defensive stance. In this defensive stance, whenever a creature misses an attack roll against you, make a melee weapon attack against them provided that you can reach the creature, this is counted as an attack of opportunity but does not use your reaction."
+				"As an action, you may enter a defensive stance. In this defensive stance, making an attack of opportunity does not use your reaction and whenever a creature misses an attack roll against you, you can make an attack of opportunity against them. You can use this feature a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest."
 			]
 		},
 		{
@@ -8753,7 +8821,7 @@
 				}
 			],
 			"entries": [
-				"When you take the Attack action and only make melee attacks using your unarmed strikes or a natural weapon, you may make an additional attack using either as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon's damage type. While you are not wearing armor, you gain a bonus to your armor class and saving throws equal to half of your proficiency bonus."
+				"When you take the Attack action and only make melee attacks using your unarmed strikes or a natural weapon, you may make an additional attack using either as part of that action. While you are not wearing armor, you gain a +1 bonus to your armor class and saving throws. "
 			]
 		},
 		{
@@ -8807,7 +8875,7 @@
 				}
 			],
 			"entries": [
-				"After every two attack rolls, the next attack roll made gains a bonus to the attack and damage rolls equal to your proficiency bonus."
+				"After every two attack rolls, the next attack roll made gains a +2 bonus to the attack and damage rolls."
 			]
 		},
 		{
@@ -8817,7 +8885,7 @@
 				"Combat Archetype"
 			],
 			"entries": [
-				"Any healing that you apply is increased by your proficiency bonus."
+				"Any healing that you apply outside of your medic specialization is increased by your proficiency bonus."
 			]
 		},
 		{
@@ -8835,25 +8903,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you heal a creature, the healing is increased by 2d8 + a mental ability score modifier of your choice. This effect may only occur once per turn."
-			]
-		},
-		{
-			"name": "High Quality Prescriptions (HQP-X)",
-			"source": "ASS",
-			"featureType": [
-				"Combat Archetype; Medic"
-			],
-			"prerequisite": [
-				{
-					"otherSummary": {
-						"entry": "Tier 2 medic",
-						"entrySummary": "Advanced Medical Procedures"
-					}
-				}
-			],
-			"entries": [
-				"Whenever you heal a creature, the healing is increased by 2d8 + a mental ability score modifier of your choice. This effect may only occur once per turn."
+				"Whenever you heal a creature, the healing is increased by 1d8 + a mental ability score modifier of your choice. This effect may only occur once per turn. "
 			]
 		},
 		{
@@ -8871,7 +8921,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you heal a creature, you grant them a 1d6 that they can use for any attack roll, ability check, or saving throw that they make. They also gain a bonus to their armor class and damage rolls equal to your proficiency bonus. This benefit lasts only for a number of turns equal to your proficiency bonus and once the die has been rolled, all of these benefits are lost."
+				"Whenever you heal a creature, you grant them a 1d4 that they can use for any attack roll, ability check, or saving throw that they make which lasts until the end of their next turn. "
 			]
 		},
 		{
@@ -8907,7 +8957,7 @@
 				}
 			],
 			"entries": [
-				"The range of any healing effect that you have is tripled. If it is an effect with a reach of touch or 5 feet, the range is increased to 30 feet."
+				"The range of any healing effect that you have is doubled. If it is an effect with a reach of touch or 5 feet, the range is increased to 30 feet."
 			]
 		},
 		{
@@ -8925,7 +8975,7 @@
 				}
 			],
 			"entries": [
-				"The range of any healing effect that you have now has a long range that is double of its original range. When healing a creature below your long range, the healing is increased by 1d8 + a mental ability score modifier of your choice. This effect may only occur once per turn."
+				"The range of any healing effect that you have now has a short range that is half of its original range (inapplicable to touch effects). When healing a creature within the short range, the healing is increased by 2d8 + a mental ability score modifier of your choice. This effect may only occur once per turn. "
 			]
 		},
 		{
@@ -8943,7 +8993,7 @@
 				}
 			],
 			"entries": [
-				"When healing a creature, any regained hit points above their maximum is converted into temporary hit points that lasts for a number of rounds equal to your proficiency bonus."
+				"When healing a creature, any regained hit points above their maximum is converted into temporary hit points up to your character level. "
 			]
 		},
 		{
@@ -8961,7 +9011,7 @@
 				}
 			],
 			"entries": [
-				"You can spend 10 minutes pampering a companion. When you do so, one friendly creature of your choice adjacent to you gains temporary hit points equal to your character level multiplied by your proficiency bonus. You may only use this feature once per dawn and the temporary hit points granted lasts for 8 hours."
+				"You can spend 10 minutes pampering a companion. When you do so, one friendly creature of your choice adjacent to you gains temporary hit points equal to your character level multiplied by half your proficiency bonus. You may only use this feature once per dawn and the temporary hit points granted lasts for 8 hours."
 			]
 		},
 		{
@@ -8981,7 +9031,7 @@
 			"entries": [
 				"As an action, you can concentrate for a large blast of power for 1 minute or until you lose your concentration (as if you were concentrating on a spell).",
 				"You have a pool of damage that accumulates as you concentrate. In subsequent turns as you maintain concentration, the additional healing that you apply from Advanced Medical Procedures is disabled but whenever you heal a creature, you add half of the hit points regained into your pool.",
-				"As an action, you can unleash this effect and end your concentration on it, in doing so, you may divide the pool accumulated among any number of creatures within 60 feet of you and they take damage accordingly.",
+				"As an action, you can unleash this effect and end your concentration on it, in doing so, you may divide the pool accumulated among any number of creatures within 60 feet of you and they take primal damage accordingly.",
 				"You can only use this feature once per long rest."
 			]
 		},
@@ -9000,7 +9050,7 @@
 				}
 			],
 			"entries": [
-				"When healing above a creature's maximum hit points, you deal damage to creatures of your choice adjacent to the target. This damage is equal to any excess hit points healed above its hit point maximum."
+				"When healing above a creature's maximum hit points, you deal primal damage to creatures of your choice adjacent to the target. This damage is equal to any excess hit points healed above its hit point maximum."
 			]
 		},
 		{
@@ -9028,7 +9078,7 @@
 				}
 			],
 			"entries": [
-				"Whenever you would make a ranged attack roll against a target that is using its flying speed or a similar effect (such as Levitation), the attack would automatically hit except when you would roll a 1 on the attack roll."
+				"You have advantage on ranged attack rolls made against a target that is using its flying speed or a similar effect to be mid-air (such as Levitation or falling)."
 			]
 		},
 		{
@@ -9046,7 +9096,7 @@
 				}
 			],
 			"entries": [
-				"The first time you would take the Attack action in combat, you may make additional ranged weapon attacks as part of it. The amount of additional attacks that you can make is equal to your proficiency bonus."
+				"You may make a number of ranged weapon attacks equal to your half proficiency bonus after initiative has been rolled."
 			]
 		},
 		{
@@ -9064,7 +9114,7 @@
 				}
 			],
 			"entries": [
-				"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls. You would also gain a bonus to your attack and damage rolls equal to half of your proficiency bonus whenever you would make a ranged weapon attack against a target within 15 feet of you."
+				"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls. You also gain a +1 bonus to your attack and damage rolls whenever you would make a ranged attack against an adjacent target. If all attacks that you made on your turn was a ranged attack against an adjacent target, all attacks made on the next turn have their critical range increased by 1. "
 			]
 		},
 		{
@@ -9415,7 +9465,7 @@
 				"Cosmic Spell (Void)"
 			],
 			"entries": [
-				"A rift in space appears at the landing point of your spell and emits a strong pulling effect. Choose a number of creatures equal to your proficiency bonus affected by your spell, they must make a Strength saving throw. On a failure, they take force damage equal to half of your sorcerer level (rounded up) and are restrained until the start of your next turn."
+				"A rift in space appears at the landing point of your spell and emits a strong pulling effect. Choose a creature affected by your spell, they must make a Strength saving throw. On a failure, they take force damage equal to half of your sorcerer level (rounded up) and are restrained until the start of your next turn."
 			]
 		},
 		{
@@ -10425,7 +10475,7 @@
 				}
 			],
 			"entries": [
-				"You can have two familiars at once instead of one."
+				"You can have two familiars at once instead of just one."
 			]
 		},
 		{
