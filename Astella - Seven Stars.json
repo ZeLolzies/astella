@@ -1398,6 +1398,148 @@
 				"Rewritten Rulings|Wizard||Ritualism|ASS|10",
 				"Defied Universal Conventions|Wizard||Ritualism|ASS|14"
 			]
+		},
+		{
+			"name": "Panacea",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"shortName": "Panacea",
+			"subclassFeatures": [
+				"Panacea|Alchemist|MFoV-CAR|Panacea|ASS|2",
+				"Formula: Greater Salve|Alchemist|MFoV-CAR|Panacea|ASS|6",
+				"Personalized Medicine|Alchemist|MFoV-CAR|Panacea|ASS|10",
+				"Healing Rain|Alchemist|MFoV-CAR|Panacea|ASS|18"
+			]
+		},
+		{
+			"name": "Discipline of Mortal Terminus",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"shortName": "Mortal Terminus",
+			"subclassFeatures": [
+				"Discipline of Mortal Terminus|Astromancer|ASoS|Mortal Terminus|ASS|2",
+				"Crimson Starlight|Astromancer|ASoS|Mortal Terminus|ASS|6",
+				"Lysis Edict|Astromancer|ASoS|Mortal Terminus|ASS|10",
+				"Pillars of Salt|Astromancer|ASoS|Mortal Terminus|ASS|14"
+			]
+		},
+		{
+			"name": "Path of the Iron Maiden",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Iron Maiden",
+			"subclassFeatures": [
+				"Path of the Iron Maiden|Barbarian||Iron Maiden|ASS|3",
+				"Penance and Atonement|Barbarian||Iron Maiden|ASS|6",
+				"Chains of Misery|Barbarian||Iron Maiden|ASS|10",
+				"The Iron Maiden|Barbarian||Iron Maiden|ASS|14"
+			]
+		},
+		{
+			"name": "College of Fools",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"shortName": "Fools",
+			"subclassFeatures": [
+				"College of Fools|Bard||Fools|ASS|3",
+				"Extra Attack|Bard||Fools|ASS|6",
+				"Lofty Laughter, Sought Slaughter|Bard||Fools|ASS|14"
+			]
+		},
+		{
+			"name": "Way of the Flagellant Vow",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Flagellant Vow",
+			"subclassFeatures": [
+				"Way of the Flagellant Vow|Monk||Flagellant Vow|ASS|3",
+				"Flowing Rivers|Monk||Flagellant Vow|ASS|6",
+				"Bloody Mercy|Monk||Flagellant Vow|ASS|11",
+				"Crown of the Martyr|Monk||Flagellant Vow|ASS|14"
+			]
+		},
+		{
+			"name": "Pursuer",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"shortName": "Pursuer",
+			"subclassFeatures": [
+				"Pursuer|Ranger||Pursuer|ASS|3",
+				"Pursue|Ranger||Pursuer|ASS|7",
+				"Butcher|Ranger||Pursuer|ASS|11",
+				"Terminate|Ranger||Pursuer|ASS|15"
+			]
+		},
+		{
+			"name": "Scrapper",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS", 
+			"shortName": "Scrapper",
+			"subclassFeatures": [
+				"Scrapper|Gunslinger|HA:GS|Scrapper|ASS|3",
+				"Sledge the Hammer|Gunslinger|HA:GS|Scrapper|ASS|6",
+				"Wrecking Ball|Gunslinger|HA:GS|Scrapper|ASS|10",
+				"Junkyard Shift|Gunslinger|HA:GS|Scrapper|ASS|17"
+			]
+		},
+		{
+			"name": "Anatomist",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSav", 
+			"shortName": "Anatomist",
+			"subclassFeatures": [
+				"Anatomist|Savant|LLSav|Anatomist|ASS|3",
+				"Unethical Chiropractice|Savant|LLSav|Anatomist|ASS|6",
+				"North Star Alignment|Savant|LLSav|Anatomist|ASS|10",
+				"Master Anatomist|Savant|LLSav|Anatomist|ASS|15"
+			]
+		},
+		{
+			"name": "Shield Breakers",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin", 
+			"shortName": "Shield Breakers",
+			"subclassFeatures": [
+				"Shield Breakers|Pugilist|SterlingVermin|Shield Breakers|ASS|3",
+				"Heavy Haymakers|Pugilist|SterlingVermin|Shield Breakers|ASS|6",
+				"Fists Like Hammers|Pugilist|SterlingVermin|Shield Breakers|ASS|11",
+				"All Becomes Malleable|Pugilist|SterlingVermin|Shield Breakers|ASS|17"
+			]
+		},
+		{
+			"name": "Reaper",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Reaper",
+			"subclassFeatures": [
+				"Reaper|Rogue||Reaper|ASS|3",
+				"Death's Doors|Rogue||Reaper|ASS|9",
+				"Reap|Rogue||Reaper|ASS|13",
+				"March To Impending Doom|Rogue||Reaper|ASS|17"
+			]
+		},
+		{
+			"name": "Wild Huntsman",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"shortName": "Wild Huntsman",
+			"subclassFeatures": [
+				"Wild Huntsman|Ranger||Wild Huntsman|ASS|3",
+				"Hole In The Man|Ranger||Wild Huntsman|ASS|7",
+				"Extended Fragility|Ranger||Wild Huntsman|ASS|11",
+				"Greater Hunter's Mark|Ranger||Wild Huntsman|ASS|15"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -1410,7 +1552,7 @@
 			"subclassSource": "ASS",
 			"level": 3,
 			"entries": [
-				"An artificer who specializes in Big Rigs typically carry their the most of their workshop essentials on their back and are equipped with the know-how to quickly set it all up to at least have a semblance of portability. These artificers rely on an apparatus that they set up as out in the field that can be used both as their spellcasting focus but also to enhance their spellcasting.",
+				"An artificer who specializes in Big Rigs typically carry the most of their workshop essentials on their back and are equipped with the know-how to quickly set it all up to at least have a semblance of portability. These artificers rely on an apparatus that they set up as out in the field that can be used both as their spellcasting focus but also to enhance their spellcasting.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Big Rig Spells|Artificer|TCE|Big Rig|ASS|3"
@@ -6836,48 +6978,950 @@
 				"{@i 14th-level School of Ritualism feature}",
 				"You cheat the natural flow of the leylines and learn how to cheapen the costs of casting magic without sacrificing any effects. Over the course of 8 hours, you can conduct a special ritual. Choose a spell in your spell book that has the ritual tag. After successfully conducting the ritual, you can cast that spell at will for the next 24 hours."
 			]
+		},
+		{
+			"name": "Panacea",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 2,
+			"entries": [
+				"There is a certain formula that is legendary to those that practice the alchemical arts: the Panacea that can cure any and all diseases. Those that spend their life to work on such an achievement are titled by the same thing that their efforts lead up to.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Alchemist|MFoV-CAR|Panacea|ASS|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Formula: Salve|Alchemist|MFoV-CAR|Panacea|ASS|2"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 2,
+			"entries": [
+				"When you choose this field of study, you gain proficiency with the Medicine skill."
+			]
+		},
+		{
+			"name": "Formula: Salve",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 2,
+			"entries": [
+				"You can create salve bombs. My mixing your bomb's explosive reagent with a slurry of antiseptic oil, you can change it into a salve bomb. A salve bomb deals no damage, and instead each creature within its blast radius regains hit points equal to 1d6 plus half your alchemist level."
+			]
+		},
+		{
+			"name": "Formula: Greater Salve",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Panacea feature}",
+				"You can enhance the potency of your salve bombs. You can spend any number of reagent die and have that be the resulting roll for the hit points regained by a salve bomb.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Formula: Panacea|Alchemist|MFoV-CAR|Panacea|ASS|6"
+				}
+			]
+		},
+		{
+			"name": "Formula: Panacea",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"You have distilled a formula that can serve as a cure-all. You can spend 4 reagent die or more to create a panacea bomb. A panacea bomb deals no damage, and instead grants creatures within its blast radius the effects of the lesser restoration spell and you reduce any special damage types such as bleed and rupture by a number equal to the resulting roll of your spent reagent dice."
+			]
+		},
+		{
+			"name": "Personalized Medicine",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Panacea feature}",
+				"When you make a bomb whose formula is one that you learn as part of this subclass, its detonation range is increased to a 20-foot radius and you can designate which creatures can be affected by the explosion if they are within range.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Formula: Veil|Alchemist|MFoV-CAR|Panacea|ASS|10"
+				}
+			]
+		},
+		{
+			"name": "Formula: Veil",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				
+				"Prevention is better than the cure. You can spend any number of reagent die to create a veiling bomb. A veiling bomb deals no damage, and instead grants temporary hit points that can only be used for special damage types such as bleed and rupture. These temporary hit points last until the end of your next turn and can coexist alongside other sources of temporary hit points. The amount of temporary hit points gained from this feature equals to the resulting roll of your spent reagent dice + half your alchemist level."
+			]
+		},
+		{
+			"name": "Healing Rain",
+			"source": "ASS",
+			"className": "Alchemist",
+			"classSource": "MFoV-CAR",
+			"subclassShortName": "Panacea",
+			"subclassSource": "ASS",
+			"level": 18,
+			"entries": [
+				"{@i 18th-level Panacea feature}",
+				"Over the course of a long rest, you can create a special raining bomb which contains one of the formulae that you learn as part of this subclass. When thrown, an area within a 15-foot radius of its thrown space has a lingering effect of the designated formula which lasts for 30 seconds and takes effect at the start of your turn. The potency of this effect has the same level as if you had spent half of your total reagent dice on creating the bomb."
+			]
+		},
+		{
+			"name": "Discipline of Mortal Terminus",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"subclassShortName": "Mortal Terminus",
+			"subclassSource": "ASS",
+			"level": 2,
+			"entries": [
+				"The cosmic weight of the stars and the cosmos of Astella can cause you to be blinded by their interstellar grandeur but make no mistake, your very being, flesh and bone and all, are still very much a part of the intertwining universe.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Primeval Sin|Astromancer|ASoS|Mortal Terminus|ASS|2"
+				}
+			]
+		},
+		{
+			"name": "Primeval Sin",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"subclassShortName": "Mortal Terminus",
+			"subclassSource": "ASS",
+			"level": 2,
+			"entries": [
+				"You condemn yourself to a lifetime of eternal damnation to pursue the calling of transmuting mortal life, though who your judge and executioner is up for debate. When choosing this subclass at 2nd level, you become eligible for learning {@filter spells|spells|subschool=hemomancy} with the hemomancy tag and they count as astromancer spells for you. When you deal damage to another creature with a spell with the hemomancy tag, you can cause them take the spell's damage as bleed damage instead. Additionally, when you cast a spell that deals damage to you such as the {@spell life transference|XGE} spell, spells with the hemomancy tag, or being hit by your own spell, you instead take the damage as bleed damage, halved."
+			]
+		},
+		{
+			"name": "Crimson Starlight",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"subclassShortName": "Mortal Terminus",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Discipline of Mortal Terminus feature}",
+				"On your palm, you hold and manifest a blooming red scar that gives birth to ruination and prosperity. You gain a new attack option that you can use with the Attack action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your spellcasting ability to its attack and damage rolls. On a hit, the creature takes 2d8 bleed damage and you apply a starmote on them that lasts until the start of their next turn. A starmote applied this way cannot be used for its intended effects other than light but instead causes the creature to not have their bleed damage activate at the start of their turn."
+			]
+		},
+		{
+			"name": "Lysis Edict",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"subclassShortName": "Mortal Terminus",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Discipline of Mortal Terminus feature}",
+				"You see now within your eyes the fabrics torn as blood is shed, and you hold within your mind both shear and thread for it. You learn the two following reactions:",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@i Genesis.}} Before a creature takes damage from bleed at the start of their turn, you can remove a portion of their accumulated bleed damage equal to your astromancer level + your Intelligence modifier. Additionally, this removes any additional bleed damage conversions that they may have but still retaining the accumulated bleed damage.",
+						"{@b {@i Terminus.}} When a creature takes damage from bleed at the start of their turn, you can reduce how much their bleed damage is reduced by equal to your astromancer level + your Intelligence modifier."
+					]
+				},
+				"These reactions can only be used on a creature that you can see and counts as counting a spell with a level equal to your maximum active starmote count. This feature can only be used a number of times equal to your Intelligence modifier + your proficiency bonus and you regain all uses on a long rest."
+			]
+		},
+		{
+			"name": "Pillars of Salt",
+			"source": "ASS",
+			"className": "Astromancer",
+			"classSource": "ASoS",
+			"subclassShortName": "Mortal Terminus",
+			"subclassSource": "ASS",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Discipline of Mortal Terminus feature}",
+				"The human flesh anatomy is made of the most basic of elements yet in harmony, they are far greater than the sum of their parts. You learn how to extract these elements and mold them for destruction. When you deal bleed damage, you can convert all of their accumulated bleed damage into any astral damage type that you choose. Any bleed damage that they take while this conversion is in effect will accumulate in the same way but the affected creature loses all accumulated bleed once they take damage from it.",
+				"You can only use this feature once per long rest."
+			]
+		},
+		{
+			"name": "Path of the Iron Maiden",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Maiden",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Barbarians who follow the Path of the Iron Maiden regale themselves to a twisted suit of thorns that pierces the skin and drips their blood with every step. Perhaps due to a ravenous desire for redemption, or a twisted carnal desire for pain, none of these barbarians are truly the same with one another as their suits are almost always weighed down heavily with a deep and personal reason as to why one dons them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Thorned Punishment|Barbarian||Iron Maiden|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Thorned Punishment",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Maiden",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"In one way or another, you can create your own pain and suffering no matter where and no matter when. Over the course of an hour, you can fashion a set of spikes that can be worn over your armor. These can be of any material that you choose or seems appropriate in the environment, and while worn, it requires an hour's worth of effort to doff. You gain the following benefits while wearing these spikes:",
+				{
+					"type": "list",
+					"items": [
+						"At the start of your turn, you take bleed damage equal to half of your barbarian level. While out of combat, you take this damage every hour instead.",
+						"When you make an unarmed strike, you deal additional bleed damage equal to half your AC once per creature per turn. Additionally, your unarmed strikes deal 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike. This damage increases to 1d8 at 5th level, 1d10 at 11th, 1d12 at 17th.",
+						"While raging, you deal bleed damage to all creatures adjacent to you at the start of your turn. This bleed damage equals to half your barbarian level, which is doubled if you are grappling them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Penance and Atonement",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Maiden",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Path of the Iron Maiden feature}",
+				"Cast aside your punishments and ingrain every painful lesson into memory. As an action, you can expend your hit dice, up to your proficiency bonus. Roll the hit dice + your Constitution modifier for each of them and regain hit points equal to the result. After using this action, you gain temporary hit points equal to your AC."
+			]
+		},
+		{
+			"name": "Chains of Misery",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Maiden",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Path of the Iron Maiden feature}",
+				"An evil predefined is one that extends their suffering to another, but you could care less of such. When rolling to grapple another creature and your resulting roll is lower than your AC, you can use your AC instead for the result. This feature can only be used while wearing a set of spikes as per the thorned punishment subclass feature."
+			]
+		},
+		{
+			"name": "The Iron Maiden",
+			"source": "ASS",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Maiden",
+			"subclassSource": "ASS",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Path of the Iron Maiden feature}",
+				"Struck by endless fervid, the thorns that you wear simply are not enough. When creating a set of spikes through your Thorned Punishment subclass feature, you can grant it one of the following modifiers:",
+				{
+					"type": "list",
+					"items": [
+							"{@b {@i Deep Spikes.}} Any bleed damage that you inflict to yourself and other creatures is doubled. The bleed damage you take at the start of turn and every hour, you now take every 2 turns and every 2 hours instead but you reduce your maximum hit points equal to half of the bleed damage taken and can only regain these hit points after a long rest.",
+							"{@b {@i Iron Shell.}} You gain a +1 to AC and creatures that make a melee attack against you takes bleed damage as if you hit them with an unarmed strike. This trait can only deal bleed damage once per creature per turn.",
+							"{@b {@i Thorned Caestus.}} Your unarmed strikes now bleed damage every time you hit but you also take piercing damage equal to your unarmed strikes' base damage.",
+							"{@b {@i Barbed Wires.}} While you are grappling another creature, they take bleed damage equal to your Strength modifier each time you expend 10 feet of movement."
+					]
+				}
+			]
+		},
+		{
+			"name": "College of Fools",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Bards of the College of Fools see the world as an orchestra in which they play two roles. They cause applause and they cease it. Make no mistake in the name of their profession, they are truly fearsome assassins that know how to pull the strings of their targets' hearts, and how to rip away their torsos to reach them.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Bard||Fools|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sharpened Sickles|Bard||Fools|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gallows Humor|Bard||Fools|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"When you join the College of Fools at 3rd level, you gain proficiency with medium armor, martial weapons, and the Stealth skill."
+			]
+		},
+		{
+			"name": "Sharpened Sickles",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You are a blade in the dark, thus you need to be sharpened. When you land a melee weapon attack, you can deal additional bleed damage to the target equal to your proficiency bonus. After dealing this damage, you can move to an adjacent tile without provoking any attacks of opportunity."
+			]
+		},
+		{
+			"name": "Gallows Humor",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You are a mask of laughter and sadness in front of the curtains, thus you take advantage of empathy. When you cast an enchantment or an illusion spell, you can expend a use of your Bardic Inspiration class feature to increase their DC by 1. You can only use this feature up to your proficiency bonus and you regain all uses after a long rest."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level College of Fools feature}",
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Lofty Laughter, Sought Slaughter",
+			"source": "ASS",
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Fools",
+			"subclassSource": "ASS",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level College of Fools feature}",
+				"The pinnacle of your art reaches its climax in blood, song, and tears. Any hit you score against a creature that is surprised, charmed, or terrified is a critical hit and deals additional bleed damage equal to your weapon's base damage. The critical hit effect can only be used once per turn."
+			]
+		},
+		{
+			"name": "Way of the Flagellant Vow",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Flagellant Vow",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Monks of the Way of the Flagellant Vow break themselves to bring aid and peace to those in need. Many monks of this tradition are covered in scars - some self-inflicted in their practice and others earned in battle. The monks often see these scars as proof of life, of past, present, and a future awaiting.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flagellant Vow|Monk||Flagellant Vow|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Flagellant Vow",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Flagellant Vow",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to have all of your damage deal bleed damage instead and extra damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature once per turn without expending a ki point at 11th level."
+			]
+		},
+		{
+			"name": "Flowing Rivers",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Flagellant Vow",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Way of the Flagellant Vow feature}",
+				"The wounds that you sustain fill you with determination. After you take damage from bleed and your hit points are below half your maximum, you regain one use of your ki points."
+			]
+		},
+		{
+			"name": "Bloody Mercy",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Flagellant Vow",
+			"subclassSource": "ASS",
+			"level": 11,
+			"entries": [
+				"{@i 11th-level Way of the Flagellant Vow feature}",
+				"The quicker you finish your battle, the quicker you can forgive yourself and one another. Each time your accumulated bleed exceeds your monk level + your Constitution modifier, you gain a +1 bonus to your attack and damage rolls per increment (up to a maximum of +3). You also deal extra bleed damage to your attacks equal to your Wisdom modifier while you are bleeding."
+			]
+		},
+		{
+			"name": "Crown of the Martyr",
+			"source": "ASS",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Flagellant Vow",
+			"subclassSource": "ASS",
+			"level": 14,
+			"entries": [
+				"{@i 14th-level Way of the Flagellant Vow feature}",
+				"Cleanse unrighteousness and sins, even if they are not of yours. Whenever a creature adjacent to you takes damage, you can use your reaction to take all of that damage instead as bleed damage. This does not expend your reaction for the turn."
+			]
+		},
+		{
+			"name": "Pursuer",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Pursuers are type of Ranger can be seen more like tacticians and night stalkers as they prepare for a long but effortless hunt that guarantees their prey slaughtered. They lay down traps and barb the tips of their arrows to ensure they can manipulate how their hunts will go: slow and painful for their trophy.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Moribund|Ranger||Pursuer|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Entrapment|Ranger||Pursuer|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Moribund",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You can ensure a guaranteed slow demise to your quarry. Whenever you hit a favored enemy or a marked creature with an attack, you deal bleed damage equal to your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Entrapment",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Your knowledge in trap-laying allows you quick and efficient usage of them. You can lay down traps or similar items as a bonus action. You also cannot involuntarily trigger any traps that you set."
+			]
+		},
+		{
+			"name": "Pursue",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 7,
+			"entries": [
+				"{@i 7th-level Pursuer feature}",
+				"First step is to make them bleed, the second is to scare them away. As a bonus action, you can move up to your speed towards an enemy that is bleeding. Additionally, creatures that you mark cannot have their accumulated bleed to be lower than half your ranger level.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ensnare|Ranger||Pursuer|ASS|7"
+				}
+			]
+		},
+		{
+			"name": "Ensnare",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 7,
+			"entries": [
+				"An extra step that goes a long way, for yourself at the very least. Whenever you deal damage to a bleeding creature, you reduce their movement by 5 feet until the end of their next turn. This bonus stacks up to a number of times equal to your proficiency bonus."
+			]
+		},
+		{
+			"name": "Butcher",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 11,
+			"entries": [
+				"{@i 11th-level Pursuer feature}",
+				"Your plans are underway and just a few more shots can help you settle this hunt. Attacking a prone creature doesn't impose disadvantage on your ranged attack rolls and targeting a favored enemy or a marked creature ignores half cover and three-quarters cover."
+			]
+		},
+		{
+			"name": "Terminate",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Pursuer",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [
+				"{@i 15th-level Pursuer feature}",
+				"Efficiency is at peak and the time to reap the benefits is nigh. While attacking a favored enemy or a marked creature, your critical hit range increases by 1, which doubles if their hit points are below half their maximum. If a target's hit points are below half their maximum, you deal additional bleed damage to them equal to your ranger level once per creature per turn."
+			]
+		},
+		{
+			"name": "Scrapper",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS",
+			"subclassShortName": "Scrapper",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You hail from a tough background that involves lots of back-breaking labor focused on object-breaking. You develop a knack for breaking down things, and with a gun on hand, that talent extends to people now.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Hot Fuses|Gunslinger|HA:GS|Scrapper|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Hot Fuses",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS",
+			"subclassShortName": "Scrapper",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You aim at your enemies like a miner swinging a pickaxe, or a bear ready to maul: ensuring destruction. You learn two new grit features:",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@i Wrenched Plans.}} You can spend 1 grit point as a bonus action to ensure that the critical hit range bonus you gain from the Deadeye class feature will not decrease from missing with an attack until the start of your next turn.",
+						"{@b {@i Screwed Drivers.}} Before making a ranged attack with a firearm, you can spend 1 grit point to have that attack count as a critical hit as long as it hits the target. This does not double the amount of damage dice rolls as per a critical hit but does activate other features that have a critical hit condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sledge the Hammer",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS",
+			"subclassShortName": "Scrapper",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Scrapper feature}",
+				"You develop a technique that can ensure a huge blow with a heavy draw. When you land a critical hit with a firearm, you can deal additional rupture damage equal to your Dexterity modifier per extra critical hit range. Using this feature resets the bonuses from your Deadeye class feature."
+			]
+		},
+		{
+			"name": "Wrecking Ball",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS",
+			"subclassShortName": "Scrapper",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Scrapper feature}",
+				"Your bullets come in like a metallic sphere of sorts designed for demolition. You have advantage on ranged attacks using a firearm when targeting a creature made of inorganic material such as stone, crystal, or metal. You also deal double damage to objects and structures when you make a ranged attack using a firearm."
+			]
+		},
+		{
+			"name": "Junkyard Shift",
+			"source": "ASS",
+			"className": "Gunslinger",
+			"classSource": "HA:GS",
+			"subclassShortName": "Scrapper",
+			"subclassSource": "ASS",
+			"level": 17,
+			"entries": [
+				"{@i 17th-level Scrapper feature}",
+				"Fuckin' 'em up is an easy task that you can do all day long. When you land a critical hit with a firearm you deal the extra damage from rupture but does not consume it."
+			]
+		},
+		{
+			"name": "Anatomist",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Anatomists see the greatness and the weaknesses of the human anatomy. They spend their life studying anatomy and the inner workings of mortal creatures, and use this knowledge to sculpt bodies into art, albeit gruesome and cringeworthy to watch in action.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Student of Medical Malpractice|Savant|LLSav|Anatomist|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expert Massager|Savant|LLSav|Anatomist|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Student of Medical Malpractice",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in Medicine and Athletics. Whenever you make a check with either of these proficiencies you gain a bonus to your roll equal to one roll of your Intellect Die. If you are already proficient in either skill you instead gain proficiency in another skill from the Savant list.",
+				"Moreover, your medical training and insight into anatomy grants you the benefits below:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever you would make a Wisdom (Medicine) check, you can make an Intelligence (Medicine) check instead.",
+						"The first time a creature becomes your Focus during combat, you deal rupture damage to them equal to a roll of your Intellect die + half your savant level (rounded up). You also learn their Constitution score.",
+						"Once per turn, if you hit your Focus with a weapon attack, you can give advantage to the next attack made to it. When that attack hits, it deals the extra damage from rupture but does not consume it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Expert Massager",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You have trained extensively in knowledge surrounding massages, pressure points, and stretches. When you finish a short or long rest, you grant up to three creatures (one on a short rest), a bonus to their hit point maximum and current hit points by a roll of your Intellect Die + half your savant level (rounded up).",
+				"Also, your knowledge of anatomy grants you the Expert Massager abilities below, each of which takes an action to use. ",
+				"{@b {@i Pressure Point: Revitalize.}} You touch another creature and you remove one point of their exhaustion. You can only use this feature on the same creature once per long rest.",
+				"{@b {@i Pressure Point: Loosen.}} You touch another creature that is either restrained, paralyzed, stunned, and it instantly repeats a saving throw to end that condition with a bonus to its roll equal to one roll of your Intellect Die.",
+				"{@b {@i Pressure Point: Stiffen.}}You touch another creature that is prone and you grant them the restrained condition until the end of their next turn. You can only use this feature on the same creature once per a number of turns equal to their Constitution modifier."
+			]
+		},
+		{
+			"name": "Unethical Chiropractice",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You can extend your expertise to others with a little bit of advice on anatomy. When you use your Portent Observation class feature, you can cause the bonus from the feature to deal rupture damage instead."
+			]
+		},
+		{
+			"name": "Unethical Chiropractice",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Anatomist feature}",
+				"You can extend your expertise to others with a little bit of advice on anatomy. When you use your Portent Observation class feature, you can cause the bonus from the feature to deal rupture damage instead."
+			]
+		},
+		{
+			"name": "North Star Alignment",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Anatomist feature}",
+				"Your expertise in pressure points reaches a new height: to the stars. You learn the Expert Massager abilities below, and you can use each of them successfully once per long rest.",
+				"{@b {@i Pressure Point: Resuscitate.}} You touch another creature that has their hit points reduced to 0. You roll your Intellect Die a number times equal to your Intelligence modifier and you add your savant level to the result. That creature gains hit points equal to the result and they do not suffer a point of exhaustion for exiting that state.",
+				"{@b {@i Pressure Point: Paralyze.}} You touch another creature that has their speed reduced to 0. They must make a Constitution saving throw or be paralyzed until the end of their next turn."
+			]
+		},
+		{
+			"name": "Master Anatomist",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Anatomist",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [
+				"{@i 15th-level Anatomist feature}",
+				"You can perform legendary dissections of anatomy. When you use the Help action to aid an ally in attack a creature, they gain a bonus to their critical hit range by a roll of your Intellect Die. If that attack lands a critical hit, the target takes rupture damage equal to your savant level."
+			]
+		},
+		{
+			"name": "Shield Breakers",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Shield Breakers",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Pugilists in the Shield Breakers fight club train to knock down opposition of a greater level than them. They don't go for boxers with just their trousers on but big metal walls taller than they can afford to buy.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Banged-up Metal|Pugilist|SterlingVermin|Shield Breakers|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Banged-up Metal",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Shield Breakers",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Your fists leave dents on the metal it touches. Once per turn, you can choose to deal additional rupture damage equal to your fisticuffs die when you land an attack using an unarmed strike or a pugilist weapon. You roll this dice again and add it to the resulting roll if the target is wearing heavy armor, donning a shield, a structure, an object, or a construct."
+			]
+		},
+		{
+			"name": "Heavy Haymakers",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Shield Breakers",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Shield Breakers feature}",
+				"A big swing for a big enemy. When you hit with an attack that uses your Haymaker class feature, you deal the extra damage from rupture but does not consume it."
+			]
+		},
+		{
+			"name": "Fists Like Hammers",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Shield Breakers",
+			"subclassSource": "ASS",
+			"level": 11,
+			"entries": [
+				"{@i 11th-level Shield Breakers feature}",
+				"You do more than just dent, you rupture. If a creature you deal damage to has traits listed in the Banged-up Metal subclass feature, you can reduce their AC by 1 for 10 minutes. A creature can only be affected by this feature a number of times equal to half of your proficiency bonus."
+			]
+		},
+		{
+			"name": "All Becomes Malleable",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Shield Breakers",
+			"subclassSource": "ASS",
+			"level": 17,
+			"entries": [
+				"{@i 17th-level Shield Breakers feature}",
+				"Your attacks start going through armor, now you punch down on vitals most especially if there is a wall behind them. When you land an attack using an unarmed strike or a pugilist weapon and the target's rupture is higher than their Constitution score, you can reduce all of their ability scores by 1 for 1 minute. A creature can only be affected by this feature twice.",
+				"Additionally, you can apply your Fists Like Hammers subclass feature on a critical hit, even if they do not have the listed traits."
+			]
+		},
+		{
+			"name": "Reaper",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Reaper",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You focus your training on the grim of death. A dark hooded figure in flowing black robes, revealing a cruel wickedness that does not discriminate. With a single slice, a single soul yielded.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Grim Touch|Rogue||Reaper|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Grim Touch",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Reaper",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Pure death is all that you leave in your wake. When you make a weapon attack with advantage, you can choose to deal its base damage rolls as rupture damage."
+			]
+		},
+		{
+			"name": "Death's Doors",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Reaper",
+			"subclassSource": "ASS",
+			"level": 9,
+			"entries": [
+				"{@i 9th-level Reaper feature}",
+				"Your arsenal are like keys to death's doors. You gain an additional way to use your Sneak Attack, you don't need advantage on your attack roll to use Sneak Attack against a creature that has hit points less than a quarter of their maximum."
+			]
+		},
+		{
+			"name": "Reap",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Reaper",
+			"subclassSource": "ASS",
+			"level": 13,
+			"entries": [
+				"{@i 13th-level Reaper feature}",
+				"The phantom of death becomes busy in a grand battlefield. When you hit a creature that has rupture damage, you can use your reaction to make another weapon attack against them. You regain your action and movement for the turn if you reduce the target's hit points to 0, you only gain this benefit once per turn."
+			]
+		},
+		{
+			"name": "March To Impending Doom",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Reaper",
+			"subclassSource": "ASS",
+			"level": 17,
+			"entries": [
+				"{@i 17th-level Reaper feature}",
+				"The sounds of your daggers unsheathing, your blade slitting throats, and the gushing out of fresh blood, like the trumpeters of apocalypse. You can deal your Sneak Attack damage as rupture damage thrice per long rest."
+			]
+		},
+		{
+			"name": "Wild Huntsman",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You follow the way of a quick hunt. A Wild Huntsman breaks down their target piece by piece, enough to make it so that their pack can share the same effectivity in their actions.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fragility|Ranger||Wild Huntsman|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Fragility",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You wrench open a gap in the defenses of your marked prey. When a creature is both marked by you (or a favored enemy) and has rupture, you can cause your next attack on them to cause fragility on a hit consuming the rupture. This fragility lasts until the start of your next turn and each time a fragile creature takes bludgeoning, piercing, or slashing damage, they take additional damage equal to your proficiency bonus.",
+				"Causing fragility while it is active does not do anything."
+			]
+		},
+		{
+			"name": "Hole In The Man",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 7,
+			"entries": [
+				"{@i 7th-level Wild Huntsman feature}",
+				"A shot that pierces through the thickest of hides. Once per turn, an attack you make on a marked creature additionally deals rupture damage equal to mark's damage or your proficiency bonus, whichever is higher.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sawed-Teeth Traps|Ranger||Wild Huntsman|ASS|7"
+				}
+			]
+		},
+		{
+			"name": "Sawed-Teeth Traps",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 7,
+			"entries": [
+				"You modify the traps that you lay to increase its efficiency. Creatures affected by a trap that you lay are counted as marked for the duration."
+			]
+		},
+		{
+			"name": "Extended Fragility",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 11,
+			"entries": [
+				"{@i 11th-level Wild Huntsman feature}",
+				"Fur, then skin, then flesh, then bones, your shots open up a weak spot like a broken river dam. The fragility that you cause now lasts until the end of your next turn."
+			]
+		},
+		{
+			"name": "Greater Hunter's Mark",
+			"source": "ASS",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Wild Huntsman",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [
+				"{@i 15th-level Wild Huntsman feature}",
+				"You have unparalleled focus when it comes to stomping down on your target's day. When a marked creature takes damage and they do not have any rupture, you can cause them to take rupture damage equal to your proficiency bonus from the attack. Each time this feature takes effect, the mark's duration is reduced by 1 round.",
+				"In addition, you can cast the hunter's mark spell without expending any spells slots."
+			]
 		}
 	],
 	"race": [
 		{
 			"name": "Human (Schmariant)",
 			"source": "ASS",
-			"ability": [
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								2,
-								1
-							]
-						}
-					}
-				},
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 3,
-						"amount": 1
-					}
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
 			],
 			"languageProficiencies": [
@@ -6887,62 +7931,1512 @@
 				}
 			],
 			"entries": [
+				"The local denizens of Astella. Humble (to varying degrees) and skilled (to varying degrees), each and every single one of them are a part of why the universe is special.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Prodigy",
 					"entries": [
 						"You start out with the {@feat prodigy|XGE} racial feat."
 					]
-				},
-				{
-					"type": "entries",
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
-					]
 				}
 			]
 		},
 		{
-			"name": "Liberi",
+			"name": "Aegir",
 			"source": "ASS",
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"darkvision": 60,
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
 			"size": [
+				"S",
 				"M"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"sylvan": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"The term 'Aegir' is an umbrella term that encompasses various races possessing traits of aquatic animals, i.e., fish, cetaceans, pinnipeds, cephalopods, crustaceans, cnidarians, and echinoderms. Various Aegir possess distinctive traits; some might possess more animalistic traits, i.e., tentacles and fish fins, while others are completely humanoid.",
+				"Most Aegir are well-adept to water, but not all of them could fully live an aquatic life. Breathing underwater is a unique trait of the Aegir race and a common feature among the Aegir is their total reliance on water to maintain their skin moisture, which are higher than average land-dwellers. On the other hand, this means that Aegirs are highly susceptible to dehydration. Their respiratory systems are completely reliant on air moisture, and they have to supervise their skin moisture upon contacting wind and sunlight to prevent them from turning dry. ",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small, and you have a swimming speed equal to your walking speed."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You have superior vision in the dark and dim light as a Liberi. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Liberi's Instinct",
+					"name": "Aegir Aquatic Traits",
 					"entries": [
-						"You have proficiency in Stealth and Perception. "
+						"You can choose up to two from the following aquatic traits:",
+						{
+							"type": "list",
+							"items": [
+								"{@b {@i Carapace Shell.}} You gain a +1 bonus to your armor class, whether or not you are wearing armor.",
+								"{@b {@i Deep Sea Swimmer.}} Your darkvision has a radius of 120 feet and you can discern all colors in the darkness if it is underwater.",
+								"{@b {@i Fast Swimmer.}} You have a swimming speed double your walking speed.",
+								"{@b {@i Ink Sac.}} As an action, you can secrete ink on a creature adjacent to you. The creature must make a DC 13 Dexterity saving throw or be blinded for 1 minute or until wiped off as an action. Once you use this ability, you must complete a short or long rest before you can use it again.",
+								"{@b {@i Powerful Build.}} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+								"{@b {@i Slippery Skin.}} You have advantage on ability checks you make to escape grapple, slip bindings, and escape nets.",
+								"{@b {@i Tentacle Tails.}} You have a set of tentacles on your rear that can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.",
+								"{@b {@i Toxin Tolerance.}} You have advantage on saving throws you make to avoid or end the poisoned condition on yourself.",
+								"{@b {@i Venomous Secretions.}} When a creature hits you with a melee attack, you can use your reaction to deal 1d8 poison damage to that creature. If you are swimming, this ability does not cost a reaction. Once you use this ability, you must complete a short or long rest before you can use it again.",
+								{
+									"type": "list",
+									"style": "list-no-bullets",
+									"items": [
+										"The damage increases to 2d8 at 6th level, 3d8 at 11th level, and 4d8 at 16th level, and you gain another usage each time."
+									]
+								}
+							]
+						}
 					]
 				},
 				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Child of the Sea",
 					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Sylvan}."
+						"You can breathe normally in either air or water, and you have a resistance to cold damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Damage Resistance",
+				"Powerful Build",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Anaty",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30,
+				"burrow": 15
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Anaties have the traits of musteloids, i.e., otters, weasels, raccoons, and wolverines. Their musteloid traits can be noticed such as rounded ears and long, pointed tails being either slim or rounded and bushy, though not all Anaties have animal ears.",
+				"They are a race that is commonly associated with the mountains because most of them have been living in such regions since the distant past. They also have the tradition of welcoming any guest they could encounter. Despite their feeble bodies, Anaties are excellent diggers and mountain climbers thanks to their geographical adaptation and thanks to their anatomy, Anaties have an agile mobility that allows them to easily run and walk through rugged mountains.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small, and you have a burrowing speed equal to half of your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Anaty Crawl",
+					"entries": [
+						"As a bonus action, you can move up to your walking speed. This movement frees your from grapples, does not provoke attacks of opportunity, and you can stand up from prone after this movement. You can only use this feature once per short rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adaptive Dwellers",
+					"entries": [
+						"You have proficiency in the Nature and Survival skills. Additionally, you ignore difficult terrain when walking on rough ground and loose soil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swift Scurrying",
+					"entries": [
+						"You can move through other creatures' space without it being treated as walking on difficult terrain"
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Anura",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Anurans have the traits of frogs and toads. Though appearing entirely humanoid similar to the Aegirs, their anuran traits can be noticed such as patches of frog-like skin, preference over moist environments, and their capability to secrete toxins. Many Anurans master camouflage and invisibility magic, and some individuals can utilize their toxins as poisons for self-defense. On the other hand, these toxins can also be easily neutralized through their immunity, and they can control the amount of their poison's toxicity.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Anura Neurotoxin",
+					"entries": [
+						"As a bonus action, you can secrete up to 4 ounces of toxin. When coated on a weapon or ingested, the creature subjected to this poison must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. Your body can hold up to 4 times your Constitution modifier in ounces of this poison and you regain 4 ounces after a long rest. When secreted, this toxin loses after 10 minutes if not used."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe normally in either air or water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Biologically Camouflaged",
+					"entries": [
+						"You have advantage on Dexterity (Stealth) checks made to hide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Biologically Toxic",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. Additionally, you are resistant to poison damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Aslan",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Aslans have the traits of lions. Their leon traits can be noticed such as rounded ears, tails with dark tuffs of hair, mane-like hairstyle, and physical prowess. Aslans are very identical to the Felines; in fact, they are actually a Feline subgroup in biological and anthropological definitions, but they are separated independently as a royal bloodline due to politics.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aslan Kingship",
+					"entries": [
+						"Starting at 3rd level, you can cast the {@spell command} spell with this trait. Starting at 5th level, you can also cast the {@spell enthrall} spell with it, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these using spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Greatness",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: Athletics, Insight, Intimidation, or Persuasion."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stalwart Reign",
+					"entries": [
+						"You have advantage on saving throws against being charmed or frightened."
+					]
+				}
+			],
+			"traitTags": [
+				"Powerful Build",
+				"Spellcasting",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Caprinae",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Caprinae have the traits of goats and sheep. Their caprine traits can be noticed such as curved keratin horns, perky or floppy ears, and short tails pointing straight up. They possesses regular physical fitness and reflexive nimbleness. ",
+				"A notable trait of the Caprinae is their superiority in magic. A theory suggests that their excellent arcane talent is born from a combination of both their physical characteristics and their nimbleness. However, some of them cannot naturally use magic due to their innate physique or any other birth defect, though they can possess unimaginable physical strength that supplements the defect.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Caprinae Inclination",
+					"entries": [
+						"You can choose from one of the two traits that determine whether you are more talented in the arcane or your physical prowess.",
+						{
+							"type": "list",
+							"items": [
+								"{@b {@i Caprinae Spellcasting.}} Choose two schools of spellcasting. Your spellcasting modifier increases by 1 whenever casting a spell from the chosen schools.",
+								"{@b {@i Caprinae}} Might. You have a +1 bonus to attack and damage rolls when making weapon attacks."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magic Resistance",
+					"entries": [
+						"You have advantage on saving throws against spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mirthful Leaps",
+					"entries": [
+						"Whenever you make a long jump or a high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as usual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ram",
+					"entries": [
+						"You can use your head and horns to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"traitTags": [
+				"Magic Resistance",
+				"Unarmed Strike",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Cerato",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Ceratoes have the traits of rhinoceroses. Their rhinoceros traits can be noticed such as a single or double pointed keratin horn on the forehead, rounded, tubular ears with tufts of hair on the top edge, muscularity, and average tall stature among adults. Even though Ceratoes could run like a Kuranta, they prefer to avoid long trekking. It is believed that their heavy weight due to their muscles could quickly exhaust their stamina when running, making it a tedious job to the Ceratoes.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cerato Charge",
+					"entries": [
+						"If you move at least 15 feet straight toward a target and make a melee attack, you roll the attack with advantage. Additionally, attacks of opportunity made against you after you use the Dash action on your turn is made with disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Horns",
+					"entries": [
+						"You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rhinoceros Senses",
+					"entries": [
+						"You have advantage on checks that involve smell but have disadvantage on checks involving sight."
+					]
+				}
+			],
+			"traitTags": [
+				"Natural Armor",
+				"Powerful Build",
+				"Unarmed Strike",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Draco",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Dracos have the traits of European dragons in Western mythology. Their draconic traits can be noticed such as dragon horns, hard scales, bulky and majestic serpentine tails, and highly advanced physical strength. Because of their identical similarities, Dracos can be easily mistaken as Vouivres. Nevertheless, Dracos can be easily distinct from Vouivres with one special trait: their capability to manipulate elements.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Draco Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
 					],
-					"type": "entries"
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid"
+						],
+						[
+							"Blue",
+							"Lightning"
+						],
+						[
+							"Brass",
+							"Fire"
+						],
+						[
+							"Bronze",
+							"Lightning"
+						],
+						[
+							"Copper",
+							"Acid"
+						],
+						[
+							"Gold",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Red",
+							"Fire"
+						],
+						[
+							"Silver",
+							"Cold"
+						],
+						[
+							"White",
+							"Cold"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draco Ancestry",
+					"entries": [
+						"Choose one type of dragon from the Draconic Ancestry table. Your destructive explosion and damage resistance are determined by the Dragon type, as shown in the table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Destructive Explosion",
+					"entries": [
+						"You can choose to further bring your wrath upon your enemies with destructive energy. Your draconic ancestry determines the damage type of the exhalation.",
+						"Once per turn, when you damage a creature, you can choose for the creature to make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your Proficiency Bonus. That creature takes 2d6 damage on a failed save, the type of which is determined by your Draconic ancestry, and half as much damage on a successful one.",
+						"You can use your destructive explosion a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"You have resistance to the damage type associated with your Draconic ancestry."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Powerful Build",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Elafia",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Elafians have the traits of deer. Their cervid traits can be noticed such as a pair of antlers, funnel-shaped ears, and short, rounded tails. During the early stage of their growth, their antlers are covered with skin known as velvet rather than keratin as in Caprinae and Fortes, and the velvet antlers possess nerve coverings that enable them to sense touches through their antlers. Elafians highly value their antlers as the symbol of their race. Young Elafians will interact with their velvet antlers to demonstrate their emotions, be it joy or arrogance.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elafia Artistry",
+					"entries": [
+						"Works made using an artisan's tools that you are proficient in are always of Masterwork quality. Additionally, you gain proficiency in 2 {@filter artisan's tools|items|search=artisan's tools} of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Communion with Nature",
+					"entries": [
+						"You can communicate simple ideas with flora and fauna. They can understand the meaning of your words, though you have no special ability to understand them in return. Additionally, you have proficiency in the Animal Handling and Nature skills."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Feline",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Felines have the traits of feliforms. They usually have the traits of domestic cats and big cats, though some individuals have the traits of mongooses. Their feline traits are visible from the shape of their ears and tail and their flexibility. Most Felines possess pointed, triangular ears and long tails, and only a few of them have rounded or folded ears and short tails. The Felines’ keen sense earns them their reputation as stealthy prowlers or flexible individuals. Some of them even possess light-sensitive pupils in which their eyes will form 'slit pupils' in areas with bright light.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feline Agility",
+					"entries": [
+						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cat's Talent",
+					"entries": [
+						"You have proficiency in the Perception and Stealth skills."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cat's Claws",
+					"entries": [
+						"You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Unarmed Strike",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Forte",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Fortes have the traits of bovines, i.e., cattle, bison, and buffaloes. Their bovine traits can be noticed such as pointed keratin horns, rounded and protruding ears, tails with tuffs of hair, and their muscularity. There are several subgroups having the traits of camelids, i.e., camels and llamas, who possess camelid traits such as small, rounded ears and the ability to survive in arid deserts.",
+				"The Fortes' lack of flexibility is compensated with their excellent physical strength. Because of that, they are often stereotyped as merely physically strong yet brainless people, though many Forte are actually known for their philosophical wisdom, especially in settlements where they are the predominant race.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forte Wisdom",
+					"entries": [
+						"You always know which direction is north, and you have advantage on any Wisdom (Survival) check you make to navigate or track. You always know the number of hours left before the next sunrise or sunset. You can accurately recall anything you have seen or heard within the past year."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancient Civilization Artisans",
+					"entries": [
+						"You gain proficiency in one {@filter artisan's tools|items|search=artisan's tools} of your choice. You also have advantage on rolls pertaining to ancient culture."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Horn",
+					"entries": [
+						"You have horns that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Language",
+					"entries": [
+						"You learn another language of your choice."
+					]
+				}
+			],
+			"traitTags": [
+				"Tool Proficiency",
+				"Unarmed Strike",
+				"Powerful Build",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Kuranta",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 40
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Kuranta have the traits of equines, i.e., horses, donkeys, and zebras. Their equine traits can be noticed such as funnel-shaped ears, tall stature, and tails being either bushy being nicknamed the 'skirt' or simply having tufts of long hair at the bottom of the tail dock. Although lacking the physical strength on par with the Ursi and Fortes, Kuranta possess an enduring stamina that grants them the ability to run at high speeds with little to no fatigue.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 40 feet, 35 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kuranta Sprint",
+					"entries": [
+						"When you move on your turn in combat, you can double your speed until the end of the turn. You can use this trait a number of times equal to your Constitution modifier and you regain all uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equine Build",
+					"entries": [
+						"You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift. In addition, you add your Strength modifier twice when you make a running jump. This extra distance costs movement as usual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Far Traveler",
+					"entries": [
+						"Once per long rest, you suffer no downsides after your first time travelling at a faster pace."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gallop On and Prevail",
+					"entries": [
+						"You do not suffer from disadvantage when making attack rolls using lances or weapons with a similar special restriction."
+					]
+				}
+			],
+			"traitTags": [
+				"Powerful Build",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Liberi",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"The term 'Liberi' is an umbrella term that encompasses various races possessing traits of birds, i.e., feathers growing on their hair and structures resembling tail feathers on their torsos, or feather-like features. Along with feathers, they also possess a good sense of hearing and eyesight. Generally speaking, Liberi are a medium-sized race with females being slightly shorter. Their physical fitness is relatively average at best, and they are considerably lighter in weight than other races. Some Liberi possess the traits of various bird-like mythological creatures in our world, while others resemble anthropomorphic avians.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Liberi Adaptation",
+					"entries": [
+						"You have proficiency in a saving throw of your choice and you can change this proficiency to a different saving throw at the end of a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the Perception skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Learnt Liberi",
+					"entries": [
+						"You gain proficiency in either a skill of your choice; a weapon of your choice; a tool of your choice; or a learn a language."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Lung",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Lung have the traits of Chinese dragons, the Long, in East Asian mythology. Their Long traits can be noticed such as antler-like horns and serpentine tails with hair tufts. Some individuals can possess more animalistic traits such as carp-like whiskers, lion mane-like hair, deer-like ears, and fish fins and scales.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live to be about 150 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lung Prosperity",
+					"entries": [
+						"When you reach 5th and 17th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+						"If your DM allows the use of feats, you may instead take a feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reign over Rain",
+					"entries": [
+						"You can cast {@spell fog cloud} with this trait. Starting at 3rd level, you can cast the {@spell create or destroy water} spell with this trait. Starting at 5th level, you can also cast the {@spell aqueous blast|ABYSS} spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Language",
+					"entries": [
+						"You learn another language of your choice."
+					]
+				}
+			],
+			"traitTags": [
+				"Spellcasting",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Lupo",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 35
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Lupos have the traits of wolves. Their lupine traits can be noticed such as their pricked ears and bushy tails. They are one of the three races separated from the Perros due to cultural and biological differences along with the Vulpos and Reprobas. On the outside, they appear almost identical to a Perro, but they are also the easiest to be recognized through their unique culture.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 35 feet, 30 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lupo Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated. Additionally, attacks that benefit from this trait also have their critical hit range increased by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Sense",
+					"entries": [
+						"You have advantage on checks that involve tracking as long as another person that you can see makes the same check. Additionally, you always know if a creature that you can see or smell is a lupine creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifty",
+					"entries": [
+						"You have proficiency in the Stealth skill."
+					]
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Manticore",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Manticores have the traits of the namesake chimeric creature in Persian mythology. They can be seen on their bat wing-like appendixes on both sides of the head, and a scorpion tail on their torso, usually ending with a strong and sometimes poisonous stinger. They are generally roughly the height of an average human, though female Manticores are usually shorter than males, yet both genders demonstrate excellent physical flexibility.",
+				"They are also prominent in the use of the invisibility spell which allow them to camouflage and conceal themselves during ambush.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Manticore Ambush",
+					"entries": [
+						"Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide. Starting at 3rd level, you can cast the invisibility spell with this trait without requiring any components, and starting at 7th level, you can also cast greater invisibility with it. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimicry",
+					"entries": [
+						"You can accurately mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations only with a successful Wisdom (Insight) check against a DC of 8 + your proficiency bonus + your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stinger",
+					"entries": [
+						"You have a stinger that you can use to make unarmed strikes. When you hit with them, the strike deals 1d8 + your Dexterity modifier poison damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"traitTags": [
+				"Unarmed Strike",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Perro",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Perros have the traits of dogs. Their canid traits can be easily noticed such as pricked, folded, or floppy ears, pointed or curled tails, and their keen sense of smell. Perros are known for demonstrating their emotions outwardly through their body parts such as wagging tail and folding ears.",
+				"A notable culture practiced among the Perros are their large family and their loyalty to their families and friends. In a traditional Perro community, the families that make up the community are regarded as part of a larger family. Because of their family culture, Perros highly values peace and harmony between family and friends. Even when one faces difficulties, a Perro will always stay on their side.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Perro Dogpile",
+					"entries": [
+						"As a bonus action, you let out a cry at your enemies within 10 feet of you. Until the start of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear you. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Sense",
+					"entries": [
+						"Your sense of hearing and smell are better than most humanoids. You are proficient in the Perception skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Adored",
+					"entries": [
+						"You have proficiency in one of the following skills: Deception, Insight, Intimidation, Performance, or Persuasion."
+					]
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Petram",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Petrams have the traits of turtles , i.e., tortoises, terrapins, and sea turtles. Unlike other races, they are totally humanoid and are completely devoid of any testudinate trait such as short tails, scales, and even shells. But somehow, they are incredibly robust and resilient.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their fifties and live around 250 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"You have a base AC of 18 (your Dexterity modifier doesn't affect this number) and damage that you take is reduced by 2. You can raise your guard as an action. Until you lower your guard as a bonus action, you gain a +4 bonus to your AC, and you have advantage on Strength and Constitution saving throws but your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, and you can't take reactions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe normally in either air or water."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious",
+				"Natural Armor",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Phidia",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Phidians have the traits of snakes. Their serpentine traits can be noticed such as scaly tails, scales on parts of their bodies, and their extremely keen senses. Phidians possess a pair of pointed ears. Their average weight and muscularity are surprisingly below standard, yet their average height is taller than others, making their bodies appear slim and feeble.",
+				"Contrary to the popular belief, Phidians do not secrete venoms. A positive notation of a Phidian's character is perhaps the tendency to focus on a specific goal. They can dedicate themselves to a particular goal and will never be diverted from it despite the obstacles and disturbances.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Phidia Talents",
+					"entries": [
+						"You gain three skill proficiencies of your choice, two tool proficiencies of your choice, and fluency in two languages of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blindsense",
+					"entries": [
+						"You have blindsight with a range of 20 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expertise",
+					"entries": [
+						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+					]
+				}
+			],
+			"traitTags": [
+				"Blindsight",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Pilosa",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 25,
+				"climb": 25,
+				"swim": 25
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Pilosa have the traits of sloths. Similar to the Petrams, Pilosas are entirely humanoid and are devoid of folivoran traits such as hairy fur and long claws. The only visible folivoran trait is their distinctive slow speech and actions, making them literally 'as slow as a sloth.' On the other hand, this disadvantage is compensated by their taciturn and cautious nature during work time.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet, 20 feet if you are Small, and you have a climbing speed and swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pilosa Dullness",
+					"entries": [
+						"Being so slow to register and think makes you oblivious to charms and slow to recognize threats. You are immune to being charmed and you have advantage on saving throws against being frightened. Additionally, you can't be surprised while you are conscious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heavy Sleeper",
+					"entries": [
+						"You must sleep at least 7 hours of a long rest and 30 minutes of a short rest that you take. After finishing either, you gain temporary hit points equal to your character level. While sleeping, you have disadvantage on Wisdom (Perception) checks."
+					]
 				}
 			],
 			"traitTags": [
@@ -6950,91 +9444,820 @@
 			]
 		},
 		{
-			"name": "Aegir",
+			"name": "Reproba",
 			"source": "ASS",
-			"ability": [
-				{
-					"str": 1,
-					"con": 1,
-					"wis": 1
-				}
-			],
-			"darkvision": 60,
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"primordial": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Reprobas have the traits of hyenas. Their hyenid traits can be noticed such as pricked ears and tails with tufts of hair, spots, or stripes. They have a moderate physical fitness when compared with other races, although female Reprobas are generally stronger than males. ",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Control Water",
+					"name": "Reproba Fury",
 					"entries": [
-						"A child of the sea, you can call on the magic of mist and water. You can cast {@spell fog cloud} with this trait. Starting at 3rd level, you can cast {@spell misty step} with it, and starting at 5th level, you can also cast {@spell wall of water} with it. Once you cast a spell with this trait, you can’t cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells."
+						"Creatures take an additional 1d6 damage when hit by your attacks of opportunity. Additionally, when you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals half your character level.",
+						"You can use this trait a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest, and you can use it no more than once per turn."
 					]
 				},
 				{
-					"name": "Emmisary of the Sea",
+					"type": "entries",
+					"name": "Hyena Sprint",
 					"entries": [
-						"Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
-					],
-					"type": "entries"
+						"When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you complete a short or long rest."
+					]
 				},
 				{
-					"name": "Guardian of the Depths",
+					"type": "entries",
+					"name": "Hardy Scavenger",
 					"entries": [
-						"Adapted to even the most extreme ocean depths, you have resistance to cold damage."
-					],
-					"type": "entries"
+						"You can safely consume raw or rotting food and have advantage on saving throws against disease and ingested poison."
+					]
 				},
 				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Throat Lunge",
 					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Primordial} (Aquan)."
-					],
-					"type": "entries"
+						"You can use Dexterity instead of Strength for the attack and damage rolls of melee weapon attacks that do not have the two-handed, heavy, or special properties."
+					]
 				}
 			],
 			"traitTags": [
-				"Solstice",
-				"Amphibious",
-				"Spellcasting"
+				"Darkvision",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Savra",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Savrans have the traits of lizards that includes true lizards , i.e., geckos, chameleons, monitor lizards, and tuatara, and lizard-like animals, i.e., the amphibian salamanders. Their lacertilian and salamandrine traits can be noticed such as scales covering the bodies, scaly tails, and agileness.",
+				"Many Savrans also have the natural ability of camouflage by changing their skin color. As a matter of fact, many Savrans are talented hunters and ambushers who could perfectly blend with their surroundings after wearing camouflage clothing. Some of the Savrans' unusual characteristics are their elongated lifespan and their ectothermic bodies. While it is true that many Sarvans can live up to centuries, it has become a subject of stereotype due to exaggerations.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live to be about 150 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savra Cunning",
+					"entries": [
+						"Whenever you make a Wisdom check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10. Additionally, you can choose to automatically succeed a Wisdom check by meeting its average DC before it is rolled once per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Biologically Camouflaged",
+					"entries": [
+						"You have advantage on Dexterity (Stealth) checks made to hide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nature's Intuition",
+					"entries": [
+						"Thanks to your mystical connection to nature, you gain proficiency with one of the following skills of your choice: Animal Handling, Medicine, Nature, Perception, Stealth, or Survival."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Salamander Skin",
+					"entries": [
+						"You have resistance to fire damage. You also naturally acclimate to environment in extreme conditions caused by high heat."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Ursus",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Ursi have the traits of bears, i.e., brown bears, black bears, polar bears, and giant pandas. Their ursine traits can be seen from their rounded ears, short and unnoticeable tails, and a bulky stature than other humanoids. The Ursi's most distinguishable feats are their tall height and outstanding physical strength compared to other races, which are attributes they generally like to emphasize. They also possess a highly-developed endurance as a result of the harsh environment they live in, i.e., frigid winters in the northern regions.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ursus Bomba",
+					"entries": [
+						"You gain expertise in the Athletics skill, and you count as one size larger when determining your carrying weight and the weight you can push, drag, or lift. You are also considered one size larger for the purposes of grappling, and shoving."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mountain Born",
+					"entries": [
+						"You have resistance to cold damage. You also naturally acclimate to high altitudes, even if you've never been to one. This includes elevations above 20,000 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ursine Instincts",
+					"entries": [
+						"You gain advantage on Wisdom (Perception) checks that rely on smell and you have proficiency in the Survival skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Victory or Death",
+					"entries": [
+						"As an action, you can let out an especially menacing roar. You gain temporary hit points equal to your level and creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become frightened of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Powerful Build",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Vouivre",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Vouivres have the traits of 'lesser dragons,' i.e. dragon-like creatures in various mythologies such as wyverns, wyrms, hydras, drakes, and amphipteres. They are almost identical to the Dracos such as unique-shaped horns, large dragon-like tails, and supreme physical prowess, and this causes others to mistake both races frequently given the scarcity of the Draco population.",
+				"Their only difference from the Dracos are arcane talents; Vouivres lack the innate talent to enhance superior magics. Vouivres are able to regulate their own metabolism to reduce food consumption that is most likely as a survival mechanism against the harsh deserts where they originate from.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vouivre Adrenaline",
+					"entries": [
+						"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started. Additionally, when you use your Relentless Endurance trait, make a critical hit, or reduce another creature's hit points to 0, you can use your reaction to make one weapon attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Militant Knowledge",
+					"entries": [
+						"You have proficiency in the Martial skill and you are proficient in four weapons of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest."
+					]
+				}
+			],
+			"traitTags": [
+				"Powerful Build",
+				"Skill Proficiency",
+				"Weapon Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Vulpo",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 40
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Vulpos have the traits of foxes such as the “true foxes” and other fox-like canids. Their vulpine traits can been noticed such as large, protruding ears and long, bushy tails unlike Lupos and Perros. They can be recognized through their medium-sized stature and their keen flexibility amongst other races. In fact, in the ancient era before their divergence from the Perros, Vulpos were often described as the 'most agile of Perros.' Because of their traits, many Vulpos are depicted as outstanding combatants in various cultures.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 40 feet, 35 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vulpo Pace",
+					"entries": [
+						"When determining your initiative, you can choose to increase your initiative result by up to your proficiency bonus or decrease it down to 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vulpo Cunning",
+					"entries": [
+						"You gain proficiency in the Acrobatics, Insight, and Persuasion skills. Additionally, you add half of your proficiency bonus to Deception, Stealth, and Sleight of Hand checks that doesn't already include your proficiency bonus."
+					]
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Zalak",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Zalaks have the traits of rodents, i.e., mice, squirrels, hamsters, prairie dogs, and beavers, although a few individuals have traits of rodent-like animals such as rat-like marsupials, i.e., opossums and Australasian possums, and small-sized insectivores, i.e., shrews and moles. Their rodent, possum, and insectivorous traits can be noticed such as pointed or rounded ears with hair tufts, slim or bushy tails, keen senses, average short stature, and high fertility.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Zalak Resourcefulness",
+					"entries": [
+						"When scavenging or crafting items, they are always one tier quality higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adept Climber",
+					"entries": [
+						"You have proficiency in your choice of the Athletics or Acrobatics skill. You have a climb speed equivalent to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crevice Crawler",
+					"entries": [
+						"You can move through and stop in a space large enough to fit a creature one size smaller than you without squeezing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scurry Away",
+					"entries": [
+						"You can move up to half your speed as a reaction when an enemy ends its turn within 5 feet of you. This movement doesn't provoke opportunity attacks."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Anasa",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Anasa have the traits of demigods in Hindu-Buddhist mythology which include asuras, rakshasas, and yakshas. Physically, Anasa have horns and tails similar to the Sarkaz as well as a dark halo behind their heads, somewhat similar to a fallen Sankta. Another unique trait of the Anasa is their powerful body strength.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live around fifty years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Anasa Soul Enlightment",
+					"entries": [
+						"Once per long rest, you can give yourself truesight out to a range of 60 feet for 30 seconds. When this trait ends, you suffer 4 levels of exhaustion."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Anasa Proficiencies",
+					"entries": [
+						"You have proficiency in one skill of your choice and one tool of your choice. You also have proficiency in weapons that have the thrown property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Celestial Resistance",
+					"entries": [
+						"You have resistance to necrotic damage and radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Powerful Build",
+				"Skill Proficiency",
+				"Weapon Proficiency",
+				"Uncommon Race",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Oni",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"As their name suggests, Oni have the traits of the titular ogre in Japanese mythology. They closely resemble the Sarkaz such as one or two horns on their foreheads, but they have a taller, bulkier, and muscular stature among both men and women. They are well-known for their rough nature due to their body strength which results in various stereotypes that they are barbaric, careless warriors.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Oni Ferocity",
+					"entries": [
+						"You can use your action to unleash your inner power within yourself to make your abilities even more potent. The inner power lasts for 1 minute or until you end it as a bonus action. During it, any heal rolls and damage rolls you make are increased by your proficiency bonus. You can only use this feature once every long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ogre Hands",
+					"entries": [
+						"When making a melee weapon attack, you can give it the heavy weapon property as long as it does not have the light weapon property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"traitTags": [	
+				"Darkvision",
+				"Powerful Build",
+				"Uncommon Race",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Sankta",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Sankta are humanoids with halos above their heads and luminescent 'wings' of varying shapes and sizes on their backs. The Sankta's halo is a physical object, preventing them from wearing any tall headwear that would cover it (e.g. conical party hats) although they can still wear most headwear as long as it is not too tall.",
+				"Their halos and wings will diminish upon death, and diseases or birth defects could affect them. There have been evidences that completely separate Sankta that have contracted Eldross infection from completely separate sources have had their halos mutated in the same manner, changing their shape to 3 overlapping rings with symmetrical feathered wings attached to each one.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sankta Luminescence",
+					"entries": [
+						"You have a halo that on top of your head and a set of glass-like wings that are always emanating a bright light in a 20-foot radius and dim light for an additional 20 feet. Additionally, you know the light cantrip and Charisma is your spellcasting ability for this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Holy Resistance",
+					"entries": [
+						"You are resistant to radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Patron Firearm",
+					"entries": [
+						"You have proficiency with weapons that have the ammunition properties and firearms, you can also use Sanktan firearms. In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with a ranged weapon attack. The extra radiant damage equals your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sankta Lineage",
+					"entries": [
+						"While not particularly treated as subspecies of Sankta, there are some features that a sankta has that are inherently innate to them but may differ from other sankta. Choose one of these lineages: Heavyblast, Hoverglass, Longshot, Quickdraw, or Surefire."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Spellcasting",
+				"Weapon Proficiency",
+				"Uncommon Race",
+				"Solstice"
+			]
+		},
+		{
+			"name": "Sarkaz",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"The term 'Sarkaz' does not actually refer to a specific race; rather, it is a derogatory umbrella term for various humanoid races who are linked to devil-like traits depending on their lineage. The most commonly noticed traits are a pair of horns of varying shapes atop their heads, long, pointed ears, and tails of varying shapes such as having pointed ends or scales. However, there are some Sarkaz lineages lacking any of the aforementioned traits.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sarkaz Hardships",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can't do so again until you finish a long rest. You also have advantage on death saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demonic Resistance",
+					"entries": [
+						"You have resistance to necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Extra Proficiencies",
+					"entries": [
+						"You have proficiency in one skill of your choice and one tool of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sarkaz Lineage",
+					"entries": [
+						"Sarkaz delineate themselves from a variety of races depending on their varied features, and sometimes lifestyle and diets. These range from Goliah, Sanguinarch, Buldrokkas, Caoineadh, Anzulithic, Zersetzen, Infernal, and Shayatin. Choose one of these subraces."
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Uncommon Race",
+				"Solstice"
 			]
 		},
 		{
 			"name": "Saratolan Dragonborn",
 			"source": "ASS",
-			"ability": [
-				{
-					"con": 2
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
+			],
+			"creatureTypes": [
+				"dragon"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"draconic": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"In Saratola, the Land of Dragons, those with ancestry and lineage aligned with dragons have greater and more apparent attributes that accentuate their bloodline shared by the mighty beasts. Dragonborn are shaped like dragons in a human-sized form factor, and unlike those not from Saratola, these dragonborn can be born having tails and in even rarer cases, wings.",
 				{
 					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their early teens and live for many centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
 					"name": "Creature Type",
+					"type": "entries",
 					"entries": [
 						"You are a Dragon."
 					]
@@ -7113,121 +10336,149 @@
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Breath Weapon",
 					"entries": [
 						"You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@dice 2d6} damage on a failed save, and half as much damage on a successful one. The damage increases to {@dice 3d6} at 6th level, {@dice 4d6} at 11th level, and {@dice 5d6} at 16th level.", 
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
 						"After you use your breath weapon, you can't use it again until it's recharged. At the start of each of your turns, provided you already used your draconic breath, you may roll a d6. On a 4 or higher, you regain the use of your draconic breath. Otherwise, your draconic breath recharges 1 minute after you used it or if you spend an action to recharge it."
-					],
-					"type": "entries"
+					]
 				},
 				{
+					"type": "entries",
 					"name": "Damage Resistance",
 					"entries": [
 						"You have resistance to the damage type associated with your draconic ancestry."
-					],
-					"type": "entries"
+					]
 				},
 				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Draconic} (Saratola). While usually, the Draconic language sounds harsh to most other creatures and includes numerous hard consonants and sibilants, the Saratolan dialect of it is the direct opposite. It is more solemn and melancholic as per, from its spiritual nature."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Subraces",
 					"entries": [
 						"Two main subraces of Dragonborn populate Saratola: Of The Lands, and Of The Skies. Choose one of these subraces."
-					],
-					"type": "entries"
+					]
 				}
 			],
 			"traitTags": [
+				"Damage Resistance",
+				"Uncommon Race",
 				"Saratola"
 			]
 		},
 		{
 			"name": "Drakensoul",
 			"source": "ASS",
-			"ability": [
-				{
-					"con": 2
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"draconic": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Born of mortals yet their soul surges with the spirits of the 6 Great Saratolan Dragons. The Drakensoul are a race of humanoid creatures native to Saratola. The Drakensoul of Saratola appear to be more humanoid than the Dragonborn, having maintained more of the physical features of their mortal parents. Their draconic features are linked to the physical characteristics of the great dragon spirit that has blessed them.",
 				{
 					"type": "entries",
-					"name": "Creature Type",
+					"name": "Age",
 					"entries": [
-						"You are a Dragon."
+						"Drakensoul mature proportionally at the same rate as their mortal parent's race, but they can live up to 1000 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to your draconic heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
-					"name": "Breath Weapon",
+					"type": "entries",
+					"name": "Spiritual Breath",
 					"entries": [
 						"You can use your action to exhale destructive energy. Your spiritual ancestry determines the size, shape, and damage type of the exhalation.",
-						"When you use your spiritual breath, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes {@dice 2d6} damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 6th level, 11th level, and 16th level.",
+						"When you use your spiritual breath, each creature in the area of exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases by an additional 1d6 at 6th level, 11th level, and 16th level.",
 						"After you use your spiritual breath, you can't use it again until it's recharged. At the start of each of your turns, provided you already used your spiritual breath, you may roll a d6. On a 6, you regain the use of your spiritual breath. Otherwise, your spiritual breath recharges 1 minute after you used it."
-					],
-					"type": "entries"
+					]
 				},
 				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Draconic} (Saratola). While usually, the Draconic language sounds harsh to most other creatures and includes numerous hard consonants and sibilants, the Saratolan dialect of it is the direct opposite. It is more solemn and melancholic as per, from its spiritual nature."
-					],
-					"type": "entries"
-				},
-				{
+					"type": "entries",
 					"name": "Spiritual Ancestry",
 					"entries": [
 						"While the dragonborn reflect more on their draconic ancestry, the drakensoul follows either the path of the Four Guardians of Saratola which are Baihu the White, Qinglong the Green, Xuanwu the Blue, and Zhuque the Red or the Heavenly Twins, Huanglong and Qilin. Each one representing Saratola's link to the Elemes Giga-Cosmos or the Fey and Fell Cosmos, in the case of the Heavenly Twins.",
-						"Your breath weapon deals elemental damage of the type associated with your chosen subrace, and you are resistant to the damage type associated with it. In addition, your ability scores increase as described, and you gain an additional draconic trait."
-					],
-					"type": "entries"
+						"Your breath weapon deals elemental damage of the type associated with your chosen subrace. In addition, your ability scores increase as described, and you gain an additional draconic trait."
+					]
 				}
 			],
 			"traitTags": [
+				"Damage Resistance",
+				"Uncommon Race",
 				"Saratola"
 			]
 		},
 		{
 			"name": "Daemonsoul",
 			"source": "ASS",
-			"ability": [
-				{
-					"str": 2
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
+			],
+			"creatureTypes": [
+				"fey"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"sylvan": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Daemonsouls, otherwise known as Oni, are terrifying demon-like beings that are well known for their superhuman strength and hexes. While there are many living peaceful and civilized lives in the booming industries of the Western Skylands of Baihu, there are still a numerous few, though increasingly rarer, with a propensity for murder and bloodshed. The most common of Daemonsouls you'd see have red, black, or white skin tones but other hues also exist that are exceptionally exotic and rare such as blue or yellow.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their early teens and live for many centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Creature Type",
@@ -7239,47 +10490,68 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Thanks to your draconic heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Powerful Build",
 					"entries": [
 						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-					],
-					"type": "entries"
+					]
 				},
 				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Subrace",
 					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Sylvan} (Yokai). The Yokai's speech retains the playful tones of the fey but instill to it a sort of wise and foreboding air to it."
-					],
-					"type": "entries"
+						"Three main subraces of Daemonsoul populate Saratola: Red Daemon, Black Daemon, White Daemon. Choose one of these subraces."
+					]
 				}
 			],
 			"traitTags": [
+				"Darkvision",
+				"Powerful Build",
 				"Saratola"
 			]
 		},
 		{
 			"name": "Tempestsoul",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 2
-				}
-			],
-			"speed": 40,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 40
+			},
 			"size": [
+				"S",
 				"M"
+			],
+			"creatureTypes": [
+				"fey"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"sylvan": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Tempestsouls, otherwise known as Tengu, are all-powerful bird-like beings that find themselves most comfortable living in mountainous regions. Different skylands have different perceptions of the tengu, while the Western Skylands of Baihu see them as guardian spirits of the mountains, the Southern Skylands of Zhuque have a more wild perception of them, seeing the tengu as destructive demons and harbingers of war.",
+				"Within the two opposite sides of the spectrum, these beliefs still hold a little bit of the truth within them when discussing the origins of the Tengu, there are those that believe them to be natives of the Mountains of Baihu but there are also those that believe them to be the offspring of Zhuque herself.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their early teens and live for many centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+
 				{
 					"type": "entries",
 					"name": "Creature Type",
@@ -7291,7 +10563,7 @@
 					"type": "entries",
 					"name": "Tengu's Speed",
 					"entries": [
-						"You have a walking speed of 40 and at 3rd level, you gain a pair of elemental wings that you can use to fly with."
+						"You have a walking speed of 40 feet and at 3rd level, you gain a pair of elemental wings that you can use to fly with."
 					]
 				},
 				{
@@ -7309,42 +10581,75 @@
 					"type": "entries"
 				},
 				{
-					"name": "Languages",
+					"type": "entries",
+					"name": "Subrace",
 					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Sylvan} (Yokai). The Yokai's speech retains the playful tones of the fey but instill to it a sort of wise and foreboding air to it."
-					],
-					"type": "entries"
+						"Three main subraces of Tempestsoul populate Saratola: Of Wind, Of Lightning, and Of Clouds. Choose one of these subraces."
+					]
 				}
 			],
 			"traitTags": [
-				"Saratola",
-				"Spellcasting"
+				"Damage Resistance",
+				"Spellcasting",
+				"Saratola"
 			]
 		},
 		{
 			"name": "Wildersoul",
 			"source": "ASS",
-			"ability": [
-				{
-					"wis": 2
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
+			],
+			"creatureTypes": [
+				"fey",
+				"elemental"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"sylvan": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Also known as 'Children Blessed by Nature', Wildersoul are a type of Yokai that are closely linked to the natural elements that are ever-present in Saratola. The most common of these are the Kitsune, blessed by fire, the Kappas, blessed by water, the Kamaitachi, blessed by winds, and the Kudan, blessed by earth.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their early teens and live for many centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Creature Type",
 					"entries": [
-						"You are an Elemental. You are also considered a Fey for any prerequisite or effect that requires you to be a Fey."
+						"You are an Elemental. You are also considered a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kinship By Blood",
+					"entries": [
+						"A wildersoul will always know if a creature that they can see is a wildersoul as long as they belong to the same subrace."
 					]
 				},
 				{
@@ -7354,79 +10659,54 @@
 						"As an action, wildersouls can hide and replace the physical traits that are common for their kind such as the vulpine features of a kitsune, carapace and dish of a kappa, weasel-like features of a kamaitachi, and the horns of a kudan. By using this feature, wildersouls can appear as a normal human or adopt more particular physical traits such as pointy ears, colored sclera, long-flowing hair and beards, and et cetera.",
 						"This is counted as an illusion with a spell slot level equal to your proficiency bonus but is not considered as a spell effect for the purposes of dispelling and identifying."
 					]
-				},
-				{
-					"name": "Kinship By Blood",
-					"entries": [
-						"A wildersoul will always know if a creature that they can see is a wildersoul as long as they belong to the same subrace."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Sylvan} (Yokai). The Yokai's speech retains the playful tones of the fey but instill to it a sort of wise and foreboding air to it."
-					],
-					"type": "entries"
 				}
 			],
 			"traitTags": [
+				"Uncommon Race",
 				"Saratola"
 			]
 		},
 		{
 			"name": "Tsukumogami",
 			"source": "ASS",
-			"ability": [
-				{
-					"choose": {
-						"weighted": {
-							"from": [
-								"str",
-								"dex",
-								"con",
-								"int",
-								"wis",
-								"cha"
-							],
-							"weights": [
-								2,
-								1
-							]
-						}
-					}
-				},
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 3,
-						"amount": 1
-					}
-				}
-			],
-			"speed": 30,
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
 			"size": [
+				"S",
 				"M"
+			],
+			"creatureTypes": [
+				"fey"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"sylvan": true
+					"any": 1
 				}
 			],
 			"entries": [
+				"Tsukumogami are a type of yokai, being tools that have acquired a spirit and soul. There are many different folklore that depict the manifestation of tsukumogami, whether it be the tragedy of loss, or the findings of hope, all of these are very much tied to what it means of being human and seeking the answers to the age-old question.",
 				{
 					"type": "entries",
-					"name": "Creature Type",
+					"name": "Age",
 					"entries": [
-						"You are a Fey."
+						"Your race reaches adulthood in their early teens and live for many centuries."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
 					]
 				},
 				{
@@ -7439,67 +10719,229 @@
 						"You choose whether your equipment falls to the ground in your space or merges into your new form.",
 						"At 7th level, you become a +1 variant of your original form when transforming into it which increases to a +2 at 11th, and a +3 at 15th.",
 						"You can transform into your original form twice per long rest."
+
 					]
 				},
 				{
+					"type": "entries",
 					"name": "Function Over Form",
 					"entries": [
 						"You gain proficiency for the object chosen as your original form. Items that are neither a tool or a weapon are treated as an improvised weapon.",
 						"If your original form is a tool, your proficiency bonus is doubled for any ability check you make using it.",
 						"If your original form is a weapon, you can use the chosen weapon as your unarmed strikes."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Sylvan} (Yokai). The Yokai's speech retains the playful tones of the fey but instill to it a sort of wise and foreboding air to it."
-					],
-					"type": "entries"
+					]
 				}
 			],
 			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Weapon Proficiency",
+				"Unarmed Strike",
+				"Uncommon Race",
 				"Saratola"
 			]
 		}
 	],
 	"subrace": [
 		{
-			"raceName": "Liberi",
+			"raceName": "Sankta",
 			"raceSource": "ASS",
-			"name": "Godspeed",
+			"name": "Heavyblast",
 			"source": "ASS",
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Liberi's Intelligence",
+					"name": "Splash Shot",
 					"entries": [
-						"When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+						"Once per turn, if you hit a creature with a ranged attack, you may select another creature adjacent to it. That creature takes damage equal to your proficiency level."
 					]
 				}
 			]
 		},
 		{
-			"raceName": "Liberi",
+			"raceName": "Sankta",
 			"raceSource": "ASS",
-			"name": "Highrise",
+			"name": "Hoverglass",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Liberi's Cunning",
+					"name": "Stained Glass Wings",
 					"entries": [
-						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+						"You have a flying speed equal to your walking speed."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sankta",
+			"raceSource": "ASS",
+			"name": "Longshot",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sniping Mark",
+					"entries": [
+						"Any ranged attack roll you make has its ranges increased by 30 feet."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sankta",
+			"raceSource": "ASS",
+			"name": "Quickdraw",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fast Hands",
+					"entries": [
+						"You ignore the loading property of firearms."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sankta",
+			"raceSource": "ASS",
+			"name": "Surefire",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Divine Accuracy",
+					"entries": [
+						"You gain a +1 bonus to attack rolls made using a ranged weapon."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Goliah",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Goliath Legacy",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. In addition, once on each of your turns, you can deal extra damage to one target when you deal damage to it with a melee weapon attack. The extra damage equals your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Sanguinarch",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Vampire Legacy",
+					"entries": [
+						"You don't need to breathe and you have a climbing speed equal to your walking speed that allows you to move up, down, and across vertical surfaces and upside down along ceilings while leaving your hands free. You also can use your fanged bite as a natural weapon. You add your Constitution modifier instead of your Strength modifier to the attack and damage rolls when you attack with this bite. It deals 1d6 piercing damage on a hit and you regain hit points equal to the piercing damage dealt."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hematophage Mark",
+					"entries": [
+						"Over the course of a short rest, you can brand an adjacent creature with your blessing. You always know where this marked creature is even from a mile away and you additionally know if a creature is marked in this way. Marking another creature while you already have one marked removes the previous mark."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Buldrokkas",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Wendigo Legacy",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. While you are conscious, you regain hit points equal to your proficiency bonus at the start of your turn."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Caoineadh",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Banshee Legacy",
+					"entries": [
+						"You can give any spell that you can cast a verbal component. When you cast a spell with a verbal component, your spellcasting modifier increases by 1, you gain this benefit a number of times equal to your proficiency bonus and you regain all uses after a long rest."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Anzulithic",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gargoyle Legacy",
+					"entries": [
+						"You know the {@spell mold earth|XGE} cantrip. You learn a list of spells that you can cast with trait without requiring a material component. These spells are as follows: Starting at 3rd level, you can cast the {@spell earthen disk|SeanTerraElementalistsPocketbook} spell; Starting at 5th level, you can cast the {@spell sandbar|ABYSS} spell; Starting at 7th level, you can cast the {@spell meld into stone} spell; Starting at 9th level, you can cast the {@spell swirling rubble|SeanTerraElementalistsPocketbook} spell. Once you cast these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Zersetzen",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Nachzehrer Legacy",
+					"entries": [
+						"You are immune to most diseases and have resistance to poison damage. Once per turn, you can deal extra necrotic damage to one adjacent target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level. The range for this feature increases to 30 feet under total darkness. You can only use this feature a number of times equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Infernal",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Diablo Legacy",
+					"entries": [
+						"You are immune to fire damage. In addition, fire damage you deal ignores resistance."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sarkaz",
+			"raceSource": "ASS",
+			"name": "Shayatin",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Djall Legacy",
+					"entries": [
+						"You can cast the {@spell command} spell at will. Starting at 5th level, you can cast the {@spell detect thoughts} spell at will."
 					]
 				}
 			]
@@ -7509,17 +10951,12 @@
 			"raceSource": "ASS",
 			"name": "Of The Lands",
 			"source": "ASS",
-			"ability": [
-				{
-					"str": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Bellua Evolution",
 					"entries": [
-						"You gain one {@filter feat|feats|source=phb;tce;xge;bgg;ftd;mtf;ass;bmt|ability bonus=str} of your choice as long as the chosen feat increases your Strength score by 1. Additionally, when you jump, you can extend your jump by a number of feet equal to your Strength modifier."
+						"You gain one feat of your choice as long as the chosen {@filter feat|feats|ability bonus=str;dex;con} increases a Physical score by 1. Additionally, when you jump, you can extend your jump by a number of feet equal to your Strength modifier. You also count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 					]
 				}
 			]
@@ -7529,17 +10966,12 @@
 			"raceSource": "ASS",
 			"name": "Of The Skies",
 			"source": "ASS",
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Piscine Evolution",
 					"entries": [
-						"You have a walking speed of 35 and additionally, you gain a swimming speed and flying speed equal to your walking speed."
+						"You gain one feat of your choice as long as the chosen {@filter feat|feats|ability bonus=int;wis;cha} increases a Mental score by 1. You have a walking speed of 35 and additionally, you gain a swimming speed and flying speed equal to your walking speed."
 					]
 				}
 			]
@@ -7549,11 +10981,6 @@
 			"raceSource": "ASS",
 			"name": "Baihu the White",
 			"source": "ASS",
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7576,11 +11003,6 @@
 			"raceSource": "ASS",
 			"name": "Qinglong the Green",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7603,11 +11025,6 @@
 			"raceSource": "ASS",
 			"name": "Xuanwu the Blue",
 			"source": "ASS",
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7630,11 +11047,6 @@
 			"raceSource": "ASS",
 			"name": "Zhuque the Red",
 			"source": "ASS",
-			"ability": [
-				{
-					"str": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7657,11 +11069,6 @@
 			"raceSource": "ASS",
 			"name": "Huanglong of the Light",
 			"source": "ASS",
-			"ability": [
-				{
-					"con": 3
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7674,7 +11081,7 @@
 					"type": "entries",
 					"name": "Watcher of the Feywild",
 					"entries": [
-						"You can cast {@spell detect magic} at will, without expending a spell slot."
+						"You can cast detect magic at will, without expending a spell slot."
 					]
 				}
 			]
@@ -7684,11 +11091,6 @@
 			"raceSource": "ASS",
 			"name": "Qilin of the Dark",
 			"source": "ASS",
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7709,13 +11111,8 @@
 		{
 			"raceName": "Daemonsoul",
 			"raceSource": "ASS",
-			"name": "Red Daemon",
+			"name": "Red",
 			"source": "ASS",
-			"ability": [
-				{
-					"con": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7743,13 +11140,8 @@
 		{
 			"raceName": "Daemonsoul",
 			"raceSource": "ASS",
-			"name": "Black Daemon",
+			"name": "Black",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7770,13 +11162,8 @@
 		{
 			"raceName": "Daemonsoul",
 			"raceSource": "ASS",
-			"name": "White Daemon",
+			"name": "White",
 			"source": "ASS",
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7800,11 +11187,6 @@
 			"raceSource": "ASS",
 			"name": "Wings of Wind",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7817,7 +11199,7 @@
 					"type": "entries",
 					"name": "Swirling Tempest",
 					"entries": [
-						"Starting at 3rd level, you can use your action to unleash your elemental strength and unfurl your wings.", 
+						"Starting at 3rd level, you can use your action to unleash your elemental strength and unfurl your wings.",
 						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed equal to your walking speed that is doubled if you are outdoors in windy conditions.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					]
@@ -7829,11 +11211,6 @@
 			"raceSource": "ASS",
 			"name": "Wings of Lightning",
 			"source": "ASS",
-			"ability": [
-				{
-					"wis": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7858,24 +11235,19 @@
 			"raceSource": "ASS",
 			"name": "Wings of Clouds",
 			"source": "ASS",
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Calming Presence",
 					"entries": [
-						"You gain proficiency in one of the following skills: Deception, Intimidation, Performance, or Persuasion. Additionally, you learn one language of your choice and you gain proficiency in an instrument of your choice."
+						"You gain proficiency in one of the following skills: Deception, Intimidation, Performance, or Persuasion. Additionally, you learn one language of your choice and you gain proficiency in an instrument of your choice. "
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Cumulus Tempest",
 					"entries": [
-						"Starting at 3rd level, you can use your action to unleash your elemental strength and unfurl your wings.", 
+						"Starting at 3rd level, you can use your action to unleash your elemental strength and unfurl your wings.",
 						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed equal to your walking speed. At the start of your turn, you gain temporary hit points equal to five times your proficiency bonus.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					]
@@ -7887,11 +11259,6 @@
 			"raceSource": "ASS",
 			"name": "Kitsune",
 			"source": "ASS",
-			"ability": [
-				{
-					"cha": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7922,11 +11289,6 @@
 			"raceSource": "ASS",
 			"name": "Kappa",
 			"source": "ASS",
-			"ability": [
-				{
-					"int": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7937,7 +11299,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Child of the River",
+					"name": "",
 					"entries": [
 						"You have a tough carapace on your back. When you aren't wearing armor, your base AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
 						"Additionally, you have a cap on your head filled with water called a sara. If your dish spills all of its contents (by being knocked unconscious and et cetera), you suffer one level of exhaustion. Each time you finish a long rest without a water-filled dish on your head, you suffer one level of exhaustion. You can recover from this exhaustion only through magic or by refilling the dish and placing it back atop your head. If you lose the dish, you can use any suitable substitute which would then transform into your natural dish after 1 hour."
@@ -7957,11 +11319,6 @@
 			"raceSource": "ASS",
 			"name": "Kamaitachi",
 			"source": "ASS",
-			"ability": [
-				{
-					"dex": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7972,7 +11329,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Dust Sickles",
+					"name": "Dust Scikles",
 					"entries": [
 						"You learn the {@spell dust devil|XGE} spell and can cast it once without expending a spell slot or using a material component. Casting it this way instead pulls creature into the center of the vortex and the spell deals slashing damage instead of bludgeoning damage. As long as you are within 30 feet of the spell, you can target any creatures within the vortex using your natural weapons. You regain the ability to cast it in this way when you finish a long rest."
 					]
@@ -7991,17 +11348,12 @@
 			"raceSource": "ASS",
 			"name": "Kudan",
 			"source": "ASS",
-			"ability": [
-				{
-					"str": 1
-				}
-			],
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Kudan's Foresight and Warding",
 					"entries": [
-						"You gain proficiency in any Mental skill of your choice and your proficiency bonus is doubled for any ability check that makes use of the proficiency. When you finish a long rest, you can change what Mental skill you have proficiency for and you also know what type of weather it will be within 1 mile for the next 24 hours."
+						"You gain proficiency in any Mental skill of your choice and your proficiency bonus is doubled for any ability check that makes use of the proficiency. When you finish a long rest, you can change what Mental skill you have proficiency for and you also know what type of weather it will within 1 mile for the next 24 hours. "
 					]
 				},
 				{
@@ -8016,7 +11368,7 @@
 					"type": "entries",
 					"name": "Shy Spirits: Kudan",
 					"entries": [
-						""
+						"While disguised, it is undone if you lose your ability to speak or if you tell a lie."
 					]
 				}
 			]
@@ -8058,13 +11410,7 @@
 			"name": "Bodyguard",
 			"source": "ASS",
 			"entries": [
-				"You strived to develop various techniques and you honed your reflexes in order to safeguard your allies. You gain the following benefits: ",
-				{
-					"type": "list",
-					"items": [
-						"You strived to develop various techniques and you honed your reflexes in order to safeguard your allies. You can take a reaction when a creature within a third of your movement range that you can see is targeted by an attack. You rush towards them and take their place, moving them to an adjacent unoccupied space of their choice. Until the start of your next turn, any attacks targeting that ally is made with disadvantage. You cannot make this reaction if there are no unoccupied spaces around your ally except if you are already occupying a space adjacent to them. "
-					]
-				}
+				"You strived to develop various techniques and you honed your reflexes in order to safeguard your allies. You can take a reaction when a creature within a third of your movement range that you can see is targeted by an attack. You rush towards them and take their place, moving them to an adjacent unoccupied space of their choice. Until the start of your next turn, any attacks targeting that ally is made with disadvantage. You cannot make this reaction if there are no unoccupied spaces around your ally except if you are already occupying a space adjacent to them. "
 			]
 		},
 		{
@@ -8389,11 +11735,41 @@
 					"type": "list",
 					"items": [
 						"You become eligible for learning all smite spells and blade cantrips, regardless of class restriction.",
-						"You learn the {@spell battlemage hand|ASS} spell which you can cast without expending a spell slot once per short rest. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability increased by this feat.",
-						"While the {@spell battlemage hand|ASS} spell is active, attacks you make using the hand deals rupture damage equal to half your proficiency bonus."
+						"You can use weapons that you are proficient with as a spellcasting focus for your spells.",
+						"You learn the {@spell battlemage hand|ASS} spell which you can cast without expending a spell slot once per short rest. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability score increased by this feat.",
+						"While the {@spell battlemage hand|ASS} spell is active, the first attack you make on a turn deals rupture damage equal to your proficiency bonus."
 					]
 				},
 				"Only full casting classes and Warlocks are eligible for this feat."
+			]
+		},
+		{
+			"name": "Hullbreaker",
+			"source": "ASS",
+			"entries": [
+				"You specialize in tearing down combatants whose defenses are already weakened. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You ignore a target's temporary hit points if they have rupture damage.",
+						"You gain an attack roll bonus equal to half of your proficiency bonus when you make an attack against a target that has rupture damage equal to or more than their AC. You can only gain this bonus once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vampiric Roots",
+			"source": "ASS",
+			"entries": [
+				"You may have the slightest amount of vampirism in your lineage, which may or may not be a good thing but you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain 30 feet of darkvision.",
+						"You can add your proficiency bonus whenever you determine how much number of feet you cover when making a long jump or a high jump. This bonus remains the same even when making a standing jump.",
+						"Once per turn, when you deal damage to a bleeding creature, you regain hit points equal to the bleed damage that the target has but not exceeding your Constitution modifier."
+					]
+				}
 			]
 		}
 	],
