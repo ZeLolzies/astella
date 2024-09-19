@@ -10746,6 +10746,22 @@
 		{
 			"raceName": "Sankta",
 			"raceSource": "ASS",
+			"name": "Godblessed",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Olympian Wake",
+					"entries": [
+						"Choose a 1st-level spell from the cleric spell list. You can cast that spell with this trait, without requiring any material components. Once you cast the spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Sankta",
+			"raceSource": "ASS",
 			"name": "Heavyblast",
 			"source": "ASS",
 			"entries": [
