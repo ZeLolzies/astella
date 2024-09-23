@@ -14242,6 +14242,47 @@
 				"The first time on each of your turns that you hit with this weapon, the next attack made on the target by creatures other than you is rolled with advantage and has a bonus to their attack roll equal to half of your Charisma modifier (rounded up). This benefit only lasts until the start of your next turn.",
 				"{@b {@i Deliverance.}} For each time you fail an attack roll, skill check, or saving throw, you gain a point of Deliverance. You also gain points of Deliverance equal to your Charisma modifier when you first make death saving throws during the day. As a reaction, you can expend your points of Deliverance when a creature other than you makes one of the listed rolls. You give them a bonus equal to all of your points of Deliverance and expend them. You lose all points of Deliverance after a long rest."
 			]
+		},
+		{
+			"name": "Jiele Dollar",
+			"source": "ASS",
+			"type": "OTH",
+			"rarity": "None",
+			"value": "100",
+			"entries": [
+				"JLD (also known as Jiele Dollars) is the currency used in Jiele. Blue and white in color with black highlights for its logo that is shaped like a mountain with a frosted peak, it gives off a metallic yet cold smell. These range from 1, 2, 5, 10, 20, 50, 100 dollar bills. They also have dime coins to denote a tenth of a dollar bill, and cent coins to deonte a hundredth of a dollar bill.",
+				"It serves as the gold standard for Solstice, being the first paper currency to be used that the other regions adapted to."
+			]
+		},
+		{
+			"name": "Montayn Sterling",
+			"source": "ASS",
+			"type": "OTH",
+			"rarity": "None",
+			"value": "111",
+			"entries": [
+				"Placeholder text."
+			]
+		},
+		{
+			"name": "Woestjin Riyal",
+			"source": "ASS",
+			"type": "OTH",
+			"rarity": "None",
+			"value": "27",
+			"entries": [
+				"Placeholder text."
+			]
+		},
+		{
+			"name": "Orman Peso",
+			"source": "ASS",
+			"type": "OTH",
+			"rarity": "None",
+			"value": "5",
+			"entries": [
+				"Placeholder text."
+			]
 		}
 	],
 	"spell": [
