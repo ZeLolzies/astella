@@ -1540,9 +1540,707 @@
 				"Extended Fragility|Ranger||Wild Huntsman|ASS|11",
 				"Greater Hunter's Mark|Ranger||Wild Huntsman|ASS|15"
 			]
+		},
+		{
+			"name": "Makeshifter",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"shortName": "Makeshifter",
+			"subclassFeatures": [
+				"Makeshifter|Artificer|TCE|Makeshifter|ASS|3",
+				"Think Fast, Chuck-A-Nut|Artificer|TCE|Makeshifter|ASS|5",
+				"Improvised Sponsorship|Artificer|TCE|Makeshifter|ASS|9",
+				"Infusion Amalgamations|Artificer|TCE|Makeshifter|ASS|15"
+			]
+		},
+		{
+			"name": "Blind Swordsman",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Blind Swordsman",
+			"subclassFeatures": [
+				"Blind Swordsman|Fighter||Blind Swordsman|ASS|3",
+				"Impaired Forms|Fighter||Blind Swordsman|ASS|7",
+				"Visionless Shapes|Fighter||Blind Swordsman|ASS|10",
+				"Third Eye|Fighter||Blind Swordsman|ASS|15",
+				"Sixth Eyes|Fighter||Blind Swordsman|ASS|18"
+			]
+		},
+		{
+			"name": "Gambler's Delight",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"shortName": "Gambler's Delight",
+			"subclassFeatures": [
+				"Gambler's Delight|Pugilist|SterlingVermin|Gambler's Delight|ASS|3",
+				"Wheel of Fortune|Pugilist|SterlingVermin|Gambler's Delight|ASS|6",
+				"Flip A Coin|Pugilist|SterlingVermin|Gambler's Delight|ASS|11",
+				"Kissed by the Goddess of Luck|Pugilist|SterlingVermin|Gambler's Delight|ASS|17"
+			]
+		},
+		{
+			"name": "Ninja",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Ninja",
+			"subclassFeatures": [
+				"Ninja|Rogue||Ninja|ASS|3",
+				"Mythical Traversal|Rogue||Ninja|ASS|9",
+				"Master of Traps|Rogue||Ninja|ASS|13",
+				"Handicrafts Preeminence|Rogue||Ninja|ASS|17"
+			]
+		},
+		{
+			"name": "Gun Nerd",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSav",
+			"shortName": "Gun Nerd",
+			"subclassFeatures": [
+				"Gun Nerd|Savant|LLSav|Gun Nerd|ASS|3",
+				"Extra Attack|Savant|LLSav|Gun Nerd|ASS|6",
+				"Follow-up Volley|Savant|LLSav|Gun Nerd|ASS|10",
+				"Hot Iron Expert|Savant|LLSav|Gun Nerd|ASS|15"
+			]
 		}
 	],
 	"subclassFeature": [
+		{
+			"name": "Gun Nerd",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You enjoy the feel of hot metal fizzing off in your palms, the smell of gunpowder filling the air, and the booming that ricochets all over before the events. Gun Nerds enjoy all things that there are when it comes to firearms.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Gun Enthusiasm|Savant|LLSav|Gun Nerd|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Gun Enthusiasm",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in firearms and tinker's tools, and whenever you make a check with either proficiency you gain a bonus to your roll equal to one roll of your Intelligence Die. If you are already proficient in tinker's tools, you gain proficiency in another set of tools of your choice.",
+				"Your mastery over the mechanism of firearms allow you to checks to repair a broken firearm with advantage, and that you ignore the Misfire trait of firearms."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Gun Nerd feature}",
+				"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Parry This, Casual|Savant|LLSav|Gun Nerd|ASS|6"
+				}
+			]
+		},
+		{
+			"name": "Parry This, Casual",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"'Nuff said: Parry this, casual. You ignore any disadvantage or reductions to your ranged weapon attack rolls made against your Focus and additionally, when your Focus makes an attack roll against a creature within your range, you can expend 2 of your reactions to interrupt them with an attack roll of your own. If your attack roll is higher than theirs, they cannot make their attack and they take damage as if you hit if your attack roll meets their AC."
+			]
+		},
+		{
+			"name": "Follow-up Volley",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [
+				"{@i 10th-level Gun Nerd feature}",
+				"You follow-up on the instructions you give out when maximizing damage. When you use your Potent Observation feature, you can expend a piece of ammunition and another reaction as part of the reaction to also deal additional on-hit effects that your firearm does on a hit."
+			]
+		},
+		{
+			"name": "Hot Iron Expert",
+			"source": "ASS",
+			"className": "Savant",
+			"classSource": "LLSAV",
+			"subclassShortName": "Gun Nerd",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [
+				"{@i 15th-level Gun Nerd feature}",
+				"Your deep fascination with firearms allow you to make finer modifications to them. After the course of a long rest, you may tweak a firearm and give it (or remove) one of the following traits:",
+				{
+					"type": "list",
+					"items": [
+						"Burst (1)",
+						"Akimbo (13)",
+						"Remove Recoil",
+						"Remove Misfire"
+					]
+				},
+				"These modifications last for 8 hours and the firearm reverts to its normal state once the duration has passed."
+			]
+		},
+		{
+			"name": "Ninja",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninja",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [ 
+				"Masters of stealth, subterfuge, and schemes. Give them enough time and they can shift the tides of war with just a few clever coordination of contraptions.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Assassin Handiwork|Rogue||Ninja|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Assassin Handiwork",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninja",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [ 
+				"You focus your skillset to expand upon your toolset. You can use the bonus action granted by your Cunning Action to use your thieves' tools to disarm a trap or open a lock, rearm traps, or take the Use an Object action. You also gain proficiency in three artisan's tools of your choice, of which you can choose to gain expertise on when you can.",
+				"When a creature fails a saving throw and takes damage from an item that you used or a trap that you laid, you can choose to deal your Sneak Attack damage to them."
+			]
+		},
+		{
+			"name": "Mythical Traversal",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninja",
+			"subclassSource": "ASS",
+			"level": 9,
+			"entries": [ 
+				"{@i 9th-level Ninja feature}",
+				"You learn to create equipment that would be greatly serve you in long adventures. Over the course of a long rest, you can outfit yourself with a kit that can be concealed underneath your armor and clothes. Choose from one of the following kits: ",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@i Tengu.}} You fall with a slower pace which you can use the momentum of to glide. When you fall 2 feet downwards, you can move 1 feet in any direction.",
+						"{@b {@i Oni.}} You are not affected by extreme weather conditions and you gain advantage on any checks made to scale walls.",
+						"{@b {@i Kappa.}} You can hold your breath for 10 minutes and you have a swimming speed equal to your walking speed."
+					]
+				},
+				"This kit lasts until you create and don a different one over the course of a long rest."
+			]
+		},
+		{
+			"name": "Master of Traps",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninja",
+			"subclassSource": "ASS",
+			"level": 13,
+			"entries": [ 
+				"{@i 13th-level Ninja feature}",
+				"The traps and tools that you use become more potent. Traps that you lay have a 25% chance of rearming themselves and when you deal Sneak Attack damage using your Assassin Handiwork subclass feature, there is a 5% chance for the target to take doubled damage from it. Additionally, you can add your proficiency bonus to the DC of items that you use."
+			]
+		},
+		{
+			"name": "Handicrafts Preeminence",
+			"source": "ASS",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninja",
+			"subclassSource": "ASS",
+			"level": 17,
+			"entries": [ 
+				"{@i 17th-level Ninja feature}",
+				"When it comes to preparation, with enough time you can take down a castle with just a piece of string and a pebble. Choose a set of tools that you are proficient in, you gain expertise on those tools and you can never fail a check when you make an item using them.",
+				"Whenever you craft adventuring gear, you can choose to ignore the material costs as long as the total gp cost is less than 500 gp, 1000 gp if you have expertise on the set of tools being you used. You are considered proficient in weapons or armor that you make."
+			]
+		},
+		{
+			"name": "Gambler's Delight",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Betting and losing it all, or winning a century's glory. That is the way of the Gambler's Delight. You enjoy the purest form of gambling, none of that card-counting stuff or pushing pieces around, you simply wish to turn your hand of cards and be in full exhilaration when you find yourself having pocket aces.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Luck? Who Needs That?|Pugilist|SterlingVermin|Gambler's Delight|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "For the Love of the Game|Pugilist|SterlingVermin|Gambler's Delight|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Luck? Who Needs That?",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You need not tamper your chances, a fair win is much better than anything else that you can force out. You gain 2 luck points as per the Lucky feat but you cannot use any of your luck points outside of loot rolls. For each luck point that you have, you gain a +1 bonus to your damage rolls with an unarmed strike or a pugilist weapon."
+			]
+		},
+		{
+			"name": "For the Love of the Game",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You enjoy gambling and games not because you win often, but because you can win and you can lose. You gain proficiency in one gaming set of your choice and when you first enter a settlement, you immediately know establishments that let you play and gamble with gaming sets you are proficient in."
+			]
+		},
+		{
+			"name": "Wheel of Fortune",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 6,
+			"entries": [
+				"{@i 6th-level Gambler's Delight feature}",
+				"You spin to win, or you gain nothing at all. But after that, you roll some more. At the start of your turn, you can expend a point of moxie and roll a 1d100, you gain a certain benefit or effect according to the table below:",
+				{
+					"type": "table",
+					"caption": "Wheel of Fortune",
+					"colLabels": [
+						"{@dice d100}",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1,
+									"max": 10
+								}
+							},
+							"Your critical hit range increases by 2 during this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 11,
+									"max": 20
+								}
+							},
+							"Nothing happens."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 21,
+									"max": 30
+								}
+							},
+							"Nothing happens."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 31,
+									"max": 40
+								}
+							},
+							"You gain a +1 bonus to AC during this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 41,
+									"max": 50
+								}
+							},
+							"Attacks you make can add your Strength modifier an additional time for damage rolls during this turn."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 51,
+									"max": 60
+								}
+							},
+							"Nothing happens."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 61,
+									"max": 70
+								}
+							},
+							"Nothing happens."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 71,
+									"max": 80
+								}
+							},
+							"You find 1 gold piece on the floor."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 81,
+									"max": 90
+								}
+							},
+							"Strength checks that you make during this turn are made with advantage."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 91,
+									"max": 100
+								}
+							},
+							"You gain an additional attack when you take the Attack action on this turn."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Flip A Coin",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 11,
+			"entries": [
+				"{@i 11th-level Gambler's Delight feature}",
+				"Any coin, and unleash a perfect mayhem. Before you make your first attack as part of the Attack action, you can flip a coin. If the coin lands on heads, all attacks you make as part of the Attack action would always hit and none of your attacks hit if the coin lands tails. You can only use this feature three times and you regain all uses on a long rest."
+			]
+		},
+		{
+			"name": "Kissed by the Goddess of Luck",
+			"source": "ASS",
+			"className": "Pugilist",
+			"classSource": "SterlingVermin",
+			"subclassShortName": "Gambler's Delight",
+			"subclassSource": "ASS",
+			"level": 17,
+			"entries": [
+				"{@i 17th-level Gambler's Delight feature}",
+				"But hated by the God of Death. When you are reduced to 0 hit points but not killed outright you can drop to 1 hit point instead by expending a luck point."
+			]
+		},
+		{
+			"name": "Blind Swordsman",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [ 
+				"In exchange for their sight, Blind Swordsmen awaken to a finer control of their precision and instinct which they use to become deadly combatants.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ways of the Blind Swordsman|Fighter||Blind Swordsman|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sightless Fortitude|Fighter||Blind Swordsman|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Ways of the Blind Swordsman",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [ 
+				"You learn to open a sense greater than what your eyes can see when open. At the start of your turn, you can choose to give yourself the blinded condition (if you do not yet already have it) until the start of your next turn.",
+				"You also gain the Blind Fighting fighting style if you do not yet already have it. If you would already have this fighting style, you may choose a different option to take."
+			]
+		},
+		{
+			"name": "Sightless Fortitude",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [ 
+				"In exchange for one of your senses, you refine the edge of your intuition and willpower. While you are blinded, you make all Mental saving throws with advantage and Physical saving throws with advantage if the source of it is within your blindsight."
+			]
+		},
+		{
+			"name": "Impaired Forms",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 7,
+			"entries": [ 
+				"{@i 7th-level Blind Swordsman feature}",
+				"Carefully observing with a blinded sight, you learn which ways to guide your blade. While you are blinded, you can take on a special stance as an action lasting until your next turn. When you take on one of the stances listed below, you gain a number of reactions equal to how many attacks you can make if you had taken the Attack action but you may only perform the reactions specified by the stance taken.",
+				"These are the stances that you can take:",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@i Alert Instinct.}} You can only use your reactions to make attacks of opportunity against creatures that move into your range.",
+						"{@b {@i Slipstream Edge.}} You can only use your reactions to contest attack rolls targeting you. Roll a melee weapon attack, if your attack rolls exceeds the target's, their attack misses.",
+						"{@b {@i Punished Discipline.}} You can only use your reactions to make attacks of opportunity against creatures that target you but only after their attacks are made."
+					]
+				}
+			]
+		},
+		{
+			"name": "Visionless Shapes",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [ 
+				"{@i 10th-level Blind Swordsman feature}",
+				"The longer you spend with a sense dulled, the stronger you feel your other factors becoming. At the start of your turn, if you choose to blind yourself or you are already suffering the blinded condition, you can choose to gain one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls until the end of your turn.",
+						"You gain a +1 bonus to your AC until the end of your turn.",
+						"You regain one use of your superiority die, if you had any."
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Repaired Forms|Fighter||Blind Swordsman|ASS|10"
+				}
+			]
+		},
+		{
+			"name": "Repaired Forms",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 10,
+			"entries": [ 
+				"The stances that you take are at a greater height of mastery. When you take a stance from your impaired forms subclass feature, you gain an additional reaction on top of the number of reactions you get when you take the action. When you take a stance during your turn, you can use your Action Surge to take on another stance. You gain the additional number of reactions as normal, and you can use all of your reactions to perform any of the reactions listed by the stances that you had taken."
+			]
+		},
+		{
+			"name": "Third Eye",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [ 
+				"{@i 15th-level Blind Swordsman feature}",
+				"Your closed eyes open to a sight even greater than before. You gain an additional 10 feet of blindsight on top of what you already have."
+			]
+		},
+		{
+			"name": "Sixth Eyes",
+			"source": "ASS",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Blind Swordsman",
+			"subclassSource": "ASS",
+			"level": 18,
+			"entries": [ 
+				"{@i 18th-level Blind Swordsman feature}",
+				"Not even the wind, the waters, nor the soil shall abade your sight. You gain tremorsense that is equal to the range of your blindsight as long as you are blinded."
+			]
+		},
+		{
+			"name": "Makeshifter",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"Artificers that use their ingenuity for improvisation are better known as Makeshifters. They create much of their gear shoddily but their speed and efficiency in such is unparalleled.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Makeshifter Spells|Artificer|TCE|Makeshifter|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Makeshifter|ASS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "DIY Makeshifting|Artificer|TCE|Makeshifter|ASS|3"
+				}
+			]
+		},
+		{
+			"name": "Makeshifter Spells",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Makeshifter Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Makeshifter Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell forge fire|KTKCG}, {@spell process hide|KTKCG}"
+						],
+						[
+							"2nd",
+							"{@spell change material|KTKCG}, {@spell conjure tool|KTKCG}"
+						],
+						[
+							"3rd",
+							"{@spell dimensional toolbox|KTKCG}, {@spell telegrab|TCEE1}"
+						],
+						[
+							"4th",
+							"{@spell jono's cosy shack|BDPC}, {@spell terega's treasure map|ABYSS}"
+						],
+						[
+							"5th",
+							"{@spell creation}, {@spell unseen crafter|KTKCG}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tool Proficiency",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You gain proficiency with one artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "DIY Makeshifting",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 3,
+			"entries": [
+				"You learn how to make use of your tools on the fly. You can use an action to make progress in crafting an item as if you had spent 2 hours on it. You are treated as if you have 50 gp worth of supplies on hand for the project. Whenever this feature is used, the item being crafted breaks after an hour of it being created. You may only use this feature a number of times equal to your Intelligence modifier and you regain all uses on a long rest."
+			]
+		},
+		{
+			"name": "Think Fast, Chuck-A-Nut",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 5,
+			"entries": [
+				"{@i 5th-level Makeshifter feature}",
+				"As you create, you think of ways to use them in quick notice. When you finish crafting an item using your DIY Makeshifting subclass feature, you can immediately use the item as part of the action."
+			]
+		},
+		{
+			"name": "Improvised Sponsorship",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 9,
+			"entries": [
+				"{@i 9th-level Makeshifter feature}",
+				"No matter what it is you have on hand, you can make the most out of nothing. When using the DIY Makeshifting subclass feature, you are considered to have 150 gp worth of supplies on hand for the project."
+			]
+		},
+		{
+			"name": "Infusion Amalgamations",
+			"source": "ASS",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Makeshifter",
+			"subclassSource": "ASS",
+			"level": 15,
+			"entries": [
+				"{@i 15th-level Makeshifter feature}",
+				"Your expertise in fast crafts extend to even your more-complicated arcane infusions. You can use your action to infuse a nonmagical object and imbue it with one of your artificer infusions as per the Infuse Item class feature. If the item that you infuse requires attunement, you can immediately attune to it but this feature can only be used once per long rest."
+			]
+		},
 		{
 			"name": "Big Rig",
 			"source": "ASS",
@@ -1684,6 +2382,7 @@
 			"subclassSource": "ASS",
 			"level": 5,
 			"entries": [
+				"{@i 5th-level Big Rig feature}",
 				"Your expertise in your toolset broadens to a mechanical know-how of objects. You learn the {@spell mending} cantrip. If you already know this cantrip, you learn another cantrip of your choice in the artificer spell list. When you cast mending using an artisan tool as a spellcasting focus, its casting time is an action and its range is 30 feet."
 			]
 		},
@@ -1696,6 +2395,7 @@
 			"subclassSource": "ASS",
 			"level": 9,
 			"entries": [
+				"{@i 9th-level Big Rig feature}",
 				"You learn how to remove the immobile aspect of your mechanical apparatuses. As a bonus action while within 5 feet of it, you can cause your mechanical apparatus to move up to 10 feet in a direction of your choice. This movement is doubled if it is one of the mechanical apparatuses in the table below, which you also learn how to create.",
 				{
 					"type": "table",
@@ -1743,6 +2443,7 @@
 			"subclassSource": "ASS",
 			"level": 15,
 			"entries": [
+				"{@i 15th-level Big Rig feature}",
 				"You learn how to tweak your mechanical apparatuses to suit more towards your grander designs. When creating a mechanical apparatus, you can give it any combination of two of the following traits:",
 				{
 					"type": "list",
@@ -10147,6 +10848,7 @@
 			],
 			"entries": [
 				"The term 'Sarkaz' does not actually refer to a specific race; rather, it is a derogatory umbrella term for various humanoid races who are linked to devil-like traits depending on their lineage. The most commonly noticed traits are a pair of horns of varying shapes atop their heads, long, pointed ears, and tails of varying shapes such as having pointed ends or scales. However, there are some Sarkaz lineages lacking any of the aforementioned traits.",
+				"In Velour, all humanoids were turned into Sarkaz when the Umbral Coven cursed the entirety of the Orange Star.",
 				{
 					"type": "entries",
 					"name": "Age",
@@ -10209,7 +10911,8 @@
 				"Skill Proficiency",
 				"Tool Proficiency",
 				"Uncommon Race",
-				"Solstice"
+				"Solstice",
+				"Velour"
 			]
 		},
 		{
@@ -10740,9 +11443,470 @@
 				"Uncommon Race",
 				"Saratola"
 			]
+		},
+		{
+			"name": "Dullahan",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"M"
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"You do not age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headless Horseman",
+					"entries": [
+						"Your head and your body are separated, the wound that separated them permanently scarred. You gain the following effects:",
+						{
+							"type": "list",
+							"items": [
+								"You can attach and detach your head using your Object Interaction. Your ability to sever your head prevents you from being killed by decapitation, however, being struck by a critical hit by a weapon attack or unarmed strike causes your head to fly off. Your head lands in a space within 10 feet of you.",
+								"You always know the distance and direction to your head or body unless it is on another plane of existence or if it's blocked by an effect that prevents divination magic.",
+								"Unless your head is being carried by your body or another creature, it can be targeted, its AC being equal to yours but without the benefit of Dexterity or armor that does not include a helmet. You cannot be damaged twice by an area of effect due to this. Your head automatically fails Dexterity saving throws.",
+								"When separate, your body can see and hear so long as your head can see the body. If your head's vision is obscured, your body gains 10 feet of blindsight.",
+								"Your headless body cannot speak but it can consume food and drink as well as cast spells, even spells with verbal components as long as the separated head is not silenced or gagged."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Wild Hunt",
+					"entries": [
+						"You can cast {@spell toll the dead|xge} with this trait. Starting at 3rd level, you can cast the {@spell find steed} spell with this trait. Starting at 5th level, you can also cast the {@spell phantom steed} spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Endless Conquest",
+					"entries": [
+						"You and a mount that you are riding do not need to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ghost Rider Fury",
+					"entries": [
+						"When holding your head using one hand, the other hand can wield two-handed weapons as normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weakness To Gold",
+					"entries": [
+						"You have vulnerability to bludgeoning, piercing, and slashing damage from gold plated weapons. If you are carrying or touching anything made of gold, make a DC 15 Constitution saving throw or release the item. Repeat this save every turn you carry the gold."
+					]
+				}
+			],
+			"traitTags": [
+				"Spellcasting",
+				"Uncommon Race",
+				"Velour"
+			]
+		},
+		{
+			"name": "Ramisaa",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Whether descended from an infernal being or infused with fiendish power, ramisaa are mortals who carry a spark of the Helas Cosmos within their souls. They can fan that spark to bring light, ease wounds, and unleash the fury of hell.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harming Hands",
+					"entries": [
+						"As an action, you can touch a creature and roll a number of d8s equal to your proficiency bonus. The creature takes necrotic damage equal to the total rolled. Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infernal Resistance",
+					"entries": [
+						"You have resistance to necrotic damage and fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Infernal Revelation",
+					"entries": [
+						"When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.",
+						{
+							"type": "list",
+							"items": [
+								"{@b {@i Infernal Shroud.}} Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+								"{@b {@i Hellish Consumption.}} Your eyes bleed tears of flame and at the end of each of your turns, each creature within 10 feet of you takes fire damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus.",
+								"{@b {@i Hellish Soul.}} Two impish bat wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+							]
+						}
+					]
+				}
+			],
+			"traitTags": [
+				"Damage Resistance",
+				"Velour"
+			]
+		},
+		{
+			"name": "Fallen",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"creatureTypes": [
+				"undead"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Death comes for all things in a near-infinite variety of ways. So, too, are there many reasons that the dead might return from the grave. Directly-applied necromancy, cursed lands, and unfinished business are but a few, and all leave the newly-undead soul with a mere semblance of the life it had before. All undead carry the physical or emotional scars of what ended their mortal lives, though some may be far more subtle than others.",
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Through the necromantic energy animating you, you are able to perceive with greater clarity that which lurks in the darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dead Immortality",
+					"entries": [
+						"You do not age. Given time, the necromantic energies that sustain you will heal most wounds you take at approximately the same rate as a mortal, and your hit dice function as normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Dead",
+					"entries": [
+						"You have been raised from death, but regaining your autonomy has returned to you some of the spark of life. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restless",
+					"entries": [
+						"As an undead, you very rarely tire. You treat exhaustion as if it was one level less. In addition, instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unholy",
+					"entries": [
+						"Unlike other undead, you can be restored through healing magic, but it has a significantly dampened effect on you. When you regain hit points from a source that specifies it does not function on undead, you only receive half as many hit points as the source would normally provide, rounded down."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodless",
+					"entries": [
+						"You are immune to poison damage and the poisoned condition."
+					]
+				}
+			],
+			"traitTags": [
+				"Velour"
+			]
 		}
 	],
 	"subrace": [
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Ghost",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"You gain a flying speed of 20 feet. When using your flying speed from this source, you cannot end your turn more than 5 feet above a solid surface, and gently descend down to this distance at a speed of 60 feet per round if you are any higher."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Withering Touch",
+					"entries": [
+						"Your unarmed strike deals necrotic damage instead of bludgeoning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Incorporeal Stride",
+					"entries": [
+						"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take 1d10 force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intangible",
+					"entries": [
+						"You have advantage on all checks to resist or escape a grapple."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Ghoul",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Weapons",
+					"entries": [
+						"You possess both claws and fangs, either of which you can use as an unarmed strike. Your fangs deal piercing damage equal to 1d6 + your Strength modifier, while your claws deal slashing damage equal to 1d4 + your choice of either your Strength or Dexterity modifier. In addition, you can use Dexterity in place of Strength for attack rolls made with your claws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feeding",
+					"entries": [
+						"Though undead do not need to eat to continue existing, you are compelled through a dark curse to feed. As an action when you are adjacent to a dead or prone creature that is not an aberration, construct, elemental, ooze, plant, or undead, you can render yourself prone as well and attempt to feed on them.",
+						"If the creature is alive, make an unarmed strike attack with your fangs, dealing damage on a hit as usual. If this attack hits, or if the creature is already dead, you regain hit points equal to your Constitution modifier + your total character level. Once you successfully use this ability, you cannot use it again until you complete a short or long rest. You still feel hunger, and can feed on flesh without regaining hit points, however."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse of the Abyss",
+					"entries": [
+						"Ghouls were created to feed, and suffer a compulsion to do so. If a creature you can see drops to 0 hit points and you have not used your Feeding ability since your last long rest, you must attempt a Wisdom saving throw with a DC of 15 - half your total character level, rounded down, unless that creature is of a creature type that cannot be fed upon.",
+						"If you fail this saving throw, on each of your turns you must move to the creature by the shortest possible distance, using the Dash action if necessary. Once you reach the creature, you are compelled to use your Feeding ability with it as the target. You can repeat this Wisdom saving throw on each of your turns, This compulsion ends when you succeed on this saving throw, or after you have successfully fed upon the triggering creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Paralytic Claws",
+					"entries": [
+						"When you hit a creature that is not undead or an elf with an attack using your claws, you can attempt to paralyze them. That creature must make a Constitution saving throw against a DC of 8 + your Constitution modifier + your proficiency bonus. If the creature fails, it is incapacitated and unable to use its movement until the end of your next turn. Once you use this ability successfully, you cannot use it again until you complete a long rest."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Mummy",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mummy Rot",
+					"entries": [
+						"You can choose to make your unarmed strike deal necrotic damage instead of bludgeoning damage, and any creature hit by your unarmed strike is unable to regain hit points until the end of your next turn. If a creature is reduced to 0 hit points by your unarmed strike, it instantly disintegrates into dust, leaving behind any objects, clothing, or items on its person."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dreadful Glare",
+					"entries": [
+						"As a bonus action, choose a creature you can see within 60 feet of you. This creature must make a Wisdom saving throw against a DC of 8 + your Constitution modifier + your proficiency bonus. If it fails, this creature becomes frightened of you until the end of your next turn. Once you use this ability successfully, you cannot use it again until you complete a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Canopic Resurrection",
+					"entries": [
+						"Your heart has been removed from your person, and stored in a canopic jar in a safe location. While your heart is intact and within this jar, you can reroll one death saving throw you have made. If you roll a 17 or higher on this rerolled saving throw, treat the result as if it was a natural 20. Once you reroll a death saving throw with this trait, you must finish a short or long rest before you can do so again."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Necropolitan",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dead Fortitude",
+					"entries": [
+						"As a bonus action on your turn, you can pull upon the necromantic force animating you to gain temporary hit points equal to your total character level + your Constitution modifier (minimum 1) that last for up to one minute. Once you use this ability, you must finish a short or long rest before you can use it again."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tools of the Grave",
+					"entries": [
+						"You gain proficiency with your choice of one of the following sets of tools: alchemist's supplies, calligrapher's supplies, leatherworker's tools, or poisoner's kit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse of the Abyss",
+					"entries": [
+						"You know the {@spell chill touch} cantrip. When you reach 5th level, you can also cast the {@spell ray of enfeeblement} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Choose either Intelligence or Charisma as your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Revenant",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Eternal Vengeance",
+					"entries": [
+						"You know at all times the general direction of and relative distance to a specific intelligent creature of the DM's choosing against whom you seek revenge for your death, even if the creature and you are on different planes of existence. Should this creature die by your hand or that of another, you instantly know, and your DM chooses another creature also responsible for your death for this feature to apply to, should such a creature exist."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Driven",
+					"entries": [
+						"You have advantage on saving throws against effects that turn undead or would cause you to be frightened."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unnatural Vitality",
+					"entries": [
+						"When you drop to 0 hit points, you can choose to stay conscious instead of falling unconscious. If you do, you gain temporary hit points equal to your total character level + your Constitution modifier (minimum 1), which last for up to one minute.",
+						"In this state, you can take an action or bonus action on your turn, but not both, and can move only half of your movement speed. You remain in this state until you regain hit points, or until you no longer have temporary hit points. If you lose all temporary hit points in this state while you are still at 0 hit points, you fall unconscious and begin making death saving throws as normal.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"raceName": "Fallen",
+			"raceSource": "ASS",
+			"name": "Skeleton",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bone Pile",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. If you do, you reduce yourself to a pile of bones, render yourself prone, and are considered to be under a similar effect to the feign death spell. While subject to this condition, you are unable to move or take actions other than using an action to end this effect. Once you use this trait, you can't use it again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Them Bones",
+					"entries": [
+						"Whenever both of your hands are unoccupied, you can use a bonus action to rearrange the bones in your body, or to return your body to its original configuration. When you rearrange your bones, choose one of the following options, any of which are considered to occupy both of your hands:",
+						{
+							"type": "list",
+							"items": [
+								"{@b {@i Bone Club.}} You remove an arm and use it as a boneclub. While used as a weapon, you have proficiency with your removed arm, which is a melee weapon with the finesse property that deals 1d6 bludgeoning damage on a hit.",
+								"{@b {@i Bone To Pick.}} You remove a hand, and hold it in your other hand as if it were a set of thieves' tools. This hand is capable of picking locks, cutting glass, and any other function thieves' tools could achieve.",
+								"{@b {@i Bone Xylophone.}} You remove two of your ribs and use the rest of your remaining ribs as a musical instrument, with which you have proficiency."
+							]
+						},
+						"At your DM's discretion, you can use this trait to perform other tasks, such as juggling your own bones, removing your skull to look around a corner or over a wall, or similar. Your bones lose their animation if they are further than 5 feet from the majority of your body, and must be reattached before they are once again a part of you. If your skull loses animation, you are blinded and deafened until a skull is affixed to your body."
+					]
+				}
+			]
+		},
 		{
 			"raceName": "Sankta",
 			"raceSource": "ASS",
@@ -11408,6 +12572,483 @@
 			]
 		},
 		{
+			"name": "Arcane Leech",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Can cast dispel magic or counterspell",
+						"entrySummary": "Spellcasting (Special)"
+					}
+				}
+			],
+			"entries": [
+				"You learn how to respool the threads of magic whenever you attempt to unravel them. When you successfully dispel a magical effect with a roll of 19 or higher using one of the prerequisite spells for this feat, you restore a spell slot. This spell slot is either the spell slot that you expended when casting the prerequisite spells or the level of the spell it was casted against, whichever is lower."
+			]
+		},
+		{
+			"name": "Archery Master",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"Your hours spent dedicated to mastering archery has lead you to perfection in your techniques with bows and slings. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"The short range for your ranged attacks is now equal to its long range.",
+						"When you take the Attack action with a ranged weapon on your turn, you can take your bonus action to make one ranged attack with the weapon.",
+						"As a bonus action, you can draw your bowstring past its normal length. Doing so increases the damage of your ranged attacks by your proficiency bonus until the end of your turn.",
+						"You can load two pieces of ammunition when you make a ranged weapon attack. If you do, you make an additional attack with disadvantage as part of the attack. You may use this feature a number of times equal to your proficiency bonus and you regain all uses on a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blade Mastery",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"You master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"When you are taking the Attack action, you can choose one of your attacks to be a feint. This attack is made with advantage but the attack after it has advantage and its critical hit range increases by 1.",
+						"On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you're not holding the weapon.",
+						"When you make an opportunity attack with the weapon, you have advantage on the attack roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Chained Weapon Mastery",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"Chained weapons that rely on momentum are tricky weapons that are wieldy to use, but you have spent countless hours mastering them such as flails, sickles and weights, nunchucks, three-section staves, and meteor hammers. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls using these weapons.",
+						"As a bonus action on your turn, you can prepare yourself to extend your weapon to sweep over targets' shields. Until the end of this turn, your attacks ignore the AC bonus gained from a shield.",
+						"As a bonus action on your turn, you can spinning your weapon to deliver a heavy bludgeoning blow. The next attack you make until the end of this turn gains a bonus to its damage roll equal to your proficiency bonus. If your weapon deals a special transformative damage type, they gain this bonus as well."
+					]
+				}
+			]
+		},
+		{
+			"name": "Combat Ambidexterity",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"Versatile weapons are simple to learn but it has many techniques in efficiency that reward you for the time you have taken to master them. You gain the following benefits when using a weapon with the versatility trait: ",
+				{
+					"type": "list",
+					"items": [
+						"When wielding a versatile weapon with two hands, its damage dice changes to a 1d12 or 2d6, your choice. When wielding a versatile weapon with one hand, you gain a +1 bonus to attack rolls with that weapon.",
+						"As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creature moves within your weapon's reach on its next turn, you can make an attack of opportunity with your weapon as a reaction. If the attack hits, the target takes an extra 1d6 damage, or an extra 1d8 damage if you wield the weapon with two hands.",
+						"As an action, you can attempt to lock an opponent out of their weapon. They must succeed on a Strength or Dexterity saving throw (the target chooses the ability to use) with a DC equals to 8 + your bonus to attack rolls with the weapon. On a failure, they cannot make attacks using that weapon on their next turn. If the creature fails this saving throw twice in a row, their weapon is disarmed by you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Concealed Weapon Mastery",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"In your hands, smaller blades like daggers are tools of the bloodiest of trades. You gain the following benefits when using a weapon with the concealed trait: ",
+				{
+					"type": "list",
+					"items": [
+						"Weapons with the concealed trait are always considered hidden as according to your Passive Sleight of Hand.",
+						"If a creature attacks you and they miss, you may immediately spend your reaction to attack them with a melee weapon attack.",
+						"When you score a critical hit, attack rolls against that creature are made with advantage until the start of your next turn.",
+						"As long as your speed is not 0, you can move to an adjacent unoccupied space as part of your weapon attacks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crystalline Magics",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"You learn to channel a protective force from crystals or orbs akin to their natural dense crystalline structure. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use spellcasting crystals or orbs as a spellcasting focus.",
+						"You learn the {@spell shield} spell and you can cast it without expending a spell slot a number of times equal to half your proficiency bonus. You regain all uses of this feature on a long rest.",
+						"You can cast the {@spell shield} spell on a different creature within 15 feet of you. They have a +3 bonus to their AC, instead of the normal +5, when casted in this way."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deep Magical Pouches",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"You learn to squeeze out the most of your component pouches when casting spells. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use component pouches as a spellcasting focus.",
+						"You can cast any spell with a material component with a cost as if you have the material as long as the monetary cost is up to your proficiency bonus multiplied by 25 gp. The amount is halved if the spell consumes the material component as part of its casting."
+					]
+				}
+			]
+		},
+		{
+			"name": "Devout Focus",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"Faith and belief are the very tenets of your spellcasting, thus your unswaying foundation in religion strengthens. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use a divine focus as a spellcasting focus.",
+						"Once per long rest, you can increase the spellcasting modifier of a spell you cast by a number equal to half your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dual Wielder (Lolzdux)",
+			"source": "ASS",
+			"entries": [
+				"You master fighting with two weapons, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+						"You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.",
+						"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one.",
+						"When you use your bonus action to attack with your off-hand, you may do it with both weapons instead but both attacks have a -5 penalty to their attack rolls."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fell Handed",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with one of the listed weapon types.",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
+				{
+					"type": "list",
+					"items": [
+						"Whether you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if the lower of the two d20 rolls would also hit. This is only applicable if the target's size is Large or smaller.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attacks but the higher of the two d20 rolls would have hit.",
+						"If you use the Help action to aid an ally's melee attack while you're wielding the weapon, you knock the target's shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the attack ignores the AC bonus gained from a shield."
+					]
+				}
+			]
+		},
+		{
+			"name": "Forces of Nature",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"The power of nature has its roots embedded from the elemental cosmos and you learn to reap what it has sown. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use a druidic focus as a spellcasting focus.",
+						"When you cast a spell that deals either acid, cold, fire, lightning or poison damage, you can choose to instead deal one of the other damage types listed. You may use this feature a number of times equal to your proficiency bonus and you regain all uses on a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heroic",
+			"source": "ASS",
+			"entries": [
+				"Being triumphant through the most arduous hours has shaped you to become someone greater.",
+				"When you roll initiative, the party gains a Clash Opportunity. You also do not expend a clash opportunity when you succeed a clash that you initiate using a clash opportunity."
+			]
+		},
+		{
+			"name": "Magical Spark",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"You are imbued with a pure magical energy that you can use for your spellcasting needs.",
+				"You gain an additional spell slot of your lowest-level that you can use to cast your spells. You regain this spell slot when you finish a short rest."
+			]
+		},
+		{
+			"name": "Rod Specialization",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"Magical rods tend to be specialized for specific magic, and your experience with them allows you to extract the most out of one spell at a time. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use rods as a spellcasting focus.",
+						"Once per long rest, you can increase the level of a spell by up to 2 levels of the expended spell slot when casting it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Swift Incantations",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "The ability to cast at least one spell",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"You have practiced focusing on more than one spell at a time, learning techniques that allow you to cast spells in quick succession.",
+				"When you cast a spell using an action, you may use a bonus action to cast a spell a spell level no higher than half your proficiency modifier and that the spell has a casting time of an action or a bonus action."
+			]
+		},
+		{
+			"name": "Unrestricted Staves",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"Staves might be larger than their counterparts but they allow more freedom in how you wish to cast spells due to their efficiency in channeling magic. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use staves as a spellcasting focus.",
+						"When you cast a spell that forces creatures to make a saving throw, you may instead have those creatures make the saving throw using an ability score of your choice within the same category (Physical or Mental)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wandslinger",
+			"source": "ASS",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Spellcasting or Pact Magic feature",
+						"entrySummary": "Spellcasting"
+					}
+				}
+			],
+			"entries": [
+				"Speed and accuracy are emphasized by wands, them being held by your palms and guided by your very finger tips. You gain the following benefits when holding the specified spellcasting focus:",
+				{
+					"type": "list",
+					"items": [
+						"You can use wands as a spellcasting focus.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls.",
+						"You gain a number of charges equal to your proficiency bonus, and you regain all expended charges when you finish a long rest. You can expend a charge to grant yourself advantage on a spell attack roll when you make them."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whip Snapper",
+			"source": "ASS",
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with a whip",
+						"entrySummary": "Weapon Proficiency"
+					}
+				}
+			],
+			"entries": [
+				"You have mastered the art of whipping through dedicated practice. You gain the following benefits when using a whip:",
+				{
+					"type": "list",
+					"items": [
+						"You can use hempen ropes, chains or other similar weapons as a whip as long as they are at least 10 feet long. The weapon's reach will always be 10 feet regardless of how long the length of the item is.",
+						"You can use your whip to interact with objects within range + 5 feet as if you were using your hands.",
+						"While you are wielding a whip, other creatures provoke an opportunity attack from you when they enter your reach.",
+						"When you hit a creature no more than one size larger than you with a whip on your turn, you can use a bonus action to make a special melee attack against the target. The target must make a Strength or Dexterity saving throw (the target chooses the ability to use). If it fails, you either knock the target prone, pull it 5 feet towards you, or it drops one item of your choice that it's holding. You can also use your reaction to move the target 5 feet in any direction or catch the item it drops if it fails the saving throw.",
+						"You can make a loud cracking sound as an action. Each creature within 5 feet of you must succeed on a Constitution saving throw or be deafened until the end of their next turn."
+					]
+				},
+				"The saving throw DC for the features of this feat is calculated as follows: DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)"
+			]
+		},
+		{
 			"name": "Astute Caster",
 			"source": "ASS",
 			"prerequisite": [
@@ -11567,7 +13208,7 @@
 				{
 					"ability": [
 						{
-							"str": 15
+							"str": 13
 						}
 					]
 				}
@@ -11577,11 +13218,10 @@
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on attack rolls against a creature you are grappling and you have advantage on Athletics checks made to grapple a prone creature.",
+						"You have advantage on attack rolls against a creature you are grappling.",
 						"You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.",
 						"You are considered one size larger for the purposes of grappling, and shoving.",
-						"You no longer move at half speed when grappling a target of the same size or smaller than you.",
-						"Whenever you attempt to grapple as part of your Attack action, you may use your bonus action to shove. Whenever you attempt to shove as part of your Attack action, you may use your bonus action to grapple."
+						"You no longer move at half speed when grappling a target of the same size or smaller than you."
 					]
 				}
 			]
@@ -14123,10 +15763,10 @@
 		{
 			"name": "Rathosean Hunting Kit",
 			"source": "ASS",
-			"type": "T",
-			"value": 2000,
-			"weight": 5,
 			"rarity": "none",
+			"type": "T",
+			"weight": 5,
+			"value": 2000,
 			"entries": [
 				"A kit containing an arrangement of tools such as carving instruments, hardglass ampules, and et cetera which Rathosean hunters use for monster carving and track identification. Proficiency with this kit lets you add your proficiency bonus to any ability checks for carving and tracking monsters.",
 				"{@b {@i Components.}} A hunting kit includes pouches to store samples and habitat references, knives, shears, and other specialized tools such as hardshell clippers and elementalblight tongs for carving monster stock from carcasses.",
@@ -14137,11 +15777,11 @@
 		{
 			"name": "Nevermore",
 			"source": "ASS",
-			"weaponCategory": "simple",
-			"type": "M",
-			"dmg1": "1d4",
-			"dmgType": "P",
 			"rarity": "artifact",
+			"type": "M",
+			"weaponCategory": "simple",
+			"dmg1": "2d4",
+			"dmgType": "P",
 			"entries": [
 				"A jet black dagger made only in one piece from the darkness of which desolates the Fey cosmos. The blade of it jagged with a slight curved as it is shaped like a single-plucked feather of a raven and its handle is wrapped in dirty sullied rags.",
 				"While this weapon is manifested, you have disadvantage (that cannot be removed) on the first attack roll that you make with this weapon on a turn. If you still succeed on the attack, all damage rolls made for that attack is maxed.",
@@ -14163,11 +15803,11 @@
 		{
 			"name": "The Pauper's Parasol",
 			"source": "ASS",
-			"weaponCategory": "simple",
-			"type": "M",
-			"dmg1": "1d6",
-			"dmgType": "P",
 			"rarity": "artifact",
+			"type": "M",
+			"weaponCategory": "simple",
+			"dmg1": "1d8",
+			"dmgType": "P",
 			"entries": [
 				"A tattered and flimsy parasol. Though frayed and dreary, it remains functional and solid. Such is the nature of the Fell, where color is null yet life is not yet ceased.",
 				"After this pact weapon is manifested, it is manifested as its parasol form. While grasping the parasol, you can use a bonus action to transform it into its weapon form.",
@@ -14209,11 +15849,11 @@
 		{
 			"name": "The Bleeding Drought",
 			"source": "ASS",
-			"weaponCategory": "simple",
-			"type": "M",
-			"dmg1": "1d4",
-			"dmgType": "P",
 			"rarity": "artifact",
+			"type": "M",
+			"weaponCategory": "simple",
+			"dmg1": "1d12",
+			"dmgType": "P",
 			"entries": [
 				"A piercing spear that can puncture through all. A handheld device for catastrophe and bloodshed is what describes the gift of the Red Deep. It is a long spear fit for both hurling and skewering. Its head is sharp on its tip and becomes even more jagged as it nears the base making it hard to remove without causing any additional harm. Purely made out of blood and violence, it has a strange warmth to it, like the insides of a person, and it shines a dark sheen.",
 				"You take primal piercing damage equal to your character level when manifesting the pact weapon.",
@@ -14234,8 +15874,8 @@
 		{
 			"name": "Banner of Beginnings",
 			"source": "ASS",
-			"type": "OTH",
 			"rarity": "artifact",
+			"type": "OTH",			
 			"entries": [
 				"A pure white cloth made with silks and threads from the clouds that clutter all of the cosmos. The hem of it is stitched cleanly as though as though a symbol of perfection and its hoist a pristine silver.",
 				"The banner itself is not a weapon but rather a flag attached to one. Whenever you conjure your pact weapon, it is vested with the Banner of Beginnings.",
@@ -14246,9 +15886,9 @@
 		{
 			"name": "Jiele Dollar",
 			"source": "ASS",
-			"type": "OTH",
-			"rarity": "None",
+			"rarity": "none",
 			"value": "100",
+			"type": "OTH",
 			"entries": [
 				"JLD (also known as Jiele Dollars) is the currency used in Jiele. Blue and white in color with black highlights for its logo that is shaped like a mountain with a frosted peak, it gives off a metallic yet cold smell. These range from 1, 2, 5, 10, 20, 50, 100 dollar bills. They also have dime coins to denote a tenth of a dollar bill, and cent coins to deonte a hundredth of a dollar bill.",
 				"It serves as the gold standard for Solstice, being the first paper currency to be used that the other regions adapted to."
@@ -14257,32 +15897,992 @@
 		{
 			"name": "Montayn Sterling",
 			"source": "ASS",
-			"type": "OTH",
-			"rarity": "None",
+			"rarity": "none",
 			"value": "111",
+			"type": "OTH",
 			"entries": [
-				"Placeholder text."
+				"The currency staple used in Montayn. They're slowly adapting to the paper currency of Jiele so a majority of exchanges in Montayn are either done with signed paper slips for large amounts of currency or gold and silver coins."
 			]
 		},
 		{
 			"name": "Woestjin Riyal",
 			"source": "ASS",
-			"type": "OTH",
-			"rarity": "None",
+			"rarity": "none",
 			"value": "27",
+			"type": "OTH",
 			"entries": [
-				"Placeholder text."
+				"The trading industry within Woestjin is based much more on bartering rather than a free market that has set currency circulate within, though outsider trade has introduced the concept of trading using currency within Woestjin. Thus, the Woestjin Riyal was born."
 			]
 		},
 		{
 			"name": "Orman Peso",
 			"source": "ASS",
-			"type": "OTH",
-			"rarity": "None",
+			"rarity": "none",
 			"value": "5",
+			"type": "OTH",
 			"entries": [
-				"Placeholder text."
+				"Much of Orman currency comes from the Montayn Sterling that is given to them by tourists and investors of the land and is then repurposed to the local Orman Peso coins, which are much lower in value."
 			]
+		},
+		{
+			"name": "Handgun Ammo",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "30",
+			"type": "A",
+			"entries": [
+				"Ammunition used for handguns. Requires a magazine."
+			]
+		},
+		{
+			"name": "Handgun Magazine",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "250",
+			"type": "A",
+			"entries": [
+				"Ammunition used for handguns. A typical magazine holds up to 7 bullets which purchasing this already comes with."
+			]
+		},
+		{
+			"name": "Handgun Magazine (Empty)",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "40",
+			"type": "A",
+			"entries": [
+				"An empty magazine that can hold up to 7 handgun ammo."
+			]
+		},
+		{
+			"name": "Shotgun Shell",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "90",
+			"type": "A",
+			"entries": [
+				"Ammunition used for shotguns."
+			]
+		},
+		{
+			"name": "Rifle Ammo",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "85",
+			"type": "A",
+			"entries": [
+				"Ammunition used for rifles. Requires a magazine."
+			]
+		},
+		{
+			"name": "Rifle Magazine",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "1400",
+			"type": "A",
+			"entries": [
+				"Ammunition used for rifles. A typical magazine holds up to 15 bullets which purchasing this already comes with."
+			]
+		},
+		{
+			"name": "Rifle Magazine (Empty)",
+			"source": "ASS",
+			"rarity": "none",
+			"value": "125",
+			"type": "A",
+			"entries": [
+				"An empty magazine that can hold up to 15 rifle ammo."
+			]
+		},
+		{
+			"name": "Pivoting Fork",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 2,
+			"value": "100",
+			"type": "G",
+			"entries": [
+				"A weapon that has the hooked property is designed to be fired only when hooked onto a special fork–or over a hard, stationary surface, such as a low wall. Hooking the weapon requires an action or a bonus action (the character's choice). If the character moves after hooking the weapon, or drops the weapon, the weapon is no longer considered to be hooked. While a weapon with this property is not hooked, attack rolls with it are made at disadvantage unless the character's Strength score is equal to or higher than the number in brackets."
+			]
+		},
+		{
+			"name": "Pistol",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 3,
+			"value": "12500",
+			"type": "R",
+			"weaponCategory": "martial",
+			"firearm": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"ammoType": "{@item Handgun Ammo|ASS}",
+			"range": "160/400",
+			"property": [
+				"MFa",
+				"LUa",
+				"MAGa",
+				"AKIa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 2,
+				"loud": 150,
+				"akimboStr": 15
+			}
+		},
+		{
+			"name": "Shotgun",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 3,
+			"value": "35000",
+			"type": "R",
+			"weaponCategory": "martial",
+			"firearm": true,
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"ammoType": "{@item Shotgun Shell|ASS}",
+			"range": "150/600",
+			"property": [
+				"2H",
+				"MFa",
+				"LUa",
+				"LOADa",
+				"PBa",
+				"BURa",
+				"RECa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 2,
+				"loud": 300,
+				"akimboStr": 15,
+				"burst": 1
+			}
+		},
+		{
+			"name": "Rifle",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 3,
+			"value": "40000",
+			"type": "R",
+			"weaponCategory": "martial",
+			"firearm": true,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"ammoType": "{@item Rifle Ammo|ASS}",
+			"range": "450/1800",
+			"property": [
+				"2H",
+				"MFa",
+				"LUa",
+				"MAGa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 2,
+				"loud": 300
+			}
+		},
+		{
+			"name": "Arquebus",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 10,
+			"value": "25000",
+			"type": "R",
+			"weaponCategory": "simple",
+			"firearm": true,
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"ammoType": "{@item metal shot|FFItemsGalore|Metal Shot}",
+			"range": "300/1200",
+			"property": [
+				"2H",
+				"MFa",
+				"LUa",
+				"LOADa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 3,
+				"loud": 300
+			}
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 9,
+			"value": "20000",
+			"type": "R",
+			"weaponCategory": "simple",
+			"firearm": true,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"ammoType": "{@item metal shot|FFItemsGalore|Metal Shot}",
+			"range": "150/600",
+			"property": [
+				"2H",
+				"MFa",
+				"LUa",
+				"RECa",
+				"LOADa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 4,
+				"loud": 300
+			}
+		},
+		{
+			"name": "Flintlock Pistol",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 9,
+			"value": "17500",
+			"type": "R",
+			"weaponCategory": "simple",
+			"firearm": true,
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"ammoType": "{@item metal shot|FFItemsGalore|Metal Shot}",
+			"range": "80/320",
+			"property": [
+				"MFa",
+				"LUa",
+				"LOADa",
+				"A"
+			],
+			"customProperties": {
+				"misfire": 3,
+				"loud": 150
+			}
+		},
+		{
+			"name": "Adhesive Weight Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 10,
+			"value": "3000",
+			"type": "G",
+			"entries": [
+				"This trap consists of an abnormally heavy metal plate, coated with a very sticky substance. Normally it would be carried in a container slick enough to resist sticking.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This heavy trap can be removed from its casing and thrown up to 10 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"When the adhesive side of this plate comes into contact with anything, such as a foot, it sticks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"Once this weight is stuck to the leg of a creature, its awkward weight and size reduce their movement speed by half. If the weight becomes stuck to a creature's arm, it hinders their movements and causes them to make attack rolls at disadvantage. To remove this weight, the creature must spend an action to make a Strength saving throw, removing it and ending its effects on a success. On a failure, the creature fumbles in its attempt to remove the sticky weight and falls prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"Any form of alcohol dissolves the adhesive, rendering the trap essentially useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blastbag Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 10,
+			"value": "4000",
+			"type": "G",
+			"entries": [
+				"This thin bag is filled with a seemingly harmless liquid, however, when the right ingredient is added, it becomes a volatile concoction.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"You add the catalyst ingredient and safely toss or slide the bag up to 20 feet before the components fully mix."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"When the bag is impacted by a rapid force, such as that of being stepped on or hit by an arrow, the volatile mixture bursts into a ball of sticky burning liquid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"A 5-foot sphere erupts in flaming liquid centered on the blastbag. Each creature within the sphere must make a Dexterity saving throw, taking fire damage equal to 4d6 bonus on a failed save or half as much on a successful one. Creatures who fail this saving throw are covered in a sticky burning compound, and take an additional 1d4 fire damage at the beginning of their next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"On a successful Dexterity (Sleight of Hand) check versus your trap save DC, the bag can be disarmed by carefully opening it with a blade and allowing the fluid to drain slowly. On a failed check the bag explodes as if it were triggered normally."
+					]
+				}
+			]
+		},
+		{
+			"name": "Clamping Jaws Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 30,
+			"value": "3000",
+			"type": "G",
+			"entries": [
+				"This tried and true trap is simply a spring-loaded set of jaws attached to a pressure plate.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"You lock the trap open and toss it up to 20 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"When the pressure plate is stepped on or has any weight greater than 1 pound placed upon it, the trap snaps shut."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"If a medium or smaller creature's limb is caught in the trap, it receives piercing damage equal to your Sneak Attack bonus and has its speed reduced to 0. The creature can make a Strength saving throw at the beginning of each of its turns, breaking out of the trap and ending the effect on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"The trap can be triggered by any force other than a creature's limb in order to disable it. If this trap is disabled without capturing a creature, it can be collected and re-used."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dazzle-Dust Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 15,
+			"value": "2500",
+			"type": "G",
+			"entries": [
+				"This flat cylindrical plate is staggeringly simple in its operation. A shallow pan filled with powder and a primer in the center that, when activated, bursts the dust outward and burns it in a dazzlingly bright flash of light and sound.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"A pin on the side can be pulled to arm the trap before it is thrown or slid across the floor up to 15 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"When the plate is pressed down with more than 1 pound of force, the pin impacts the primer and tosses flashing dust outward."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The dust burns and flashes a bright white, creating a loud crack that can be heard from up to 100 feet away. All creatures within a 30-foot sphere who can see or hear the blast at its center must make a Constitution saving throw, becoming blinded and deafened for up to 1 minute on a failed save. An affected creature can repeat this saving throw at the end of each of their turns, ending the effect on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"On a successful Dexterity (Sleight of Hand) check versus your trap save DC, the pressure plate can be carefully removed along with the primer, disarming the trap."
+					]
+				}
+			]
+		},
+		{
+			"name": "Poison Sphere Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 10,
+			"value": "10000",
+			"type": "G",
+			"entries": [
+				"This trap is simply a small, rubbery sphere with several pointy protrusions. When it is squeezed, each protrusion releases a needle filled with poison.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This small and durable trap can be gripped carefully and thrown up to 40 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"When the ball is squeezed by any force greater than 5 pounds, such as the footstep of a creature, it releases its poisoned barbs."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"When the ball releases its poison barbs, a creature who is stabbed by at least one receives poison damage equal to 3d6 bonus and must make a Constitution saving throw, becoming poisoned for up to 1 minute on a failed save. The creature can repeat this saving throw at the end of each of its turns, ending the effect on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"If the sphere is ruptured in any way, its store of poison seeps out, rendering the trap useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Distracting Dummy Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 20,
+			"value": "5000",
+			"type": "G",
+			"entries": [
+				"This trap consists of a rubbery film and a base filled with flammable material. A spark and a small amount of time cause this trap to grow into a vaguely humanoid shape, potentially startling nearby attackers.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"You can strike the lighter of this trap and toss it up to 20 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"This trap remains dormant for a moment until it has gained enough heat and flame in its base to inflate. It inflates instantly at the beginning of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The rapid inflation of this humanoid dummy can startle enemies and cause their guards to drop. All creatures within 5 feet of the trap must succeed on a Wisdom saving throw or become startled until the beginning of their next turn. Attacks on startled enemies are made at advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"If the dummy is punctured in any way, the trap cannot inflate and is rendered useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Frustrating Flight Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 50,
+			"value": "10000",
+			"type": "G",
+			"entries": [
+				"This complex pressure plate trap is rigged to a large spring-like device. The large plate has a smaller pressure plate in its center, which acts as the trigger. When depressed it severs a rope that allows the spring to extend and launch the plate.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This trap takes 30 minutes to set up and consists of a plate that can be up to 15 feet by 15 feet large. When you set the trap, you can choose the distance and direction of the throw. The trap can throw large or smaller creatures up to 30 feet away."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"The pressure plate is triggered when a force of more than 10 pounds acts upon it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The pressure plate clicks just before the spring takes effect and attempts to toss its targets. All targets on top of the plate must make a Dexterity saving throw, being launched its full distance and direction on a failed save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"On a successful Dexterity (Sleight of Hand) check versus your trap save DC, the pressure plate can be carefully removed and the trap can be prematurely triggered, disarming it. Additionally, any huge or bigger creature that would trigger this trap instead crushes it and renders it useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Projectile Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 40,
+			"value": "15000",
+			"type": "G",
+			"entries": [
+				"This simple tripwire is attached to the trigger or release of a crossbow, sling, or other launching device, bombarding intruding parties with projectiles.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"The simplest form of this trap requires 15 minutes to set up, which includes the tripwire itself and the projectile launcher it triggers. The tripwire can be up to 15 feet long, and must be uninterrupted for its full length. With additional setup time, you can add extra projectile launchers to the trap. Each projectile launcher takes an additional 5 minutes to set up. You can have a maximum number of launchers equal to 6."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"The tripwire is triggered when any force pulls it more than 1 inch in any direction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The tripwire pulls and activates the projectile launchers. Any creature adjacent to the tripwire must make a Dexterity saving throw or take bludgeoning damage equal to 3d8 + an additional 1d8 per extra launcher. The target takes no damage on a successful save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"If the tripwire is cut, the trap is rendered useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pitfall Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 50,
+			"value": "7000",
+			"type": "G",
+			"entries": [
+				"A classic of trapmakers everywhere, sometimes a simple hole in the ground is all that's needed.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This trap must be deployed upon an already existing hole, or on ground that can be easily dug up. The hole can be up to 15 feet in diameter, and it takes two minutes to dig each foot of depth. To create the facade atop the hole takes an additional 10 minutes. The hole can be filled with any number of things such as spikes, water, or creatures, but the availability and speed of these options is up to the DM."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"The facade atop the hole is meant to hold some weight to appear as solid ground from a distance. The trap activates when a force greater than 10 pounds is placed on top of the facade."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The facade gives way dropping all creatures on top of the hole into it. All affected creatures must make a Dexterity saving throw, falling into the hole on a failed save, or catching themselves on the edge on a success."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"While a hole cannot be 'disarmed', this trap is rendered useless if it is bridged or simply noticed and avoided."
+					]
+				}
+			]
+		},
+		{
+			"name": "Slip Knot Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 30,
+			"value": "10000",
+			"type": "G",
+			"entries": [
+				"This classic trap is simply a trick of knot-tying. A loop of rope laid on the ground and rigged to a pressure plate, the rope tightens around the leg of a creature and restrains it upside down.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This trap takes 10 minutes to set up. To set this trap, there must be a position to hang the rope from above its trigger, which can be a tree, the side of a building, the roof of a tunnel, or otherwise. The pressure plate for this trap can be up to 5 feet in diameter."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"The pressure plate is triggered when a force of more than 10 pounds acts upon it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The trap is sprung, causing the rope to tighten around the leg of the target and hoist it upward. The target must succeed on a Dexterity saving throw, becoming restrained on a failed save. A creature restrained by this trap can use an action on its turn to make a Strength saving throw, escaping and ending the effect on a success. Alternatively, cutting the rope will release the target. The rope has an AC of 10 and 1 hit point."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"If the rope is cut prematurely, the knot will unravel before grabbing a target, rendering the trap useless."
+					]
+				}
+			]
+		},
+		{
+			"name": "Trumpeting Tripwire Trap",
+			"source": "ASS",
+			"rarity": "none",
+			"weight": 15,
+			"value": "6000",
+			"type": "G",
+			"entries": [
+				"This trap connects a tripwire to a variety of loud objects, dropping them or otherwise rattling them when triggered and alerting those nearby. The simplicity of this trap makes it quite quick to set up.",
+				{
+					"type": "entries",
+					"name": "Deployment",
+					"entries": [
+						"This tripwire requires 2 minutes to set up in its most simple form. The tripwire can be up to 15 feet long, and must be uninterrupted for its full length. You can add extra objects to the trap to increase the distance its sound will carry. Each object takes an additional 2 minutes to set up."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trigger",
+					"entries": [
+						"The tripwire is triggered when any force pulls it more than 1 inch in any direction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Effect",
+					"entries": [
+						"The tripwire releases the objects, creating a loud clatter that can be heard up to 50 feet away. This distance increases by 50 feet for each additional object added, up to a maximum of 500 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Countermeasures",
+					"entries": [
+						"If the tripwire is cut, the trap is rendered useless."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Combination Trap",
+					"entries": [
+						"If you have a Dazzle-Dust small trap prepared, you can spend 10 minutes to add it to this trap as an object, causing it to trigger then the tripwire is pulled."
+					]
+				}
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "QUa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Quality",
+					"entries": [
+						"When making an attack with a quality weapon, you use both your Strength and Dexterity modifier for the attack and damage rolls (up to the specified value for both)."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.quality}})"
+		},
+		{
+			"abbreviation": "NLa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Non-Lethal",
+					"entries": [
+						"This weapon can only deal nonlethal damage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ALTa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Alternate Damage Type",
+					"entries": [
+						"This weapon may also deal the specified damage type on a hit."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.altdamType}})"
+		},
+		{
+			"abbreviation": "OPa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Opportunistic",
+					"entries": [
+						"When making an attack of opportunity with an opportunistic weapon, you gain a bonus to attack rolls equal the specified number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.opportunistic}})"
+		},
+		{
+			"abbreviation": "BREa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Breaching",
+					"entries": [
+						"When making an attack with a breaching weapon, you gain a bonus to attack rolls equal the specified number when attacking a creature with a shield or heavy armor."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.breaching}})"
+		},
+		{
+			"abbreviation": "VRSRa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Versatility (Reach)",
+					"entries": [
+						"A weapon with the versatile reach property is considered to have the reach property when held with two hands."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TWNa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Twinned",
+					"entries": [
+						"If you attack with a twinned weapon as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 damage on a hit if one-handed, or 1d6 if two-handed."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CNCa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealed",
+					"entries": [
+						"One-handed weapons with the concealed property allows you to roll Sleight of Hand skill checks with advantage when hiding the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "UNa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unarmed",
+					"entries": [
+						"When you make an unarmed strike, you can choose to deal the damage of this weapon instead of your normal unarmed strike damage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "UNHa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Held",
+					"entries": [
+						"An unarmed weapon with the held property can be drawn or stowed as normal but leaves a hand occupied."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "UNWa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Worn",
+					"entries": [
+						"An unarmed weapon with the worn property is equipped in a way similar to armor. It takes up to 1 minute to don or doff the weapon, and you can do it as part of donning or doffing armor. An unarmed weapon with the worn property leaves a hand unoccupied."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FEATa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Feat Eligibility",
+					"entries": [
+						"This weapon is eligible for a chosen weapon feat."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.feat}})"
+		},
+		{
+			"abbreviation": "MFa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"If your natural roll for a ranged attack falls at or below the specified misfire score of the firearm you are using, you suffer a misfire. If you don't need to make a ranged attack roll when firing a weapon with a misfire score, roll a d20 to determine if it misfires. Your attack misses, any ammo you used in the attack is expended, and your firearm becomes broken. You must repair a broken firearm before using it. Repairing a broken firearm requires an action and a successful tinker's tools check (DC equal to 8 + Misfire score)."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.misfire}})"
+		},
+		{
+			"abbreviation": "RECa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Recoil",
+					"entries": [
+						"Each ranged attack you make using this weapon after the first one in the round causes you to take damage equal to the weapon's base damage rolls."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BURa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst",
+					"entries": [
+						"When making a ranged weapon attack using this weapon, you make a specified number of additional attacks toward the same target."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.burst}})"
+		},
+		{
+			"abbreviation": "HOKa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hooked",
+					"entries": [
+						"A weapon that has the hooked property is designed to be fired only when hooked onto a {@item pivoting fork|ASS|special fork} –or over a hard, stationary surface, such as a low wall. Hooking the weapon requires an action or a bonus action (the character's choice). If the character moves after hooking the weapon, or drops the weapon, the weapon is no longer considered to be hooked. While a weapon with this property is not hooked, attack rolls with it are made at disadvantage unless your Strength score is equal to or higher than the specified number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.hookedStr}})"
+		},
+		{
+			"abbreviation": "AKIa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Akimbo",
+					"entries": [
+						"A weapon that has the akimbo property can be fired with one or two hands. You have disadvantage on ranged attack rolls with it using one hand, unless your Strength score is equal to or higher than the specified number. This counts as the light property if you meet the Strength requirement."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.akimboStr}})"
+		},
+		{
+			"abbreviation": "PBa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Point Blank",
+					"entries": [
+						"When firing a weapon with the point-blank property, you do not suffer disadvantage when it is fired within 5 feet of a hostile creature."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LUa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Loud",
+					"entries": [
+						"When a loud weapon is fired, an sound audible up to a specified amount of feet is also emitted."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.customProperties.loud}})"
+		},
+		{
+			"abbreviation": "MAGa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Magazine",
+					"entries": [
+						"This counts as the loading property. Instead of reloading the weapon each time you fire ammunition with it, more advanced ranged weapons that have the magazine property instead reloads a magazine which has its own amount of ammunition before needing to reload again."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.ammoType}})"
+		},
+		{
+			"abbreviation": "LOADa",
+			"source": "ASS",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Loading",
+					"entries": [
+						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.ammoType}})"
 		}
 	],
 	"spell": [
