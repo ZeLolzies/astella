@@ -9058,6 +9058,87 @@
 			]
 		},
 		{
+			"name": "Cautus",
+			"source": "ASS",
+			"lineage": "VRGR",
+			"speed": {
+				"walk": 30
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"any": 1
+				}
+			],
+			"entries": [
+				"Cautuses have the traits of leporids, i.e., rabbits and hares. Their leporid traits can be noticed such as long rabbit ears, fluffy short tails, and average short stature. Their rabbit ears grant them a keen hearing sense which supplements their fragile body. Thanks to these traits along with their high fertility, Catuses have a very large population.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Your race reaches adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, 25 feet if you are Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cautus Fortune",
+					"entries": [
+						"You gain 2 luck points as per the {@feat Lucky} feat."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hare-Trigger",
+					"entries": [
+						"You can add your proficiency bonus to your initiative rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leporine Senses",
+					"entries": [
+						"You have proficiency in the Perception skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hoppy Footwork",
+					"entries": [
+						"When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're prone or your speed is 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rabbit Hop",
+					"entries": [
+						"As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Solstice"
+			]
+		},
+		{
 			"name": "Cerato",
 			"source": "ASS",
 			"lineage": "VRGR",
