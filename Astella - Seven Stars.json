@@ -13473,8 +13473,8 @@
 					"items": [
 						"You become eligible for learning all smite spells and blade cantrips, regardless of class restriction.",
 						"You can use weapons that you are proficient with as a spellcasting focus for your spells.",
-						"You learn the {@spell battlemage hand|ASS} spell which you can cast without expending a spell slot once per short rest. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability score increased by this feat.",
-						"While the {@spell battlemage hand|ASS} spell is active, the first attack you make on a turn deals rupture damage equal to your proficiency bonus."
+						"You learn the {@spell battlemage crown|ASS} spell which you can cast without expending a spell slot once per short rest. You can also cast the spell using spell slots you have of the appropriate level. The spell's spellcasting ability is the ability score increased by this feat.",
+						"While the {@spell battlemage crown|ASS} spell is active, the first attack you make on a turn deals rupture damage equal to your proficiency bonus."
 					]
 				},
 				"Only full casting classes and Warlocks are eligible for this feat."
@@ -17027,7 +17027,7 @@
 			]
 		},
 		{
-			"name": "Battlemage Hand",
+			"name": "Battlemage Crown",
 			"source": "ASS",
 			"level": 1,
 			"school": "C",
@@ -17057,14 +17057,15 @@
 				}
 			],
 			"entries": [
-				"A spectral, floating hand that you can control manifests centered on your location. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if you cast this spell again and any items held by it are returned to you sheathed.",
-				"While the spell is in effect, the hand has the following properties: ",
+				"A spectral, floating crown manifests onto you, supplementing your physical abilities with your magical prowess. The crown lasts for the duration or until you dismiss it as a bonus action. The crown vanishes if you cast this spell again and any items held by it are returned to you sheathed.",
+				"Until the spell ends, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When making weapon attacks, the hand uses your spellcasting modifier for its attack and damage rolls. ",
-				"The hand can be used for touch spells or spells that use a weapon (i.e {@spell green-flame blade|TCE} or {@spell steel wind strike|XGE}).",
-						"The hand shares your proficiencies but also has proficiency in simple and martial weapons."
+						"When making weapon attacks, you can use your spellcasting modifier for its attack and damage rolls. Each attack made using this way reduces the spell's duration by 6 seconds.",
+						"Touch spells or spells that use a weapon (such as {@spell green-flame blade|TCE} or {@spell steel wind strike|XGE}) gains the above benefit but does not reduce the spell's duration.",
+						"Weapon attacks deal an additional 1d4 rupture damage on a hit.",
+						"You have proficiency in the weapons that you held while casting the spell and you cannot be forcibly disarmed or let go of these weapons. Weapons that are thrown or ammunition that was fired reappear in your hands if they weren't broken."
 					]
 				}
 			],
@@ -17073,7 +17074,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"If you cast this spell using a spell slot of 2nd level or higher, the duration of the spell increases by 1 minute for each slot level above 1st. Additionally, if cast using a spell slot of 3rd level or higher, the spell can be used to wield two-handed weapons."
+						"When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 minute and the spell's damage increases by 1d4 for every two slot levels above 1st."
 					]
 				}
 			],
@@ -17098,7 +17099,7 @@
 			"name": "Chromatic Smite",
 			"source": "ASS",
 			"level": 1,
-			"school": "E",
+			"school": "V",
 			"time": [
 				{
 					"number": 1,
@@ -17171,7 +17172,7 @@
 			"name": "Otherworldly Smite",
 			"source": "ASS",
 			"level": 1,
-			"school": "E",
+			"school": "V",
 			"time": [
 				{
 					"number": 1,
